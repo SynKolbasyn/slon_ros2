@@ -1,0 +1,17 @@
+{
+  "package_name": "type_description_interfaces",
+  "output_dir": "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/type_description_interfaces/rosidl_generator_type_description/type_description_interfaces",
+  "idl_tuples": [
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/Field.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/FieldType.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/IndividualTypeDescription.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/KeyValue.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeDescription.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeSource.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:srv/GetTypeDescription.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/service_msgs",
+    "builtin_interfaces:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces"
+  ]
+}

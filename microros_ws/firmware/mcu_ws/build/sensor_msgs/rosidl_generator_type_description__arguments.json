@@ -1,0 +1,40 @@
+{
+  "package_name": "sensor_msgs",
+  "output_dir": "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_generator_type_description/sensor_msgs",
+  "idl_tuples": [
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/BatteryState.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/CameraInfo.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/ChannelFloat32.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/CompressedImage.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/FluidPressure.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Illuminance.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Image.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Imu.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/JointState.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Joy.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/JoyFeedback.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/JoyFeedbackArray.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/LaserEcho.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/LaserScan.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/MagneticField.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/MultiDOFJointState.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/MultiEchoLaserScan.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/NavSatFix.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/NavSatStatus.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/PointCloud.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/PointCloud2.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/PointField.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Range.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/RegionOfInterest.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/RelativeHumidity.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Temperature.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/TimeReference.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:srv/SetCameraInfo.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces",
+    "geometry_msgs:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/geometry_msgs",
+    "std_msgs:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/std_msgs",
+    "service_msgs:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/service_msgs"
+  ]
+}

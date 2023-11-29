@@ -1,0 +1,12 @@
+source install/setup.bash # For ros2_ws
+
+ros2 run micro_ros_setup configure_firmware.sh slon --transport serial
+ros2 run micro_ros_setup build_firmware.sh
+ros2 run micro_ros_setup flash_firmware.sh
+ros2 run micro_ros_setup create_agent_ws.sh
+ros2 run micro_ros_setup build_agent.sh
+source install/local_setup.bash # For microros_ws
+ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0
+
+rosdep install -i --from-path ~/programs/slon/ros2_ws/src --rosdistro iron -y
+ros2 pkg create --license='GPL-3.0-only' --build-type='ament_cmake' --maintainer-email='syn.kolbasyn.06@gmail.com' --maintainer-name='Andrew Kozmin' --node-name='main' {PKG_NAME} --dependencies rclcpp std_msgs std_srvs

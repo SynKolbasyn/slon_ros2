@@ -1,0 +1,8 @@
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_core_generators/CMakeFiles/uninstall.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_core_generators/CMakeFiles/rosidl_core_generators_uninstall.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_core_generators/CMakeFiles/test.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_core_generators/CMakeFiles/edit_cache.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_core_generators/CMakeFiles/rebuild_cache.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_core_generators/CMakeFiles/list_install_components.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_core_generators/CMakeFiles/install.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_core_generators/CMakeFiles/install/local.dir

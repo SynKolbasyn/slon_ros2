@@ -1,0 +1,65 @@
+[1.170s] Invoking command in '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/ros2_tracing/tracetools_trace': PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tracetools_trace build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/install.log --single-version-externally-managed
+[1.389s] running egg_info
+[1.389s] creating ../../../build/tracetools_trace/tracetools_trace.egg-info
+[1.389s] writing ../../../build/tracetools_trace/tracetools_trace.egg-info/PKG-INFO
+[1.390s] writing dependency_links to ../../../build/tracetools_trace/tracetools_trace.egg-info/dependency_links.txt
+[1.390s] writing entry points to ../../../build/tracetools_trace/tracetools_trace.egg-info/entry_points.txt
+[1.390s] writing requirements to ../../../build/tracetools_trace/tracetools_trace.egg-info/requires.txt
+[1.391s] writing top-level names to ../../../build/tracetools_trace/tracetools_trace.egg-info/top_level.txt
+[1.391s] writing manifest file '../../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+[1.391s] reading manifest file '../../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+[1.391s] writing manifest file '../../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+[1.391s] running build
+[1.392s] running build_py
+[1.392s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build
+[1.392s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib
+[1.392s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace
+[1.392s] copying tracetools_trace/trace.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace
+[1.393s] copying tracetools_trace/__init__.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace
+[1.393s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.393s] copying tracetools_trace/tools/lttng_stub.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.394s] copying tracetools_trace/tools/path.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.394s] copying tracetools_trace/tools/tracepoints.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.394s] copying tracetools_trace/tools/__init__.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.394s] copying tracetools_trace/tools/args.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.394s] copying tracetools_trace/tools/names.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.395s] copying tracetools_trace/tools/lttng_impl.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.395s] copying tracetools_trace/tools/signals.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.396s] copying tracetools_trace/tools/lttng.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.397s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.398s]   warnings.warn(
+[1.398s] running install
+[1.399s] running install_lib
+[1.399s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace
+[1.399s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/trace.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace
+[1.400s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[1.400s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/lttng_stub.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[1.400s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/path.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[1.400s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/tracepoints.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[1.400s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/__init__.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[1.400s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/args.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[1.402s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/names.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[1.402s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/lttng_impl.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[1.402s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/signals.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[1.402s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/lttng.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[1.402s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/__init__.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace
+[1.403s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/trace.py to trace.cpython-310.pyc
+[1.403s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/lttng_stub.py to lttng_stub.cpython-310.pyc
+[1.403s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/path.py to path.cpython-310.pyc
+[1.403s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/tracepoints.py to tracepoints.cpython-310.pyc
+[1.404s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/__init__.py to __init__.cpython-310.pyc
+[1.404s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/args.py to args.cpython-310.pyc
+[1.405s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/names.py to names.cpython-310.pyc
+[1.405s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/lttng_impl.py to lttng_impl.cpython-310.pyc
+[1.405s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/signals.py to signals.cpython-310.pyc
+[1.412s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/lttng.py to lttng.cpython-310.pyc
+[1.412s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/__init__.py to __init__.cpython-310.pyc
+[1.412s] running install_data
+[1.413s] copying package.xml -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/tracetools_trace
+[1.414s] copying resource/tracetools_trace -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[1.416s] running install_egg_info
+[1.416s] Copying ../../../build/tracetools_trace/tracetools_trace.egg-info to /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace-6.3.1-py3.10.egg-info
+[1.417s] running install_scripts
+[1.418s] Installing trace script to /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/tracetools_trace
+[1.418s] writing list of installed files to '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/install.log'
+[1.506s] Invoked command in '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/ros2_tracing/tracetools_trace' returned '0': PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tracetools_trace build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_trace/install.log --single-version-externally-managed

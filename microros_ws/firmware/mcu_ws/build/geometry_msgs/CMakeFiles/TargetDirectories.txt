@@ -1,0 +1,15 @@
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/geometry_msgs/CMakeFiles/uninstall.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/geometry_msgs/CMakeFiles/geometry_msgs_uninstall.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/geometry_msgs/CMakeFiles/geometry_msgs.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/geometry_msgs/CMakeFiles/geometry_msgs__rosidl_generator_type_description.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/geometry_msgs/CMakeFiles/geometry_msgs__rosidl_generator_c.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/geometry_msgs/CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/geometry_msgs/CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/geometry_msgs/CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/geometry_msgs/CMakeFiles/test.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/geometry_msgs/CMakeFiles/edit_cache.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/geometry_msgs/CMakeFiles/rebuild_cache.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/geometry_msgs/CMakeFiles/list_install_components.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/geometry_msgs/CMakeFiles/install.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/geometry_msgs/CMakeFiles/install/local.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/geometry_msgs/CMakeFiles/install/strip.dir

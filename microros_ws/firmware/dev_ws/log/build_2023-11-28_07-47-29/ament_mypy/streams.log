@@ -1,0 +1,46 @@
+[0.663s] Invoking command in '/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/ament/ament_lint/ament_mypy': AMENT_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_flake8:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/install.log --single-version-externally-managed
+[0.766s] running egg_info
+[0.767s] creating ../../../build/ament_mypy/ament_mypy.egg-info
+[0.767s] writing ../../../build/ament_mypy/ament_mypy.egg-info/PKG-INFO
+[0.767s] writing dependency_links to ../../../build/ament_mypy/ament_mypy.egg-info/dependency_links.txt
+[0.767s] writing entry points to ../../../build/ament_mypy/ament_mypy.egg-info/entry_points.txt
+[0.768s] writing requirements to ../../../build/ament_mypy/ament_mypy.egg-info/requires.txt
+[0.768s] writing top-level names to ../../../build/ament_mypy/ament_mypy.egg-info/top_level.txt
+[0.768s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[0.769s] reading manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[0.769s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[0.769s] running build
+[0.769s] running build_py
+[0.769s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/build
+[0.769s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib
+[0.769s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[0.770s] copying ament_mypy/main.py -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[0.770s] copying ament_mypy/__init__.py -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[0.770s] copying ament_mypy/pytest_marker.py -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[0.770s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.771s]   warnings.warn(
+[0.771s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[0.771s] copying ament_mypy/configuration/ament_mypy.ini -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[0.771s] running install
+[0.771s] running install_lib
+[0.771s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[0.771s] copying /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/main.py -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[0.771s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/configuration
+[0.772s] copying /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration/ament_mypy.ini -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/configuration
+[0.772s] copying /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/__init__.py -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[0.772s] copying /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/pytest_marker.py -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[0.772s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/main.py to main.cpython-310.pyc
+[0.772s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/__init__.py to __init__.cpython-310.pyc
+[0.772s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/pytest_marker.py to pytest_marker.cpython-310.pyc
+[0.772s] running install_data
+[0.772s] copying package.xml -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/share/ament_mypy
+[0.773s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index
+[0.774s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index
+[0.774s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index/packages
+[0.775s] copying resource/ament_mypy -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index/packages
+[0.775s] running install_egg_info
+[0.775s] Copying ../../../build/ament_mypy/ament_mypy.egg-info to /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy-0.14.2-py3.10.egg-info
+[0.775s] running install_scripts
+[0.787s] Installing ament_mypy script to /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/bin
+[0.788s] writing list of installed files to '/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/install.log'
+[0.895s] Invoked command in '/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/ament/ament_lint/ament_mypy' returned '0': AMENT_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_flake8:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_mypy/install.log --single-version-externally-managed

@@ -1,0 +1,15 @@
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_generator_tests
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_generator_tests
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_tests/environment/ament_prefix_path.sh
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_tests/environment/ament_prefix_path.dsv
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_tests/environment/path.sh
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_tests/environment/path.dsv
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_tests/local_setup.bash
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_tests/local_setup.sh
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_tests/local_setup.zsh
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_tests/local_setup.dsv
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_tests/package.dsv
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rosidl_generator_tests
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_tests/cmake/rosidl_generator_testsConfig.cmake
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_tests/cmake/rosidl_generator_testsConfig-version.cmake
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_tests/package.xml

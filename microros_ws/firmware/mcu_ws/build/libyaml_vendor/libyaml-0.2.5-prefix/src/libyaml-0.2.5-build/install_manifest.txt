@@ -1,0 +1,6 @@
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/include/libyaml_vendor/yaml.h
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/lib/libyaml.a
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfig.cmake
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets.cmake
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets-debug.cmake
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfigVersion.cmake

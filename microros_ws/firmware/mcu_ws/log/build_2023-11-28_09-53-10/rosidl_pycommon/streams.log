@@ -1,0 +1,32 @@
+[0.556s] Invoking command in '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_pycommon': AMENT_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_pycommon/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rosidl_pycommon build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_pycommon/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_pycommon/install.log --single-version-externally-managed
+[0.734s] running egg_info
+[0.734s] creating ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info
+[0.735s] writing ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/PKG-INFO
+[0.735s] writing dependency_links to ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/dependency_links.txt
+[0.736s] writing entry points to ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/entry_points.txt
+[0.736s] writing requirements to ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/requires.txt
+[0.736s] writing top-level names to ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/top_level.txt
+[0.737s] writing manifest file '../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/SOURCES.txt'
+[0.737s] reading manifest file '../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/SOURCES.txt'
+[0.737s] writing manifest file '../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/SOURCES.txt'
+[0.738s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.738s]   warnings.warn(
+[0.738s] running build
+[0.738s] running build_py
+[0.739s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_pycommon/build
+[0.739s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_pycommon/build/lib
+[0.739s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_pycommon/build/lib/rosidl_pycommon
+[0.739s] copying rosidl_pycommon/__init__.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_pycommon/build/lib/rosidl_pycommon
+[0.740s] running install
+[0.740s] running install_lib
+[0.741s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_pycommon
+[0.741s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_pycommon/build/lib/rosidl_pycommon/__init__.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_pycommon
+[0.741s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_pycommon/__init__.py to __init__.cpython-310.pyc
+[0.742s] running install_data
+[0.742s] copying resource/rosidl_pycommon -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[0.742s] copying package.xml -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_pycommon
+[0.742s] running install_egg_info
+[0.742s] Copying ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info to /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_pycommon-4.0.1-py3.10.egg-info
+[0.742s] running install_scripts
+[0.756s] writing list of installed files to '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_pycommon/install.log'
+[0.788s] Invoked command in '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_pycommon' returned '0': AMENT_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_pycommon/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rosidl_pycommon build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_pycommon/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_pycommon/install.log --single-version-externally-managed

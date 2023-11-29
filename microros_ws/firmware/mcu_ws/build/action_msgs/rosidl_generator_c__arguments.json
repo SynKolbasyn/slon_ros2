@@ -1,0 +1,60 @@
+{
+  "package_name": "action_msgs",
+  "output_dir": "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/action_msgs/rosidl_generator_c/action_msgs",
+  "template_dir": "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalInfo.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatus.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatusArray.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:srv/CancelGoal.idl"
+  ],
+  "ros_interface_files": [
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/rcl_interfaces/action_msgs/msg/GoalInfo.msg",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/rcl_interfaces/action_msgs/msg/GoalStatus.msg",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/rcl_interfaces/action_msgs/msg/GoalStatusArray.msg",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/rcl_interfaces/action_msgs/srv/CancelGoal.srv",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/action_msgs/rosidl_cmake/srv/CancelGoal_Request.msg",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/action_msgs/rosidl_cmake/srv/CancelGoal_Response.msg"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/unique_identifier_msgs/msg/UUID.idl",
+    "service_msgs:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/service_msgs/msg/ServiceEventInfo.idl"
+  ],
+  "target_dependencies": [
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../../../lib/python3.10/site-packages/rosidl_generator_c/__init__.py",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs/msg/GoalInfo.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs/msg/GoalStatus.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs/msg/GoalStatusArray.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs/srv/CancelGoal.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces/msg/Time.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/unique_identifier_msgs/msg/UUID.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/service_msgs/msg/ServiceEventInfo.idl"
+  ],
+  "type_description_tuples": [
+    "msg/GoalInfo.idl:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/action_msgs/rosidl_generator_type_description/action_msgs/msg/GoalInfo.json",
+    "msg/GoalStatus.idl:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/action_msgs/rosidl_generator_type_description/action_msgs/msg/GoalStatus.json",
+    "msg/GoalStatusArray.idl:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/action_msgs/rosidl_generator_type_description/action_msgs/msg/GoalStatusArray.json",
+    "srv/CancelGoal.idl:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/action_msgs/rosidl_generator_type_description/action_msgs/srv/CancelGoal.json"
+  ]
+}

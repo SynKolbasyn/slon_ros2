@@ -1,0 +1,13 @@
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/ImageMarker.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarker.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerControl.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerFeedback.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerInit.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerPose.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerUpdate.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/Marker.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MarkerArray.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MenuEntry.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MeshFile.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/UVCoordinate.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:srv/GetInteractiveMarkers.idl

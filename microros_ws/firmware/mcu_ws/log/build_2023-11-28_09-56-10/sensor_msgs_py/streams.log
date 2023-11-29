@@ -1,0 +1,38 @@
+[2.050s] Invoking command in '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs_py': AMENT_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib:${LD_LIBRARY_PATH} PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/install.log --single-version-externally-managed
+[2.491s] running egg_info
+[2.495s] creating ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info
+[2.496s] writing ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/PKG-INFO
+[2.496s] writing dependency_links to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/dependency_links.txt
+[2.498s] writing requirements to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/requires.txt
+[2.498s] writing top-level names to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/top_level.txt
+[2.499s] writing manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[2.504s] reading manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[2.505s] adding license file 'LICENSE'
+[2.507s] writing manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[2.509s] running build
+[2.509s] running build_py
+[2.510s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build
+[2.511s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib
+[2.511s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[2.511s] copying sensor_msgs_py/numpy_compat.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[2.519s] copying sensor_msgs_py/point_cloud2.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[2.520s] copying sensor_msgs_py/__init__.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[2.521s] running install
+[2.522s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.522s]   warnings.warn(
+[2.522s] running install_lib
+[2.525s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py
+[2.525s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/numpy_compat.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py
+[2.526s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/point_cloud2.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py
+[2.526s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/__init__.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py
+[2.529s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py/numpy_compat.py to numpy_compat.cpython-310.pyc
+[2.534s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py/point_cloud2.py to point_cloud2.cpython-310.pyc
+[2.538s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py/__init__.py to __init__.cpython-310.pyc
+[2.539s] running install_data
+[2.540s] copying resource/sensor_msgs_py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[2.541s] copying package.xml -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/sensor_msgs_py
+[2.541s] running install_egg_info
+[2.547s] Copying ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info to /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py-5.0.0-py3.10.egg-info
+[2.550s] running install_scripts
+[2.609s] writing list of installed files to '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/install.log'
+[2.658s] Invoked command in '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs_py' returned '0': AMENT_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib:${LD_LIBRARY_PATH} PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/install.log --single-version-externally-managed

@@ -1,0 +1,10 @@
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/uninstall.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/rosidl_cmake_uninstall.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/ament_cmake_python_copy_rosidl_cmake.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/ament_cmake_python_build_rosidl_cmake_egg.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/test.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/edit_cache.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/rebuild_cache.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/list_install_components.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/install.dir
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/install/local.dir

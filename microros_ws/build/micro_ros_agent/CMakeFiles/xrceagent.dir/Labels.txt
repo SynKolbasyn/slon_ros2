@@ -1,0 +1,13 @@
+# Target labels
+ xrceagent
+# Source files and their labels
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/CMakeFiles/xrceagent
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/CMakeFiles/xrceagent.rule
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule

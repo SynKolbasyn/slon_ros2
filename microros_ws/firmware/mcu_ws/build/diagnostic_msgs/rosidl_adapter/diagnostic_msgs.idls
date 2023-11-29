@@ -1,0 +1,5 @@
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/diagnostic_msgs/rosidl_adapter/diagnostic_msgs:msg/DiagnosticArray.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/diagnostic_msgs/rosidl_adapter/diagnostic_msgs:msg/DiagnosticStatus.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/diagnostic_msgs/rosidl_adapter/diagnostic_msgs:msg/KeyValue.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/diagnostic_msgs/rosidl_adapter/diagnostic_msgs:srv/AddDiagnostics.idl
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/diagnostic_msgs/rosidl_adapter/diagnostic_msgs:srv/SelfTest.idl

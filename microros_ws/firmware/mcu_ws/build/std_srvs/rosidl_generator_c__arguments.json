@@ -1,0 +1,58 @@
+{
+  "package_name": "std_srvs",
+  "output_dir": "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_c/std_srvs",
+  "template_dir": "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/Empty.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/SetBool.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/Trigger.idl"
+  ],
+  "ros_interface_files": [
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/common_interfaces/std_srvs/srv/Empty.srv",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_cmake/srv/Empty_Request.msg",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_cmake/srv/Empty_Response.msg",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/common_interfaces/std_srvs/srv/SetBool.srv",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_cmake/srv/SetBool_Request.msg",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_cmake/srv/SetBool_Response.msg",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/common_interfaces/std_srvs/srv/Trigger.srv",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_cmake/srv/Trigger_Request.msg",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_cmake/srv/Trigger_Response.msg"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../../../lib/python3.10/site-packages/rosidl_generator_c/__init__.py",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_adapter/std_srvs/srv/Empty.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_adapter/std_srvs/srv/SetBool.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_adapter/std_srvs/srv/Trigger.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "srv/Empty.idl:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_type_description/std_srvs/srv/Empty.json",
+    "srv/SetBool.idl:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_type_description/std_srvs/srv/SetBool.json",
+    "srv/Trigger.idl:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_type_description/std_srvs/srv/Trigger.json"
+  ]
+}

@@ -1,0 +1,4 @@
+source;share/slon/local_setup.bash
+source;share/slon/local_setup.dsv
+source;share/slon/local_setup.sh
+source;share/slon/local_setup.zsh

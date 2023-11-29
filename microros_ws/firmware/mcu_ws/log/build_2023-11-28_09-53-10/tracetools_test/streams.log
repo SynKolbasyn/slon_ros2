@@ -1,0 +1,37 @@
+[1.008s] Invoking command in '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/ros2_tracing/tracetools_test': AMENT_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tracetools_test build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/install.log --single-version-externally-managed
+[1.162s] running egg_info
+[1.164s] creating ../../../build/tracetools_test/tracetools_test.egg-info
+[1.164s] writing ../../../build/tracetools_test/tracetools_test.egg-info/PKG-INFO
+[1.165s] writing dependency_links to ../../../build/tracetools_test/tracetools_test.egg-info/dependency_links.txt
+[1.165s] writing requirements to ../../../build/tracetools_test/tracetools_test.egg-info/requires.txt
+[1.165s] writing top-level names to ../../../build/tracetools_test/tracetools_test.egg-info/top_level.txt
+[1.165s] writing manifest file '../../../build/tracetools_test/tracetools_test.egg-info/SOURCES.txt'
+[1.166s] reading manifest file '../../../build/tracetools_test/tracetools_test.egg-info/SOURCES.txt'
+[1.166s] writing manifest file '../../../build/tracetools_test/tracetools_test.egg-info/SOURCES.txt'
+[1.166s] running build
+[1.166s] running build_py
+[1.166s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/build
+[1.167s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/build/lib
+[1.167s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test
+[1.167s] copying tracetools_test/case.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test
+[1.169s] copying tracetools_test/__init__.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test
+[1.169s] copying tracetools_test/utils.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test
+[1.169s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.169s]   warnings.warn(
+[1.170s] running install
+[1.171s] running install_lib
+[1.172s] creating /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test
+[1.172s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test/case.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test
+[1.173s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test/__init__.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test
+[1.173s] copying /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test/utils.py -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test
+[1.173s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test/case.py to case.cpython-310.pyc
+[1.174s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test/__init__.py to __init__.cpython-310.pyc
+[1.175s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test/utils.py to utils.cpython-310.pyc
+[1.175s] running install_data
+[1.175s] copying package.xml -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/tracetools_test
+[1.175s] copying resource/tracetools_test -> /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[1.175s] running install_egg_info
+[1.177s] Copying ../../../build/tracetools_test/tracetools_test.egg-info to /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test-6.3.1-py3.10.egg-info
+[1.178s] running install_scripts
+[1.193s] writing list of installed files to '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/install.log'
+[1.293s] Invoked command in '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/ros2_tracing/tracetools_test' returned '0': AMENT_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tracetools_test build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/tracetools_test/install.log --single-version-externally-managed

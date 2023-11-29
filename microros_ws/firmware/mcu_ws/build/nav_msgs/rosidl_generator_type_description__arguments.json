@@ -1,0 +1,21 @@
+{
+  "package_name": "nav_msgs",
+  "output_dir": "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/nav_msgs/rosidl_generator_type_description/nav_msgs",
+  "idl_tuples": [
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/GridCells.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/MapMetaData.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/OccupancyGrid.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Odometry.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Path.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetMap.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetPlan.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/LoadMap.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/SetMap.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces",
+    "geometry_msgs:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/geometry_msgs",
+    "std_msgs:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/std_msgs",
+    "service_msgs:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/service_msgs"
+  ]
+}

@@ -1,0 +1,8 @@
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/libmicrocdr.a
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/include/ucdr/visibility.h
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/include/ucdr/microcdr.h
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/include/ucdr/config.h
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets.cmake
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets-debug.cmake
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfig.cmake
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfigVersion.cmake

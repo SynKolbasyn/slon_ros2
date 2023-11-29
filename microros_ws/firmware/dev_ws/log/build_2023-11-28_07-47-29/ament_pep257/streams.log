@@ -1,0 +1,42 @@
+[0.648s] Invoking command in '/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/ament/ament_lint/ament_pep257': AMENT_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_flake8:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/install.log --single-version-externally-managed
+[0.750s] running egg_info
+[0.751s] creating ../../../build/ament_pep257/ament_pep257.egg-info
+[0.751s] writing ../../../build/ament_pep257/ament_pep257.egg-info/PKG-INFO
+[0.752s] writing dependency_links to ../../../build/ament_pep257/ament_pep257.egg-info/dependency_links.txt
+[0.752s] writing entry points to ../../../build/ament_pep257/ament_pep257.egg-info/entry_points.txt
+[0.752s] writing requirements to ../../../build/ament_pep257/ament_pep257.egg-info/requires.txt
+[0.753s] writing top-level names to ../../../build/ament_pep257/ament_pep257.egg-info/top_level.txt
+[0.753s] writing manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[0.753s] reading manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[0.754s] writing manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[0.754s] running build
+[0.754s] running build_py
+[0.754s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/build
+[0.754s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib
+[0.754s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[0.754s] copying ament_pep257/main.py -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[0.754s] copying ament_pep257/__init__.py -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[0.754s] copying ament_pep257/pytest_marker.py -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[0.755s] running install
+[0.755s] running install_lib
+[0.756s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257
+[0.756s] copying /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/main.py -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257
+[0.756s] copying /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/__init__.py -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257
+[0.756s] copying /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/pytest_marker.py -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257
+[0.756s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257/main.py to main.cpython-310.pyc
+[0.757s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.757s]   warnings.warn(
+[0.757s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257/__init__.py to __init__.cpython-310.pyc
+[0.757s] byte-compiling /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257/pytest_marker.py to pytest_marker.cpython-310.pyc
+[0.757s] running install_data
+[0.757s] copying package.xml -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/share/ament_pep257
+[0.757s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/share/ament_index
+[0.758s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index
+[0.758s] creating /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index/packages
+[0.758s] copying resource/ament_pep257 -> /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index/packages
+[0.758s] running install_egg_info
+[0.758s] Copying ../../../build/ament_pep257/ament_pep257.egg-info to /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257-0.14.2-py3.10.egg-info
+[0.759s] running install_scripts
+[0.772s] Installing ament_pep257 script to /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/bin
+[0.772s] writing list of installed files to '/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/install.log'
+[0.842s] Invoked command in '/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/ament/ament_lint/ament_pep257' returned '0': AMENT_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_flake8:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/build/ament_pep257/install.log --single-version-externally-managed

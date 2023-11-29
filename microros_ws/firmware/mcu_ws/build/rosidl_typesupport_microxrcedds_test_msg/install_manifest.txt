@@ -1,0 +1,15 @@
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_test_msg
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_test_msg
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_test_msg/environment/ament_prefix_path.sh
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_test_msg/environment/ament_prefix_path.dsv
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_test_msg/environment/path.sh
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_test_msg/environment/path.dsv
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_test_msg/local_setup.bash
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_test_msg/local_setup.sh
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_test_msg/local_setup.zsh
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_test_msg/local_setup.dsv
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_test_msg/package.dsv
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_test_msg
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_test_msg/cmake/rosidl_typesupport_microxrcedds_test_msgConfig.cmake
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_test_msg/cmake/rosidl_typesupport_microxrcedds_test_msgConfig-version.cmake
+/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_test_msg/package.xml

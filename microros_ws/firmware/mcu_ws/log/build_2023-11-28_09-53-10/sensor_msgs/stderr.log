@@ -1,0 +1,29 @@
+[33mCMake Warning at /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+  CMakeLists.txt:15 (find_package)
+
+[0m
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:986: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/illuminance__description.c.obj] Interrupt
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:846: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__type_support.c.obj] Interrupt
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:944: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__description.c.obj] Interrupt
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:958: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__functions.c.obj] Interrupt
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:790: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__functions.c.obj] Interrupt
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:776: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__description.c.obj] Interrupt
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:888: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__type_support.c.obj] Interrupt
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:804: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__type_support.c.obj] Interrupt
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:818: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__description.c.obj] Interrupt
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:832: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__functions.c.obj] Interrupt
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:860: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__description.c.obj] Interrupt
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:874: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__functions.c.obj] Interrupt
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:902: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__description.c.obj] Interrupt
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:916: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__functions.c.obj] Interrupt
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:930: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__type_support.c.obj] Interrupt
+gmake[6]: *** [CMakeFiles/sensor_msgs__rosidl_generator_c.dir/build.make:972: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__type_support.c.obj] Interrupt
+gmake[5]: *** [CMakeFiles/Makefile2:205: CMakeFiles/sensor_msgs__rosidl_generator_c.dir/all] Interrupt
+gmake[4]: *** [Makefile:149: all] Interrupt

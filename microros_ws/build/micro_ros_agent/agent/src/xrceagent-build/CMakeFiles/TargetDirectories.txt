@@ -1,0 +1,7 @@
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/microxrcedds_agent.dir
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/edit_cache.dir
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/rebuild_cache.dir
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/list_install_components.dir
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/install.dir
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/install/local.dir
+/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/install/strip.dir

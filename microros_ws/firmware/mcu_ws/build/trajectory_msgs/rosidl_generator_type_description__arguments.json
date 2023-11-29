@@ -1,0 +1,15 @@
+{
+  "package_name": "trajectory_msgs",
+  "output_dir": "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/trajectory_msgs/rosidl_generator_type_description/trajectory_msgs",
+  "idl_tuples": [
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/JointTrajectory.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/JointTrajectoryPoint.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/MultiDOFJointTrajectory.idl",
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/MultiDOFJointTrajectoryPoint.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces",
+    "geometry_msgs:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/geometry_msgs",
+    "std_msgs:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/std_msgs"
+  ]
+}

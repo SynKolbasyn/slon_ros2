@@ -1,0 +1,1544 @@
+[0.000000] (-) TimerEvent: {}
+[0.000876] (-) JobUnselected: {'identifier': 'drive_base_msgs'}
+[0.000927] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.000944] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.000960] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs')])}
+[0.000974] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.043020] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.044701] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[0.044823] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs', '--', '-j16', '-l16'], 'cwd': '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mondegrin'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/mondegrin'), ('OLDPWD', '/home/mondegrin/programs/slon'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mondegrin/programs/slon/microros_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mondegrin'), ('NAME', 'DESKTOP-2F6E5CH'), ('WSL_INTEROP', '/run/WSL/403_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('DONT_PROMPT_WSL_INSTALL', 'true'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/WinAVR-20100110/bin:/mnt/c/WinAVR-20100110/utils/bin:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Recovery/OEM/Backup/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Mondegrin/Downloads/curl-8.2.1_7-win64-mingw/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Mondegrin/.cargo/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Mondegrin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Mondegrin/go/bin:/mnt/c/Program Files/JetBrains/RustRover 233.8264.22/bin:/mnt/c/Users/Mondegrin/.dotnet/tools:/snap/bin'), ('WT_SESSION', 'bfaf7880-85c6-4458-8e10-49f9398ac91c'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_setup:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_setup:/opt/ros/iron'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.091135] (micro_ros_msgs) StdoutLine: {'line': b'[  1%] Built target micro_ros_msgs__rosidl_generator_type_description\n'}
+[0.099674] (-) TimerEvent: {}
+[0.105200] (micro_ros_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[0.106814] (micro_ros_msgs) StdoutLine: {'line': b'[  3%] Built target micro_ros_msgs__cpp\n'}
+[0.107994] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_generator_c\x1b[0m\n'}
+[0.119797] (micro_ros_msgs) StdoutLine: {'line': b'[ 24%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[0.137619] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.137871] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.143261] (micro_ros_msgs) StdoutLine: {'line': b'[ 42%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.143436] (micro_ros_msgs) StdoutLine: {'line': b'[ 42%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[0.143645] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.146950] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.147290] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[0.153338] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.158997] (micro_ros_msgs) StdoutLine: {'line': b'[ 51%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.163886] (micro_ros_msgs) StdoutLine: {'line': b'[ 61%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[0.165300] (micro_ros_msgs) StdoutLine: {'line': b'[ 70%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.166759] (micro_ros_msgs) StdoutLine: {'line': b'[ 79%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[0.180955] (micro_ros_msgs) StdoutLine: {'line': b'[ 79%] Built target micro_ros_msgs\n'}
+[0.205750] (micro_ros_msgs) StdoutLine: {'line': b'[ 81%] Built target micro_ros_msgs__py\n'}
+[0.205938] (-) TimerEvent: {}
+[0.235640] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_generator_py\x1b[0m\n'}
+[0.254068] (micro_ros_msgs) StdoutLine: {'line': b'[ 88%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[0.262797] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.264762] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.264947] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.276768] (micro_ros_msgs) StdoutLine: {'line': b'[ 92%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[0.277739] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.277910] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.306073] (-) TimerEvent: {}
+[0.362926] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.363659] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[0.363879] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[0.364107] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[0.367080] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[0.367899] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[0.385891] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[0.393396] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[0.406380] (-) TimerEvent: {}
+[0.480483] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[0.485864] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs'], 'cwd': '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mondegrin'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/mondegrin'), ('OLDPWD', '/home/mondegrin/programs/slon'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mondegrin/programs/slon/microros_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mondegrin'), ('NAME', 'DESKTOP-2F6E5CH'), ('WSL_INTEROP', '/run/WSL/403_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('DONT_PROMPT_WSL_INSTALL', 'true'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/WinAVR-20100110/bin:/mnt/c/WinAVR-20100110/utils/bin:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Recovery/OEM/Backup/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Mondegrin/Downloads/curl-8.2.1_7-win64-mingw/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Mondegrin/.cargo/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Mondegrin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Mondegrin/go/bin:/mnt/c/Program Files/JetBrains/RustRover 233.8264.22/bin:/mnt/c/Users/Mondegrin/.dotnet/tools:/snap/bin'), ('WT_SESSION', 'bfaf7880-85c6-4458-8e10-49f9398ac91c'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_setup:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_setup:/opt/ros/iron'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.506492] (-) TimerEvent: {}
+[0.526093] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.526705] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[0.526870] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.json\n'}
+[0.526938] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.json\n'}
+[0.526995] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.json\n'}
+[0.527060] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[0.527112] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[0.527161] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.527212] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[0.527263] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[0.527311] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[0.527359] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[0.529026] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__description.c\n'}
+[0.529176] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[0.529242] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__description.c\n'}
+[0.531873] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[0.532019] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[0.532085] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__description.c\n'}
+[0.532141] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[0.532192] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[0.532251] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[0.532300] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[0.532349] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[0.532442] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[0.532506] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[0.532559] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[0.532612] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[0.532664] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[0.532715] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[0.532764] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[0.533166] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[0.533269] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[0.534397] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[0.534684] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[0.534776] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[0.534834] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.534890] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[0.535093] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[0.535238] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[0.535306] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[0.535371] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.535429] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[0.535480] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[0.537422] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.537561] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[0.537626] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[0.537682] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[0.537735] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[0.537790] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[0.537841] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[0.537892] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[0.537942] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.537992] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[0.538045] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[0.538096] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[0.538145] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[0.538195] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[0.538243] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[0.538292] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[0.538347] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[0.538396] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[0.538445] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[0.538494] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[0.538542] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[0.538590] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[0.538639] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[0.538687] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[0.538734] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[0.538783] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[0.538872] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[0.539070] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.539156] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[0.539215] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[0.539836] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.539946] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.540112] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.540296] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.540504] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[0.540587] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[0.540752] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[0.540911] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[0.541008] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[0.541100] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.541159] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[0.541212] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.541266] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.541387] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.550558] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[0.550729] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[0.550789] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[0.550912] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.0-py3.10.egg-info\n'}
+[0.550967] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.551005] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.551127] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.551182] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.551217] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs\n'}
+[0.551355] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.551451] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg\n'}
+[0.551494] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_graph.py\n'}
+[0.551529] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/__init__.py\n'}
+[0.551562] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_entity.py\n'}
+[0.551594] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[0.551624] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_node.py\n'}
+[0.551655] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[0.551685] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[0.551715] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.551746] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[0.551779] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.551811] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.551841] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/__init__.py\n'}
+[0.551872] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.551901] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.585434] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs'...\n"}
+[0.585628] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg'...\n"}
+[0.590063] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.590419] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.590556] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.590773] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[0.590909] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[0.591021] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[0.591181] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[0.591312] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[0.591419] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[0.591548] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[0.591681] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[0.591808] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[0.591936] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[0.592085] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[0.592346] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[0.592451] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[0.592500] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[0.592540] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[0.592578] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[0.592617] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[0.592655] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[0.592694] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[0.593200] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[0.593285] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.593961] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.594091] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.594810] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.595033] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.595721] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.595883] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.596986] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.598688] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.598821] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.600180] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.600307] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.601099] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.601349] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.603106] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.603315] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.603400] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.603499] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.603680] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.603756] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.603803] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.603845] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.603885] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.603924] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[0.603972] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[0.604014] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[0.606949] (-) TimerEvent: {}
+[0.608084] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[0.707080] (-) TimerEvent: {}
+[0.805446] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[0.805947] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[0.807555] (-) TimerEvent: {}
+[0.908631] (-) TimerEvent: {}
+[1.009030] (-) TimerEvent: {}
+[1.109534] (-) TimerEvent: {}
+[1.210018] (-) TimerEvent: {}
+[1.310491] (-) TimerEvent: {}
+[1.410954] (-) TimerEvent: {}
+[1.511476] (-) TimerEvent: {}
+[1.612025] (-) TimerEvent: {}
+[1.693674] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[1.695178] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[1.695220] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent', '--', '-j16', '-l16'], 'cwd': '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mondegrin'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/mondegrin'), ('OLDPWD', '/home/mondegrin/programs/slon'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mondegrin/programs/slon/microros_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mondegrin'), ('NAME', 'DESKTOP-2F6E5CH'), ('WSL_INTEROP', '/run/WSL/403_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('DONT_PROMPT_WSL_INSTALL', 'true'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/WinAVR-20100110/bin:/mnt/c/WinAVR-20100110/utils/bin:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Recovery/OEM/Backup/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Mondegrin/Downloads/curl-8.2.1_7-win64-mingw/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Mondegrin/.cargo/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Mondegrin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Mondegrin/go/bin:/mnt/c/Program Files/JetBrains/RustRover 233.8264.22/bin:/mnt/c/Users/Mondegrin/.dotnet/tools:/snap/bin'), ('WT_SESSION', 'bfaf7880-85c6-4458-8e10-49f9398ac91c'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs:/home/mondegrin/programs/slon/microros_ws/install/micro_ros_setup:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs:/home/mondegrin/programs/slon/microros_ws/install/micro_ros_setup:/opt/ros/iron'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[1.712221] (-) TimerEvent: {}
+[1.725920] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[1.812575] (-) TimerEvent: {}
+[1.915009] (-) TimerEvent: {}
+[2.015631] (-) TimerEvent: {}
+[2.116145] (-) TimerEvent: {}
+[2.216863] (-) TimerEvent: {}
+[2.318070] (-) TimerEvent: {}
+[2.419311] (-) TimerEvent: {}
+[2.471887] (micro_ros_agent) StderrLine: {'line': b'HEAD is now at c25243c Enable Domain Override on Reference and XML Participant (#351)\n'}
+[2.511184] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[2.519563] (-) TimerEvent: {}
+[2.531885] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[2.540184] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[2.571009] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[2.619749] (-) TimerEvent: {}
+[2.720438] (-) TimerEvent: {}
+[2.821003] (-) TimerEvent: {}
+[2.921506] (-) TimerEvent: {}
+[3.021991] (-) TimerEvent: {}
+[3.122557] (-) TimerEvent: {}
+[3.223136] (-) TimerEvent: {}
+[3.323565] (-) TimerEvent: {}
+[3.423954] (-) TimerEvent: {}
+[3.524491] (-) TimerEvent: {}
+[3.624945] (-) TimerEvent: {}
+[3.725306] (-) TimerEvent: {}
+[3.825654] (-) TimerEvent: {}
+[3.926207] (-) TimerEvent: {}
+[4.026621] (-) TimerEvent: {}
+[4.127079] (-) TimerEvent: {}
+[4.227497] (-) TimerEvent: {}
+[4.327929] (-) TimerEvent: {}
+[4.428441] (-) TimerEvent: {}
+[4.528874] (-) TimerEvent: {}
+[4.629275] (-) TimerEvent: {}
+[4.729727] (-) TimerEvent: {}
+[4.830052] (-) TimerEvent: {}
+[4.930573] (-) TimerEvent: {}
+[5.030988] (-) TimerEvent: {}
+[5.131395] (-) TimerEvent: {}
+[5.231804] (-) TimerEvent: {}
+[5.332244] (-) TimerEvent: {}
+[5.432626] (-) TimerEvent: {}
+[5.533054] (-) TimerEvent: {}
+[5.633475] (-) TimerEvent: {}
+[5.733903] (-) TimerEvent: {}
+[5.834329] (-) TimerEvent: {}
+[5.934854] (-) TimerEvent: {}
+[6.035469] (-) TimerEvent: {}
+[6.135870] (-) TimerEvent: {}
+[6.236404] (-) TimerEvent: {}
+[6.336871] (-) TimerEvent: {}
+[6.437281] (-) TimerEvent: {}
+[6.537753] (-) TimerEvent: {}
+[6.638198] (-) TimerEvent: {}
+[6.738613] (-) TimerEvent: {}
+[6.839015] (-) TimerEvent: {}
+[6.939576] (-) TimerEvent: {}
+[7.040053] (-) TimerEvent: {}
+[7.140575] (-) TimerEvent: {}
+[7.241040] (-) TimerEvent: {}
+[7.341479] (-) TimerEvent: {}
+[7.441962] (-) TimerEvent: {}
+[7.542419] (-) TimerEvent: {}
+[7.642852] (-) TimerEvent: {}
+[7.743260] (-) TimerEvent: {}
+[7.843644] (-) TimerEvent: {}
+[7.944182] (-) TimerEvent: {}
+[8.044643] (-) TimerEvent: {}
+[8.145092] (-) TimerEvent: {}
+[8.245531] (-) TimerEvent: {}
+[8.346086] (-) TimerEvent: {}
+[8.446582] (-) TimerEvent: {}
+[8.547078] (-) TimerEvent: {}
+[8.647570] (-) TimerEvent: {}
+[8.748001] (-) TimerEvent: {}
+[8.848673] (-) TimerEvent: {}
+[8.949174] (-) TimerEvent: {}
+[9.049695] (-) TimerEvent: {}
+[9.150310] (-) TimerEvent: {}
+[9.250793] (-) TimerEvent: {}
+[9.351397] (-) TimerEvent: {}
+[9.451980] (-) TimerEvent: {}
+[9.552418] (-) TimerEvent: {}
+[9.652859] (-) TimerEvent: {}
+[9.753278] (-) TimerEvent: {}
+[9.853652] (-) TimerEvent: {}
+[9.954110] (-) TimerEvent: {}
+[10.031137] (micro_ros_agent) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.031359] (micro_ros_agent) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (tinyxml2)\n'}
+[10.031400] (micro_ros_agent) StderrLine: {'line': b'  does not match the name of the calling package (TinyXML2).  This can lead\n'}
+[10.031441] (micro_ros_agent) StderrLine: {'line': b'  to problems in calling code that expects `find_package` result variables\n'}
+[10.031477] (micro_ros_agent) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.031517] (micro_ros_agent) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.031553] (micro_ros_agent) StderrLine: {'line': b'  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)\n'}
+[10.031594] (micro_ros_agent) StderrLine: {'line': b'  /opt/ros/iron/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)\n'}
+[10.031628] (micro_ros_agent) StderrLine: {'line': b'  CMakeLists.txt:153 (find_package)\n'}
+[10.031661] (micro_ros_agent) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.031692] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[10.054354] (-) TimerEvent: {}
+[10.060180] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.076082] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[10.077421] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[10.094290] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[10.136185] (micro_ros_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target microxrcedds_agent\x1b[0m\n'}
+[10.154503] (-) TimerEvent: {}
+[10.160914] (micro_ros_agent) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o\x1b[0m\n'}
+[10.161113] (micro_ros_agent) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o\x1b[0m\n'}
+[10.161831] (micro_ros_agent) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o\x1b[0m\n'}
+[10.165348] (micro_ros_agent) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o\x1b[0m\n'}
+[10.168263] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o\x1b[0m\n'}
+[10.169864] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o\x1b[0m\n'}
+[10.176545] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o\x1b[0m\n'}
+[10.179926] (micro_ros_agent) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o\x1b[0m\n'}
+[10.184870] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o\x1b[0m\n'}
+[10.188959] (micro_ros_agent) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o\x1b[0m\n'}
+[10.189149] (micro_ros_agent) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o\x1b[0m\n'}
+[10.189708] (micro_ros_agent) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o\x1b[0m\n'}
+[10.204942] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o\x1b[0m\n'}
+[10.205152] (micro_ros_agent) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o\x1b[0m\n'}
+[10.208506] (micro_ros_agent) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o\x1b[0m\n'}
+[10.218171] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o\x1b[0m\n'}
+[10.255136] (-) TimerEvent: {}
+[10.355712] (-) TimerEvent: {}
+[10.456210] (-) TimerEvent: {}
+[10.556833] (-) TimerEvent: {}
+[10.657464] (-) TimerEvent: {}
+[10.757995] (-) TimerEvent: {}
+[10.858535] (-) TimerEvent: {}
+[10.959074] (-) TimerEvent: {}
+[11.059691] (-) TimerEvent: {}
+[11.160314] (-) TimerEvent: {}
+[11.260865] (-) TimerEvent: {}
+[11.361401] (-) TimerEvent: {}
+[11.461941] (-) TimerEvent: {}
+[11.562504] (-) TimerEvent: {}
+[11.663076] (-) TimerEvent: {}
+[11.763629] (-) TimerEvent: {}
+[11.864192] (-) TimerEvent: {}
+[11.964789] (-) TimerEvent: {}
+[12.065342] (-) TimerEvent: {}
+[12.165933] (-) TimerEvent: {}
+[12.266732] (-) TimerEvent: {}
+[12.367586] (-) TimerEvent: {}
+[12.468572] (-) TimerEvent: {}
+[12.569406] (-) TimerEvent: {}
+[12.670275] (-) TimerEvent: {}
+[12.771172] (-) TimerEvent: {}
+[12.876454] (-) TimerEvent: {}
+[12.977278] (-) TimerEvent: {}
+[13.078422] (-) TimerEvent: {}
+[13.179855] (-) TimerEvent: {}
+[13.281398] (-) TimerEvent: {}
+[13.382367] (-) TimerEvent: {}
+[13.483360] (-) TimerEvent: {}
+[13.584250] (-) TimerEvent: {}
+[13.685171] (-) TimerEvent: {}
+[13.786232] (-) TimerEvent: {}
+[13.888142] (-) TimerEvent: {}
+[13.990257] (-) TimerEvent: {}
+[14.094714] (-) TimerEvent: {}
+[14.195517] (-) TimerEvent: {}
+[14.296906] (-) TimerEvent: {}
+[14.398466] (-) TimerEvent: {}
+[14.499549] (-) TimerEvent: {}
+[14.600446] (-) TimerEvent: {}
+[14.701712] (-) TimerEvent: {}
+[14.807009] (-) TimerEvent: {}
+[14.909823] (-) TimerEvent: {}
+[15.011191] (-) TimerEvent: {}
+[15.112295] (-) TimerEvent: {}
+[15.213201] (-) TimerEvent: {}
+[15.314175] (-) TimerEvent: {}
+[15.415327] (-) TimerEvent: {}
+[15.516174] (-) TimerEvent: {}
+[15.616942] (-) TimerEvent: {}
+[15.719630] (-) TimerEvent: {}
+[15.820887] (-) TimerEvent: {}
+[15.922766] (-) TimerEvent: {}
+[16.023978] (-) TimerEvent: {}
+[16.125871] (-) TimerEvent: {}
+[16.227198] (-) TimerEvent: {}
+[16.331569] (-) TimerEvent: {}
+[16.432670] (-) TimerEvent: {}
+[16.534209] (-) TimerEvent: {}
+[16.639245] (-) TimerEvent: {}
+[16.742795] (-) TimerEvent: {}
+[16.843790] (-) TimerEvent: {}
+[16.945962] (-) TimerEvent: {}
+[17.046858] (-) TimerEvent: {}
+[17.148080] (-) TimerEvent: {}
+[17.249011] (-) TimerEvent: {}
+[17.349916] (-) TimerEvent: {}
+[17.451480] (-) TimerEvent: {}
+[17.552494] (-) TimerEvent: {}
+[17.653436] (-) TimerEvent: {}
+[17.754395] (-) TimerEvent: {}
+[17.855458] (-) TimerEvent: {}
+[17.956480] (-) TimerEvent: {}
+[18.057650] (-) TimerEvent: {}
+[18.159094] (-) TimerEvent: {}
+[18.261475] (-) TimerEvent: {}
+[18.362505] (-) TimerEvent: {}
+[18.463843] (-) TimerEvent: {}
+[18.564858] (-) TimerEvent: {}
+[18.665865] (-) TimerEvent: {}
+[18.766918] (-) TimerEvent: {}
+[18.868013] (-) TimerEvent: {}
+[18.970542] (-) TimerEvent: {}
+[19.072087] (-) TimerEvent: {}
+[19.173095] (-) TimerEvent: {}
+[19.274315] (-) TimerEvent: {}
+[19.375374] (-) TimerEvent: {}
+[19.478063] (-) TimerEvent: {}
+[19.579220] (-) TimerEvent: {}
+[19.680629] (-) TimerEvent: {}
+[19.783549] (-) TimerEvent: {}
+[19.885946] (-) TimerEvent: {}
+[19.989886] (-) TimerEvent: {}
+[20.091209] (-) TimerEvent: {}
+[20.198164] (-) TimerEvent: {}
+[20.299403] (-) TimerEvent: {}
+[20.401644] (-) TimerEvent: {}
+[20.503049] (-) TimerEvent: {}
+[20.604317] (-) TimerEvent: {}
+[20.705455] (-) TimerEvent: {}
+[20.806778] (-) TimerEvent: {}
+[20.908131] (-) TimerEvent: {}
+[21.009261] (-) TimerEvent: {}
+[21.112350] (-) TimerEvent: {}
+[21.213838] (-) TimerEvent: {}
+[21.315180] (-) TimerEvent: {}
+[21.416388] (-) TimerEvent: {}
+[21.517803] (-) TimerEvent: {}
+[21.619124] (-) TimerEvent: {}
+[21.723342] (-) TimerEvent: {}
+[21.824835] (-) TimerEvent: {}
+[21.926059] (-) TimerEvent: {}
+[22.027886] (-) TimerEvent: {}
+[22.128906] (-) TimerEvent: {}
+[22.230311] (-) TimerEvent: {}
+[22.331781] (-) TimerEvent: {}
+[22.432934] (-) TimerEvent: {}
+[22.533993] (-) TimerEvent: {}
+[22.635153] (-) TimerEvent: {}
+[22.736515] (-) TimerEvent: {}
+[22.837718] (-) TimerEvent: {}
+[22.939209] (-) TimerEvent: {}
+[23.040139] (-) TimerEvent: {}
+[23.141865] (-) TimerEvent: {}
+[23.243203] (-) TimerEvent: {}
+[23.346497] (-) TimerEvent: {}
+[23.447413] (-) TimerEvent: {}
+[23.548267] (-) TimerEvent: {}
+[23.649100] (-) TimerEvent: {}
+[23.749938] (-) TimerEvent: {}
+[23.858587] (-) TimerEvent: {}
+[23.963586] (-) TimerEvent: {}
+[24.064392] (-) TimerEvent: {}
+[24.165099] (-) TimerEvent: {}
+[24.265869] (-) TimerEvent: {}
+[24.366831] (-) TimerEvent: {}
+[24.475921] (-) TimerEvent: {}
+[24.576981] (-) TimerEvent: {}
+[24.677714] (-) TimerEvent: {}
+[24.779928] (-) TimerEvent: {}
+[24.880666] (-) TimerEvent: {}
+[24.981449] (-) TimerEvent: {}
+[25.083059] (-) TimerEvent: {}
+[25.184023] (-) TimerEvent: {}
+[25.284800] (-) TimerEvent: {}
+[25.386703] (-) TimerEvent: {}
+[25.488802] (-) TimerEvent: {}
+[25.589728] (-) TimerEvent: {}
+[25.690531] (-) TimerEvent: {}
+[25.791366] (-) TimerEvent: {}
+[25.892213] (-) TimerEvent: {}
+[25.993041] (-) TimerEvent: {}
+[26.093854] (-) TimerEvent: {}
+[26.150454] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o\x1b[0m\n'}
+[26.194098] (-) TimerEvent: {}
+[26.295147] (-) TimerEvent: {}
+[26.396206] (-) TimerEvent: {}
+[26.497337] (-) TimerEvent: {}
+[26.598123] (-) TimerEvent: {}
+[26.698840] (-) TimerEvent: {}
+[26.799617] (-) TimerEvent: {}
+[26.900434] (-) TimerEvent: {}
+[27.001375] (-) TimerEvent: {}
+[27.102196] (-) TimerEvent: {}
+[27.161233] (micro_ros_agent) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o\x1b[0m\n'}
+[27.209328] (-) TimerEvent: {}
+[27.313373] (-) TimerEvent: {}
+[27.414903] (-) TimerEvent: {}
+[27.522003] (-) TimerEvent: {}
+[27.622641] (-) TimerEvent: {}
+[27.723281] (-) TimerEvent: {}
+[27.828688] (-) TimerEvent: {}
+[27.931436] (-) TimerEvent: {}
+[28.047175] (-) TimerEvent: {}
+[28.160180] (-) TimerEvent: {}
+[28.261907] (-) TimerEvent: {}
+[28.268089] (micro_ros_agent) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o\x1b[0m\n'}
+[28.368809] (-) TimerEvent: {}
+[28.428572] (micro_ros_agent) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o\x1b[0m\n'}
+[28.476350] (-) TimerEvent: {}
+[28.587334] (-) TimerEvent: {}
+[28.688120] (-) TimerEvent: {}
+[28.795945] (-) TimerEvent: {}
+[28.896599] (-) TimerEvent: {}
+[29.008473] (-) TimerEvent: {}
+[29.110090] (-) TimerEvent: {}
+[29.213656] (-) TimerEvent: {}
+[29.322547] (-) TimerEvent: {}
+[29.423092] (-) TimerEvent: {}
+[29.523661] (-) TimerEvent: {}
+[29.700741] (-) TimerEvent: {}
+[29.805559] (-) TimerEvent: {}
+[29.910027] (-) TimerEvent: {}
+[30.015641] (-) TimerEvent: {}
+[30.118076] (-) TimerEvent: {}
+[30.231807] (-) TimerEvent: {}
+[30.333890] (-) TimerEvent: {}
+[30.434932] (-) TimerEvent: {}
+[30.549878] (-) TimerEvent: {}
+[30.653569] (-) TimerEvent: {}
+[30.754478] (-) TimerEvent: {}
+[30.855105] (-) TimerEvent: {}
+[30.971150] (-) TimerEvent: {}
+[31.086399] (-) TimerEvent: {}
+[31.186998] (-) TimerEvent: {}
+[31.236721] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o\x1b[0m\n'}
+[31.287182] (-) TimerEvent: {}
+[31.402106] (-) TimerEvent: {}
+[31.503594] (-) TimerEvent: {}
+[31.619302] (-) TimerEvent: {}
+[31.719868] (-) TimerEvent: {}
+[31.850922] (-) TimerEvent: {}
+[31.951503] (-) TimerEvent: {}
+[32.056794] (-) TimerEvent: {}
+[32.157338] (-) TimerEvent: {}
+[32.261643] (-) TimerEvent: {}
+[32.364298] (-) TimerEvent: {}
+[32.464931] (-) TimerEvent: {}
+[32.568232] (-) TimerEvent: {}
+[32.669404] (-) TimerEvent: {}
+[32.781258] (-) TimerEvent: {}
+[32.881888] (-) TimerEvent: {}
+[32.989232] (-) TimerEvent: {}
+[33.100531] (-) TimerEvent: {}
+[33.204400] (-) TimerEvent: {}
+[33.338220] (-) TimerEvent: {}
+[33.452016] (-) TimerEvent: {}
+[33.559985] (-) TimerEvent: {}
+[33.662896] (-) TimerEvent: {}
+[33.763570] (-) TimerEvent: {}
+[33.878292] (-) TimerEvent: {}
+[33.987230] (-) TimerEvent: {}
+[34.090061] (-) TimerEvent: {}
+[34.191700] (-) TimerEvent: {}
+[34.224686] (micro_ros_agent) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o\x1b[0m\n'}
+[34.291916] (-) TimerEvent: {}
+[34.307489] (micro_ros_agent) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o\x1b[0m\n'}
+[34.400673] (-) TimerEvent: {}
+[34.510120] (-) TimerEvent: {}
+[34.648579] (-) TimerEvent: {}
+[34.750969] (-) TimerEvent: {}
+[34.854644] (-) TimerEvent: {}
+[34.964488] (-) TimerEvent: {}
+[35.065644] (-) TimerEvent: {}
+[35.166468] (-) TimerEvent: {}
+[35.281235] (-) TimerEvent: {}
+[35.381911] (-) TimerEvent: {}
+[35.495724] (-) TimerEvent: {}
+[35.596399] (-) TimerEvent: {}
+[35.715705] (-) TimerEvent: {}
+[35.817431] (-) TimerEvent: {}
+[35.855157] (micro_ros_agent) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o\x1b[0m\n'}
+[35.922064] (-) TimerEvent: {}
+[36.031986] (-) TimerEvent: {}
+[36.132574] (-) TimerEvent: {}
+[36.247046] (-) TimerEvent: {}
+[36.351666] (-) TimerEvent: {}
+[36.452631] (-) TimerEvent: {}
+[36.566733] (-) TimerEvent: {}
+[36.671197] (-) TimerEvent: {}
+[36.781912] (-) TimerEvent: {}
+[36.882632] (-) TimerEvent: {}
+[36.993362] (-) TimerEvent: {}
+[37.093898] (-) TimerEvent: {}
+[37.194501] (-) TimerEvent: {}
+[37.328744] (-) TimerEvent: {}
+[37.429405] (-) TimerEvent: {}
+[37.542687] (-) TimerEvent: {}
+[37.657776] (-) TimerEvent: {}
+[37.761423] (-) TimerEvent: {}
+[37.870501] (-) TimerEvent: {}
+[37.971192] (-) TimerEvent: {}
+[38.072104] (-) TimerEvent: {}
+[38.174234] (-) TimerEvent: {}
+[38.274938] (-) TimerEvent: {}
+[38.402511] (-) TimerEvent: {}
+[38.507932] (-) TimerEvent: {}
+[38.608810] (-) TimerEvent: {}
+[38.709480] (-) TimerEvent: {}
+[38.820862] (-) TimerEvent: {}
+[38.924832] (-) TimerEvent: {}
+[39.059952] (-) TimerEvent: {}
+[39.160835] (-) TimerEvent: {}
+[39.263455] (-) TimerEvent: {}
+[39.366651] (-) TimerEvent: {}
+[39.467294] (-) TimerEvent: {}
+[39.567990] (-) TimerEvent: {}
+[39.680200] (-) TimerEvent: {}
+[39.783842] (-) TimerEvent: {}
+[39.897275] (-) TimerEvent: {}
+[40.000938] (-) TimerEvent: {}
+[40.103590] (-) TimerEvent: {}
+[40.206166] (micro_ros_agent) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o\x1b[0m\n'}
+[40.206679] (-) TimerEvent: {}
+[40.307168] (-) TimerEvent: {}
+[40.397640] (micro_ros_agent) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o\x1b[0m\n'}
+[40.413489] (-) TimerEvent: {}
+[40.514076] (-) TimerEvent: {}
+[40.614844] (-) TimerEvent: {}
+[40.715638] (-) TimerEvent: {}
+[40.818941] (-) TimerEvent: {}
+[40.919602] (-) TimerEvent: {}
+[41.020244] (-) TimerEvent: {}
+[41.127228] (-) TimerEvent: {}
+[41.211304] (micro_ros_agent) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o\x1b[0m\n'}
+[41.227412] (-) TimerEvent: {}
+[41.340873] (-) TimerEvent: {}
+[41.441415] (-) TimerEvent: {}
+[41.541962] (-) TimerEvent: {}
+[41.657615] (-) TimerEvent: {}
+[41.759235] (-) TimerEvent: {}
+[41.903313] (-) TimerEvent: {}
+[42.007574] (-) TimerEvent: {}
+[42.110717] (-) TimerEvent: {}
+[42.212411] (-) TimerEvent: {}
+[42.314631] (-) TimerEvent: {}
+[42.416124] (-) TimerEvent: {}
+[42.516754] (-) TimerEvent: {}
+[42.617501] (-) TimerEvent: {}
+[42.721288] (-) TimerEvent: {}
+[42.823564] (-) TimerEvent: {}
+[42.924392] (-) TimerEvent: {}
+[43.026127] (-) TimerEvent: {}
+[43.126792] (-) TimerEvent: {}
+[43.229674] (-) TimerEvent: {}
+[43.332182] (-) TimerEvent: {}
+[43.433339] (-) TimerEvent: {}
+[43.535409] (-) TimerEvent: {}
+[43.636328] (-) TimerEvent: {}
+[43.739175] (-) TimerEvent: {}
+[43.847319] (-) TimerEvent: {}
+[43.947967] (-) TimerEvent: {}
+[44.048572] (-) TimerEvent: {}
+[44.150130] (-) TimerEvent: {}
+[44.253429] (-) TimerEvent: {}
+[44.354180] (-) TimerEvent: {}
+[44.457350] (-) TimerEvent: {}
+[44.571025] (-) TimerEvent: {}
+[44.671718] (-) TimerEvent: {}
+[44.774518] (-) TimerEvent: {}
+[44.875726] (-) TimerEvent: {}
+[44.976917] (-) TimerEvent: {}
+[45.078098] (-) TimerEvent: {}
+[45.178983] (-) TimerEvent: {}
+[45.280215] (-) TimerEvent: {}
+[45.381406] (-) TimerEvent: {}
+[45.482565] (-) TimerEvent: {}
+[45.583810] (-) TimerEvent: {}
+[45.684945] (-) TimerEvent: {}
+[45.786088] (-) TimerEvent: {}
+[45.887419] (-) TimerEvent: {}
+[45.988657] (-) TimerEvent: {}
+[46.089817] (-) TimerEvent: {}
+[46.193319] (-) TimerEvent: {}
+[46.294333] (-) TimerEvent: {}
+[46.395334] (-) TimerEvent: {}
+[46.496367] (-) TimerEvent: {}
+[46.597156] (-) TimerEvent: {}
+[46.699896] (-) TimerEvent: {}
+[46.800667] (-) TimerEvent: {}
+[46.902389] (-) TimerEvent: {}
+[47.003276] (-) TimerEvent: {}
+[47.104067] (-) TimerEvent: {}
+[47.206112] (-) TimerEvent: {}
+[47.306908] (-) TimerEvent: {}
+[47.407946] (-) TimerEvent: {}
+[47.509021] (-) TimerEvent: {}
+[47.610102] (-) TimerEvent: {}
+[47.711155] (-) TimerEvent: {}
+[47.812239] (-) TimerEvent: {}
+[47.913222] (-) TimerEvent: {}
+[48.014235] (-) TimerEvent: {}
+[48.115259] (-) TimerEvent: {}
+[48.216403] (-) TimerEvent: {}
+[48.317344] (-) TimerEvent: {}
+[48.418271] (-) TimerEvent: {}
+[48.519083] (-) TimerEvent: {}
+[48.620214] (-) TimerEvent: {}
+[48.721027] (-) TimerEvent: {}
+[48.822102] (-) TimerEvent: {}
+[48.923127] (-) TimerEvent: {}
+[49.024146] (-) TimerEvent: {}
+[49.125294] (-) TimerEvent: {}
+[49.226367] (-) TimerEvent: {}
+[49.327163] (-) TimerEvent: {}
+[49.428162] (-) TimerEvent: {}
+[49.529150] (-) TimerEvent: {}
+[49.630190] (-) TimerEvent: {}
+[49.731111] (-) TimerEvent: {}
+[49.864714] (-) TimerEvent: {}
+[49.965579] (-) TimerEvent: {}
+[50.066563] (-) TimerEvent: {}
+[50.167618] (-) TimerEvent: {}
+[50.268588] (-) TimerEvent: {}
+[50.369594] (-) TimerEvent: {}
+[50.470697] (-) TimerEvent: {}
+[50.571660] (-) TimerEvent: {}
+[50.672686] (-) TimerEvent: {}
+[50.773722] (-) TimerEvent: {}
+[50.875150] (-) TimerEvent: {}
+[50.976183] (-) TimerEvent: {}
+[51.077012] (-) TimerEvent: {}
+[51.178038] (-) TimerEvent: {}
+[51.278878] (-) TimerEvent: {}
+[51.379824] (-) TimerEvent: {}
+[51.480816] (-) TimerEvent: {}
+[51.581638] (-) TimerEvent: {}
+[51.682594] (-) TimerEvent: {}
+[51.783426] (-) TimerEvent: {}
+[51.884415] (-) TimerEvent: {}
+[51.985300] (-) TimerEvent: {}
+[52.086364] (-) TimerEvent: {}
+[52.187378] (-) TimerEvent: {}
+[52.288328] (-) TimerEvent: {}
+[52.389279] (-) TimerEvent: {}
+[52.490313] (-) TimerEvent: {}
+[52.591294] (-) TimerEvent: {}
+[52.692231] (-) TimerEvent: {}
+[52.793023] (-) TimerEvent: {}
+[52.893910] (-) TimerEvent: {}
+[52.994805] (-) TimerEvent: {}
+[53.095808] (-) TimerEvent: {}
+[53.196899] (-) TimerEvent: {}
+[53.297901] (-) TimerEvent: {}
+[53.398771] (-) TimerEvent: {}
+[53.499616] (-) TimerEvent: {}
+[53.600639] (-) TimerEvent: {}
+[53.701584] (-) TimerEvent: {}
+[53.802479] (-) TimerEvent: {}
+[53.903640] (-) TimerEvent: {}
+[54.004530] (-) TimerEvent: {}
+[54.105637] (-) TimerEvent: {}
+[54.206559] (-) TimerEvent: {}
+[54.307340] (-) TimerEvent: {}
+[54.407928] (-) TimerEvent: {}
+[54.508494] (-) TimerEvent: {}
+[54.608987] (-) TimerEvent: {}
+[54.709505] (-) TimerEvent: {}
+[54.810078] (-) TimerEvent: {}
+[54.910625] (-) TimerEvent: {}
+[55.011187] (-) TimerEvent: {}
+[55.111695] (-) TimerEvent: {}
+[55.212175] (-) TimerEvent: {}
+[55.312695] (-) TimerEvent: {}
+[55.413155] (-) TimerEvent: {}
+[55.513661] (-) TimerEvent: {}
+[55.614167] (-) TimerEvent: {}
+[55.714626] (-) TimerEvent: {}
+[55.815037] (-) TimerEvent: {}
+[55.915519] (-) TimerEvent: {}
+[56.015927] (-) TimerEvent: {}
+[56.116454] (-) TimerEvent: {}
+[56.216777] (-) TimerEvent: {}
+[56.317207] (-) TimerEvent: {}
+[56.417633] (-) TimerEvent: {}
+[56.518021] (-) TimerEvent: {}
+[56.618415] (-) TimerEvent: {}
+[56.718900] (-) TimerEvent: {}
+[56.819411] (-) TimerEvent: {}
+[56.919792] (-) TimerEvent: {}
+[57.020190] (-) TimerEvent: {}
+[57.120614] (-) TimerEvent: {}
+[57.221081] (-) TimerEvent: {}
+[57.321528] (-) TimerEvent: {}
+[57.422010] (-) TimerEvent: {}
+[57.522436] (-) TimerEvent: {}
+[57.622907] (-) TimerEvent: {}
+[57.723289] (-) TimerEvent: {}
+[57.823692] (-) TimerEvent: {}
+[57.924164] (-) TimerEvent: {}
+[57.943969] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmicroxrcedds_agent.so\x1b[0m\n'}
+[58.024441] (-) TimerEvent: {}
+[58.125042] (-) TimerEvent: {}
+[58.225545] (-) TimerEvent: {}
+[58.325983] (-) TimerEvent: {}
+[58.426532] (-) TimerEvent: {}
+[58.526956] (-) TimerEvent: {}
+[58.627377] (-) TimerEvent: {}
+[58.727871] (-) TimerEvent: {}
+[58.828427] (-) TimerEvent: {}
+[58.928869] (-) TimerEvent: {}
+[59.006239] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[59.029199] (-) TimerEvent: {}
+[59.060914] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming install step for 'xrceagent'\x1b[0m\n"}
+[59.096604] (micro_ros_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target microxrcedds_agent\x1b[0m\n'}
+[59.129262] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[59.129455] (-) TimerEvent: {}
+[59.139102] (micro_ros_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[59.143698] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[59.143891] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1\n'}
+[59.146557] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[59.146812] (micro_ros_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1" to ""\n'}
+[59.146901] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so\n'}
+[59.147025] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent\n'}
+[59.147680] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/datareader\n'}
+[59.148059] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[59.148498] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/participant\n'}
+[59.148613] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[59.148656] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/scheduler\n'}
+[59.148817] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[59.148877] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[59.148914] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/object\n'}
+[59.148947] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[59.149083] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/datawriter\n'}
+[59.149138] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[59.149173] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/subscriber\n'}
+[59.149206] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[59.149326] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp\n'}
+[59.149380] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/topic\n'}
+[59.149416] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[59.149450] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/message\n'}
+[59.149563] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp\n'}
+[59.149618] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[59.149658] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[59.149692] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/types\n'}
+[59.149831] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[59.149891] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[59.149927] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[59.150189] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[59.150284] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp\n'}
+[59.150417] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware\n'}
+[59.150478] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast\n'}
+[59.150517] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[59.150633] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[59.150690] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[59.150730] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced\n'}
+[59.150851] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[59.150908] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[59.150946] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds\n'}
+[59.151083] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[59.151142] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[59.151179] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils\n'}
+[59.151295] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[59.151353] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[59.151473] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/logger\n'}
+[59.151529] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[59.151568] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp\n'}
+[59.151682] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/reader\n'}
+[59.151740] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[59.151862] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport\n'}
+[59.151918] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp\n'}
+[59.151955] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[59.152069] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp\n'}
+[59.152123] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[59.152160] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[59.152272] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[59.152327] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[59.152363] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/util\n'}
+[59.152475] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[59.152532] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[59.152570] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp\n'}
+[59.152657] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[59.152711] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[59.152834] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[59.152895] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[59.153010] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[59.153068] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[59.153105] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint\n'}
+[59.153238] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[59.153298] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[59.153335] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[59.153452] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[59.153525] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[59.153563] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[59.153599] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing\n'}
+[59.153771] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[59.153827] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/custom\n'}
+[59.153863] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[59.153905] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[59.154149] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial\n'}
+[59.154233] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[59.154775] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[59.154846] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[59.154884] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[59.154918] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[59.154950] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[59.154983] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p\n'}
+[59.155015] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[59.155304] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[59.155362] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/can\n'}
+[59.155401] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[59.155435] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery\n'}
+[59.155467] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[59.155631] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[59.155687] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[59.155724] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/p2p\n'}
+[59.155757] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[59.155789] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[59.155820] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/client\n'}
+[59.155981] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[59.156038] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/client/session\n'}
+[59.156075] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[59.156108] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[59.156348] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream\n'}
+[59.156410] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[59.156446] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[59.156480] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/utils\n'}
+[59.156649] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[59.156705] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[59.156742] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[59.156777] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[59.156941] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp\n'}
+[59.156997] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[59.157036] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp\n'}
+[59.157070] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[59.157104] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[59.157269] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp\n'}
+[59.157327] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/replier\n'}
+[59.157364] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[59.157398] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/processor\n'}
+[59.157431] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[59.157614] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/requester\n'}
+[59.157672] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[59.157709] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/publisher\n'}
+[59.157743] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[59.157889] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[59.158056] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[59.158120] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/include/uxr/agent/config.hpp\n'}
+[59.158275] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE\n'}
+[59.158331] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[59.158369] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[59.170159] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mCompleted 'xrceagent'\x1b[0m\n"}
+[59.186773] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target xrceagent\n'}
+[59.203128] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'micro_ros_agent'\x1b[0m\n"}
+[59.229663] (-) TimerEvent: {}
+[59.252752] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'micro_ros_agent'\x1b[0m\n"}
+[59.267436] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'micro_ros_agent'\x1b[0m\n"}
+[59.279745] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'micro_ros_agent'\x1b[0m\n"}
+[59.291301] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'micro_ros_agent'\x1b[0m\n"}
+[59.295607] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake\n'}
+[59.300681] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[59.329815] (-) TimerEvent: {}
+[59.430218] (-) TimerEvent: {}
+[59.497092] (micro_ros_agent) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[59.530518] (-) TimerEvent: {}
+[59.630936] (-) TimerEvent: {}
+[59.731304] (-) TimerEvent: {}
+[59.831681] (-) TimerEvent: {}
+[59.932055] (-) TimerEvent: {}
+[60.032429] (-) TimerEvent: {}
+[60.132862] (-) TimerEvent: {}
+[60.233258] (-) TimerEvent: {}
+[60.333660] (-) TimerEvent: {}
+[60.434049] (-) TimerEvent: {}
+[60.534451] (-) TimerEvent: {}
+[60.634840] (-) TimerEvent: {}
+[60.735283] (-) TimerEvent: {}
+[60.835689] (-) TimerEvent: {}
+[60.936111] (-) TimerEvent: {}
+[61.036565] (-) TimerEvent: {}
+[61.136984] (-) TimerEvent: {}
+[61.237492] (-) TimerEvent: {}
+[61.337916] (-) TimerEvent: {}
+[61.438332] (-) TimerEvent: {}
+[61.538751] (-) TimerEvent: {}
+[61.639221] (-) TimerEvent: {}
+[61.739652] (-) TimerEvent: {}
+[61.840074] (-) TimerEvent: {}
+[61.940585] (-) TimerEvent: {}
+[62.040997] (-) TimerEvent: {}
+[62.141440] (-) TimerEvent: {}
+[62.241907] (-) TimerEvent: {}
+[62.342322] (-) TimerEvent: {}
+[62.442729] (-) TimerEvent: {}
+[62.543159] (-) TimerEvent: {}
+[62.643605] (-) TimerEvent: {}
+[62.744192] (-) TimerEvent: {}
+[62.844761] (-) TimerEvent: {}
+[62.945275] (-) TimerEvent: {}
+[63.045625] (-) TimerEvent: {}
+[63.146030] (-) TimerEvent: {}
+[63.246579] (-) TimerEvent: {}
+[63.347043] (-) TimerEvent: {}
+[63.447530] (-) TimerEvent: {}
+[63.547997] (-) TimerEvent: {}
+[63.648441] (-) TimerEvent: {}
+[63.748789] (-) TimerEvent: {}
+[63.849268] (-) TimerEvent: {}
+[63.949649] (-) TimerEvent: {}
+[64.050030] (-) TimerEvent: {}
+[64.150369] (-) TimerEvent: {}
+[64.250705] (-) TimerEvent: {}
+[64.351094] (-) TimerEvent: {}
+[64.451506] (-) TimerEvent: {}
+[64.551918] (-) TimerEvent: {}
+[64.652319] (-) TimerEvent: {}
+[64.752957] (-) TimerEvent: {}
+[64.853398] (-) TimerEvent: {}
+[64.953822] (-) TimerEvent: {}
+[65.054320] (-) TimerEvent: {}
+[65.154848] (-) TimerEvent: {}
+[65.255382] (-) TimerEvent: {}
+[65.355917] (-) TimerEvent: {}
+[65.456360] (-) TimerEvent: {}
+[65.556791] (-) TimerEvent: {}
+[65.657219] (-) TimerEvent: {}
+[65.757624] (-) TimerEvent: {}
+[65.858190] (-) TimerEvent: {}
+[65.958605] (-) TimerEvent: {}
+[66.059044] (-) TimerEvent: {}
+[66.159459] (-) TimerEvent: {}
+[66.260039] (-) TimerEvent: {}
+[66.360483] (-) TimerEvent: {}
+[66.460908] (-) TimerEvent: {}
+[66.561334] (-) TimerEvent: {}
+[66.661761] (-) TimerEvent: {}
+[66.762210] (-) TimerEvent: {}
+[66.862677] (-) TimerEvent: {}
+[66.963113] (-) TimerEvent: {}
+[67.063529] (-) TimerEvent: {}
+[67.163868] (-) TimerEvent: {}
+[67.264331] (-) TimerEvent: {}
+[67.364847] (-) TimerEvent: {}
+[67.465454] (-) TimerEvent: {}
+[67.565907] (-) TimerEvent: {}
+[67.666347] (-) TimerEvent: {}
+[67.766756] (-) TimerEvent: {}
+[67.867206] (-) TimerEvent: {}
+[67.967625] (-) TimerEvent: {}
+[68.068099] (-) TimerEvent: {}
+[68.168611] (-) TimerEvent: {}
+[68.269060] (-) TimerEvent: {}
+[68.369442] (-) TimerEvent: {}
+[68.469851] (-) TimerEvent: {}
+[68.570375] (-) TimerEvent: {}
+[68.670853] (-) TimerEvent: {}
+[68.771307] (-) TimerEvent: {}
+[68.871732] (-) TimerEvent: {}
+[68.972178] (-) TimerEvent: {}
+[69.072577] (-) TimerEvent: {}
+[69.172946] (-) TimerEvent: {}
+[69.273429] (-) TimerEvent: {}
+[69.373921] (-) TimerEvent: {}
+[69.474349] (-) TimerEvent: {}
+[69.574743] (-) TimerEvent: {}
+[69.675119] (-) TimerEvent: {}
+[69.775506] (-) TimerEvent: {}
+[69.875956] (-) TimerEvent: {}
+[69.976333] (-) TimerEvent: {}
+[70.076704] (-) TimerEvent: {}
+[70.177171] (-) TimerEvent: {}
+[70.277704] (-) TimerEvent: {}
+[70.378229] (-) TimerEvent: {}
+[70.478717] (-) TimerEvent: {}
+[70.579090] (-) TimerEvent: {}
+[70.679589] (-) TimerEvent: {}
+[70.780037] (-) TimerEvent: {}
+[70.880525] (-) TimerEvent: {}
+[70.980987] (-) TimerEvent: {}
+[71.081517] (-) TimerEvent: {}
+[71.182137] (-) TimerEvent: {}
+[71.282651] (-) TimerEvent: {}
+[71.383086] (-) TimerEvent: {}
+[71.483699] (-) TimerEvent: {}
+[71.584122] (-) TimerEvent: {}
+[71.684576] (-) TimerEvent: {}
+[71.785039] (-) TimerEvent: {}
+[71.885517] (-) TimerEvent: {}
+[71.985993] (-) TimerEvent: {}
+[72.086413] (-) TimerEvent: {}
+[72.186924] (-) TimerEvent: {}
+[72.287379] (-) TimerEvent: {}
+[72.387815] (-) TimerEvent: {}
+[72.488527] (-) TimerEvent: {}
+[72.531805] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[72.539583] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[72.588856] (-) TimerEvent: {}
+[72.689394] (-) TimerEvent: {}
+[72.789881] (-) TimerEvent: {}
+[72.890415] (-) TimerEvent: {}
+[72.990837] (-) TimerEvent: {}
+[73.091211] (-) TimerEvent: {}
+[73.191581] (-) TimerEvent: {}
+[73.291958] (-) TimerEvent: {}
+[73.392759] (-) TimerEvent: {}
+[73.394159] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[73.395392] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[73.493022] (-) TimerEvent: {}
+[73.593520] (-) TimerEvent: {}
+[73.694135] (-) TimerEvent: {}
+[73.794629] (-) TimerEvent: {}
+[73.894990] (-) TimerEvent: {}
+[73.995412] (-) TimerEvent: {}
+[74.095830] (-) TimerEvent: {}
+[74.173966] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[74.175142] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[74.178776] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 4.0.1 (/opt/ros/iron/share/rosidl_cmake/cmake)\n'}
+[74.180983] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[74.195956] (-) TimerEvent: {}
+[74.296405] (-) TimerEvent: {}
+[74.396793] (-) TimerEvent: {}
+[74.497267] (-) TimerEvent: {}
+[74.597666] (-) TimerEvent: {}
+[74.698032] (-) TimerEvent: {}
+[74.798472] (-) TimerEvent: {}
+[74.898856] (-) TimerEvent: {}
+[74.999240] (-) TimerEvent: {}
+[75.099626] (-) TimerEvent: {}
+[75.200231] (-) TimerEvent: {}
+[75.300751] (-) TimerEvent: {}
+[75.401136] (-) TimerEvent: {}
+[75.501805] (-) TimerEvent: {}
+[75.602281] (-) TimerEvent: {}
+[75.702689] (-) TimerEvent: {}
+[75.803082] (-) TimerEvent: {}
+[75.903546] (-) TimerEvent: {}
+[76.004101] (-) TimerEvent: {}
+[76.104607] (-) TimerEvent: {}
+[76.205263] (-) TimerEvent: {}
+[76.305948] (-) TimerEvent: {}
+[76.406502] (-) TimerEvent: {}
+[76.507047] (-) TimerEvent: {}
+[76.607502] (-) TimerEvent: {}
+[76.708068] (-) TimerEvent: {}
+[76.808515] (-) TimerEvent: {}
+[76.909012] (-) TimerEvent: {}
+[77.009442] (-) TimerEvent: {}
+[77.110012] (-) TimerEvent: {}
+[77.210438] (-) TimerEvent: {}
+[77.310933] (-) TimerEvent: {}
+[77.411383] (-) TimerEvent: {}
+[77.511884] (-) TimerEvent: {}
+[77.612543] (-) TimerEvent: {}
+[77.713001] (-) TimerEvent: {}
+[77.813438] (-) TimerEvent: {}
+[77.913951] (-) TimerEvent: {}
+[78.014468] (-) TimerEvent: {}
+[78.115003] (-) TimerEvent: {}
+[78.215571] (-) TimerEvent: {}
+[78.316007] (-) TimerEvent: {}
+[78.416478] (-) TimerEvent: {}
+[78.516904] (-) TimerEvent: {}
+[78.617370] (-) TimerEvent: {}
+[78.717934] (-) TimerEvent: {}
+[78.818539] (-) TimerEvent: {}
+[78.919065] (-) TimerEvent: {}
+[79.019600] (-) TimerEvent: {}
+[79.120094] (-) TimerEvent: {}
+[79.220550] (-) TimerEvent: {}
+[79.321000] (-) TimerEvent: {}
+[79.421427] (-) TimerEvent: {}
+[79.521855] (-) TimerEvent: {}
+[79.622284] (-) TimerEvent: {}
+[79.722775] (-) TimerEvent: {}
+[79.823345] (-) TimerEvent: {}
+[79.923807] (-) TimerEvent: {}
+[80.024399] (-) TimerEvent: {}
+[80.124908] (-) TimerEvent: {}
+[80.225530] (-) TimerEvent: {}
+[80.326030] (-) TimerEvent: {}
+[80.426510] (-) TimerEvent: {}
+[80.526958] (-) TimerEvent: {}
+[80.627451] (-) TimerEvent: {}
+[80.727911] (-) TimerEvent: {}
+[80.828544] (-) TimerEvent: {}
+[80.929011] (-) TimerEvent: {}
+[81.029458] (-) TimerEvent: {}
+[81.129994] (-) TimerEvent: {}
+[81.230453] (-) TimerEvent: {}
+[81.330959] (-) TimerEvent: {}
+[81.431411] (-) TimerEvent: {}
+[81.531846] (-) TimerEvent: {}
+[81.632299] (-) TimerEvent: {}
+[81.732815] (-) TimerEvent: {}
+[81.833286] (-) TimerEvent: {}
+[81.933740] (-) TimerEvent: {}
+[82.034224] (-) TimerEvent: {}
+[82.134667] (-) TimerEvent: {}
+[82.235126] (-) TimerEvent: {}
+[82.335567] (-) TimerEvent: {}
+[82.436007] (-) TimerEvent: {}
+[82.536491] (-) TimerEvent: {}
+[82.636961] (-) TimerEvent: {}
+[82.737443] (-) TimerEvent: {}
+[82.837955] (-) TimerEvent: {}
+[82.938405] (-) TimerEvent: {}
+[83.039019] (-) TimerEvent: {}
+[83.139563] (-) TimerEvent: {}
+[83.161210] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 3.0.1 (/opt/ros/iron/share/fastrtps_cmake_module/cmake)\n'}
+[83.168058] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 2.0.1 (/opt/ros/iron/share/rmw_dds_common/cmake)\n'}
+[83.239832] (-) TimerEvent: {}
+[83.340386] (-) TimerEvent: {}
+[83.440892] (-) TimerEvent: {}
+[83.541405] (-) TimerEvent: {}
+[83.641918] (-) TimerEvent: {}
+[83.742391] (-) TimerEvent: {}
+[83.843006] (-) TimerEvent: {}
+[83.943477] (-) TimerEvent: {}
+[84.044163] (-) TimerEvent: {}
+[84.144707] (-) TimerEvent: {}
+[84.245316] (-) TimerEvent: {}
+[84.266113] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[84.294776] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[84.313570] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[84.345485] (-) TimerEvent: {}
+[84.348115] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[84.405098] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[84.445645] (-) TimerEvent: {}
+[84.546100] (-) TimerEvent: {}
+[84.646634] (-) TimerEvent: {}
+[84.747157] (-) TimerEvent: {}
+[84.847620] (-) TimerEvent: {}
+[84.948074] (-) TimerEvent: {}
+[85.048564] (-) TimerEvent: {}
+[85.148981] (-) TimerEvent: {}
+[85.249533] (-) TimerEvent: {}
+[85.349942] (-) TimerEvent: {}
+[85.450393] (-) TimerEvent: {}
+[85.550968] (-) TimerEvent: {}
+[85.651377] (-) TimerEvent: {}
+[85.751839] (-) TimerEvent: {}
+[85.852455] (-) TimerEvent: {}
+[85.953046] (-) TimerEvent: {}
+[86.053591] (-) TimerEvent: {}
+[86.154080] (-) TimerEvent: {}
+[86.254542] (-) TimerEvent: {}
+[86.355083] (-) TimerEvent: {}
+[86.455587] (-) TimerEvent: {}
+[86.556042] (-) TimerEvent: {}
+[86.656517] (-) TimerEvent: {}
+[86.757009] (-) TimerEvent: {}
+[86.857472] (-) TimerEvent: {}
+[86.957925] (-) TimerEvent: {}
+[87.058377] (-) TimerEvent: {}
+[87.159020] (-) TimerEvent: {}
+[87.259498] (-) TimerEvent: {}
+[87.359911] (-) TimerEvent: {}
+[87.460329] (-) TimerEvent: {}
+[87.560757] (-) TimerEvent: {}
+[87.661152] (-) TimerEvent: {}
+[87.761702] (-) TimerEvent: {}
+[87.862204] (-) TimerEvent: {}
+[87.962648] (-) TimerEvent: {}
+[88.063059] (-) TimerEvent: {}
+[88.163484] (-) TimerEvent: {}
+[88.263883] (-) TimerEvent: {}
+[88.364339] (-) TimerEvent: {}
+[88.464750] (-) TimerEvent: {}
+[88.565265] (-) TimerEvent: {}
+[88.665671] (-) TimerEvent: {}
+[88.766049] (-) TimerEvent: {}
+[88.866475] (-) TimerEvent: {}
+[88.966968] (-) TimerEvent: {}
+[89.067375] (-) TimerEvent: {}
+[89.167863] (-) TimerEvent: {}
+[89.268451] (-) TimerEvent: {}
+[89.368931] (-) TimerEvent: {}
+[89.469344] (-) TimerEvent: {}
+[89.569793] (-) TimerEvent: {}
+[89.670295] (-) TimerEvent: {}
+[89.770691] (-) TimerEvent: {}
+[89.871080] (-) TimerEvent: {}
+[89.971540] (-) TimerEvent: {}
+[90.071962] (-) TimerEvent: {}
+[90.172556] (-) TimerEvent: {}
+[90.273084] (-) TimerEvent: {}
+[90.373567] (-) TimerEvent: {}
+[90.473973] (-) TimerEvent: {}
+[90.574402] (-) TimerEvent: {}
+[90.674868] (-) TimerEvent: {}
+[90.775303] (-) TimerEvent: {}
+[90.875861] (-) TimerEvent: {}
+[90.976314] (-) TimerEvent: {}
+[91.076740] (-) TimerEvent: {}
+[91.177232] (-) TimerEvent: {}
+[91.277697] (-) TimerEvent: {}
+[91.378163] (-) TimerEvent: {}
+[91.478570] (-) TimerEvent: {}
+[91.579056] (-) TimerEvent: {}
+[91.679482] (-) TimerEvent: {}
+[91.779872] (-) TimerEvent: {}
+[91.880261] (-) TimerEvent: {}
+[91.980651] (-) TimerEvent: {}
+[92.081120] (-) TimerEvent: {}
+[92.181663] (-) TimerEvent: {}
+[92.282150] (-) TimerEvent: {}
+[92.382726] (-) TimerEvent: {}
+[92.483263] (-) TimerEvent: {}
+[92.583690] (-) TimerEvent: {}
+[92.684192] (-) TimerEvent: {}
+[92.784619] (-) TimerEvent: {}
+[92.885088] (-) TimerEvent: {}
+[92.985576] (-) TimerEvent: {}
+[93.086035] (-) TimerEvent: {}
+[93.186540] (-) TimerEvent: {}
+[93.287043] (-) TimerEvent: {}
+[93.387622] (-) TimerEvent: {}
+[93.488131] (-) TimerEvent: {}
+[93.588601] (-) TimerEvent: {}
+[93.689243] (-) TimerEvent: {}
+[93.789739] (-) TimerEvent: {}
+[93.890242] (-) TimerEvent: {}
+[93.990713] (-) TimerEvent: {}
+[94.091187] (-) TimerEvent: {}
+[94.191763] (-) TimerEvent: {}
+[94.292269] (-) TimerEvent: {}
+[94.392707] (-) TimerEvent: {}
+[94.493161] (-) TimerEvent: {}
+[94.593640] (-) TimerEvent: {}
+[94.694119] (-) TimerEvent: {}
+[94.794667] (-) TimerEvent: {}
+[94.895362] (-) TimerEvent: {}
+[94.995996] (-) TimerEvent: {}
+[95.096535] (-) TimerEvent: {}
+[95.197092] (-) TimerEvent: {}
+[95.297555] (-) TimerEvent: {}
+[95.398058] (-) TimerEvent: {}
+[95.498617] (-) TimerEvent: {}
+[95.599108] (-) TimerEvent: {}
+[95.699558] (-) TimerEvent: {}
+[95.800138] (-) TimerEvent: {}
+[95.900621] (-) TimerEvent: {}
+[96.001052] (-) TimerEvent: {}
+[96.101541] (-) TimerEvent: {}
+[96.202077] (-) TimerEvent: {}
+[96.302552] (-) TimerEvent: {}
+[96.403085] (-) TimerEvent: {}
+[96.503541] (-) TimerEvent: {}
+[96.604008] (-) TimerEvent: {}
+[96.704492] (-) TimerEvent: {}
+[96.805042] (-) TimerEvent: {}
+[96.905490] (-) TimerEvent: {}
+[97.006008] (-) TimerEvent: {}
+[97.106513] (-) TimerEvent: {}
+[97.206973] (-) TimerEvent: {}
+[97.307434] (-) TimerEvent: {}
+[97.407973] (-) TimerEvent: {}
+[97.508507] (-) TimerEvent: {}
+[97.609103] (-) TimerEvent: {}
+[97.709688] (-) TimerEvent: {}
+[97.810250] (-) TimerEvent: {}
+[97.910719] (-) TimerEvent: {}
+[98.011170] (-) TimerEvent: {}
+[98.111812] (-) TimerEvent: {}
+[98.212309] (-) TimerEvent: {}
+[98.312812] (-) TimerEvent: {}
+[98.413396] (-) TimerEvent: {}
+[98.513992] (-) TimerEvent: {}
+[98.614445] (-) TimerEvent: {}
+[98.714911] (-) TimerEvent: {}
+[98.815350] (-) TimerEvent: {}
+[98.915817] (-) TimerEvent: {}
+[99.016316] (-) TimerEvent: {}
+[99.116744] (-) TimerEvent: {}
+[99.217174] (-) TimerEvent: {}
+[99.317679] (-) TimerEvent: {}
+[99.418245] (-) TimerEvent: {}
+[99.518910] (-) TimerEvent: {}
+[99.619546] (-) TimerEvent: {}
+[99.720050] (-) TimerEvent: {}
+[99.820562] (-) TimerEvent: {}
+[99.921025] (-) TimerEvent: {}
+[100.021602] (-) TimerEvent: {}
+[100.122067] (-) TimerEvent: {}
+[100.222506] (-) TimerEvent: {}
+[100.322951] (-) TimerEvent: {}
+[100.423416] (-) TimerEvent: {}
+[100.523888] (-) TimerEvent: {}
+[100.624378] (-) TimerEvent: {}
+[100.724818] (-) TimerEvent: {}
+[100.825321] (-) TimerEvent: {}
+[100.925848] (-) TimerEvent: {}
+[101.026313] (-) TimerEvent: {}
+[101.126820] (-) TimerEvent: {}
+[101.227280] (-) TimerEvent: {}
+[101.327729] (-) TimerEvent: {}
+[101.428181] (-) TimerEvent: {}
+[101.528644] (-) TimerEvent: {}
+[101.629058] (-) TimerEvent: {}
+[101.729561] (-) TimerEvent: {}
+[101.830027] (-) TimerEvent: {}
+[101.930515] (-) TimerEvent: {}
+[102.030942] (-) TimerEvent: {}
+[102.131473] (-) TimerEvent: {}
+[102.231989] (-) TimerEvent: {}
+[102.332447] (-) TimerEvent: {}
+[102.432903] (-) TimerEvent: {}
+[102.533348] (-) TimerEvent: {}
+[102.633841] (-) TimerEvent: {}
+[102.734391] (-) TimerEvent: {}
+[102.834909] (-) TimerEvent: {}
+[102.935535] (-) TimerEvent: {}
+[103.035998] (-) TimerEvent: {}
+[103.136548] (-) TimerEvent: {}
+[103.237123] (-) TimerEvent: {}
+[103.337603] (-) TimerEvent: {}
+[103.438071] (-) TimerEvent: {}
+[103.538655] (-) TimerEvent: {}
+[103.639110] (-) TimerEvent: {}
+[103.739654] (-) TimerEvent: {}
+[103.840226] (-) TimerEvent: {}
+[103.848636] (micro_ros_agent) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[103.887367] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[103.896824] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.0.3 (/opt/ros/iron/share/ament_cmake_gtest/cmake)\n'}
+[103.904254] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 4.0.0 (/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)\n'}
+[103.940404] (-) TimerEvent: {}
+[103.996659] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[104.012150] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[104.012297] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent\n'}
+[104.022274] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'micro_ros_agent'\x1b[0m\n"}
+[104.040699] (-) TimerEvent: {}
+[104.047166] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o\x1b[0m\n'}
+[104.047331] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o\x1b[0m\n'}
+[104.047374] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o\x1b[0m\n'}
+[104.057812] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o\x1b[0m\n'}
+[104.061199] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o\x1b[0m\n'}
+[104.144888] (-) TimerEvent: {}
+[104.245381] (-) TimerEvent: {}
+[104.345999] (-) TimerEvent: {}
+[104.446574] (-) TimerEvent: {}
+[104.547184] (-) TimerEvent: {}
+[104.647882] (-) TimerEvent: {}
+[104.748580] (-) TimerEvent: {}
+[104.849304] (-) TimerEvent: {}
+[104.949942] (-) TimerEvent: {}
+[105.050651] (-) TimerEvent: {}
+[105.151276] (-) TimerEvent: {}
+[105.251929] (-) TimerEvent: {}
+[105.352647] (-) TimerEvent: {}
+[105.453163] (-) TimerEvent: {}
+[105.553857] (-) TimerEvent: {}
+[105.654509] (-) TimerEvent: {}
+[105.755369] (-) TimerEvent: {}
+[105.856362] (-) TimerEvent: {}
+[105.957210] (-) TimerEvent: {}
+[106.058062] (-) TimerEvent: {}
+[106.158879] (-) TimerEvent: {}
+[106.259656] (-) TimerEvent: {}
+[106.360234] (-) TimerEvent: {}
+[106.460921] (-) TimerEvent: {}
+[106.561398] (-) TimerEvent: {}
+[106.661868] (-) TimerEvent: {}
+[106.762296] (-) TimerEvent: {}
+[106.862750] (-) TimerEvent: {}
+[106.963193] (-) TimerEvent: {}
+[107.063741] (-) TimerEvent: {}
+[107.164296] (-) TimerEvent: {}
+[107.264695] (-) TimerEvent: {}
+[107.365138] (-) TimerEvent: {}
+[107.465575] (-) TimerEvent: {}
+[107.566013] (-) TimerEvent: {}
+[107.666370] (-) TimerEvent: {}
+[107.730000] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable micro_ros_agent\x1b[0m\n'}
+[107.766498] (-) TimerEvent: {}
+[107.866961] (-) TimerEvent: {}
+[107.967392] (-) TimerEvent: {}
+[108.068178] (-) TimerEvent: {}
+[108.168596] (-) TimerEvent: {}
+[108.269122] (-) TimerEvent: {}
+[108.369674] (-) TimerEvent: {}
+[108.470266] (-) TimerEvent: {}
+[108.570736] (-) TimerEvent: {}
+[108.671107] (-) TimerEvent: {}
+[108.688203] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[108.707173] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'micro_ros_agent'\x1b[0m\n"}
+[108.724190] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'micro_ros_agent'\x1b[0m\n"}
+[108.747647] (micro_ros_agent) StdoutLine: {'line': b'Built target micro_ros_agent\n'}
+[108.756807] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[108.771307] (-) TimerEvent: {}
+[108.787277] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[108.787508] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent'], 'cwd': '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mondegrin'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/mondegrin'), ('OLDPWD', '/home/mondegrin/programs/slon'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mondegrin/programs/slon/microros_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mondegrin'), ('NAME', 'DESKTOP-2F6E5CH'), ('WSL_INTEROP', '/run/WSL/403_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('DONT_PROMPT_WSL_INSTALL', 'true'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/WinAVR-20100110/bin:/mnt/c/WinAVR-20100110/utils/bin:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Recovery/OEM/Backup/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Mondegrin/Downloads/curl-8.2.1_7-win64-mingw/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Mondegrin/.cargo/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Mondegrin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Mondegrin/go/bin:/mnt/c/Program Files/JetBrains/RustRover 233.8264.22/bin:/mnt/c/Users/Mondegrin/.dotnet/tools:/snap/bin'), ('WT_SESSION', 'bfaf7880-85c6-4458-8e10-49f9398ac91c'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs:/home/mondegrin/programs/slon/microros_ws/install/micro_ros_setup:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_agent'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs:/home/mondegrin/programs/slon/microros_ws/install/micro_ros_setup:/opt/ros/iron'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[108.793279] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[108.795550] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[108.795828] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[108.796199] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[108.797137] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[108.797255] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[108.797319] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[108.797369] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[108.797516] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[108.797615] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[108.797664] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[108.797712] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[108.797898] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[108.798354] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[108.798620] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[108.798705] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[108.798755] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[108.798935] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[108.800301] (micro_ros_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""\n'}
+[108.800408] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[108.800792] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[108.803817] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[108.871463] (-) TimerEvent: {}
+[108.964895] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[108.966554] (-) EventReactorShutdown: {}

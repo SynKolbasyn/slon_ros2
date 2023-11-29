@@ -1,0 +1,19 @@
+[33mCMake Warning at /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  CMakeLists.txt:26 (find_package)
+
+[0m
+In file included from [01m[K/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/rosidl_dynamic_typesupport/src/api/serialization_support.c:15[m[K:
+[01m[K/home/mondegrin/programs/slon/microros_ws/firmware/toolchain/esp-idf/components/newlib/platform_include/assert.h:24:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+ #[01;35m[Kinclude_next[m[K <assert.h>
+  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/rosidl_dynamic_typesupport/src/api/dynamic_data.c:17[m[K:
+[01m[K/home/mondegrin/programs/slon/microros_ws/firmware/toolchain/esp-idf/components/newlib/platform_include/assert.h:24:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+ #[01;35m[Kinclude_next[m[K <assert.h>
+  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/rosidl_dynamic_typesupport/src/api/dynamic_type.c:17[m[K:
+[01m[K/home/mondegrin/programs/slon/microros_ws/firmware/toolchain/esp-idf/components/newlib/platform_include/assert.h:24:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+ #[01;35m[Kinclude_next[m[K <assert.h>
+  [01;35m[K^~~~~~~~~~~~[m[K

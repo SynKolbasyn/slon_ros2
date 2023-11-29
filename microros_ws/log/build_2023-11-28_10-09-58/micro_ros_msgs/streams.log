@@ -1,0 +1,300 @@
+[0.030s] Invoking command in '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/mondegrin/programs/slon/microros_ws/src/uros/micro_ros_msgs -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs
+[0.035s] Not searching for unused variables given on the command line.
+[0.454s] -- The C compiler identification is GNU 11.4.0
+[2.973s] -- The CXX compiler identification is GNU 11.4.0
+[4.495s] -- Detecting C compiler ABI info
+[4.969s] -- Detecting C compiler ABI info - done
+[4.975s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.976s] -- Detecting C compile features
+[4.976s] -- Detecting C compile features - done
+[4.979s] -- Detecting CXX compiler ABI info
+[5.557s] -- Detecting CXX compiler ABI info - done
+[5.565s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.565s] -- Detecting CXX compile features
+[5.565s] -- Detecting CXX compile features - done
+[5.569s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[5.753s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.882s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[5.899s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.608s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[6.617s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[6.924s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[7.127s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.383s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.045s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.057s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[10.398s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.398s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.398s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.399s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.432s] -- Found PythonExtra: .so  
+[10.819s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.827s] -- Added test 'lint_cmake' to check CMake code style
+[10.832s] -- Added test 'xmllint' to check XML markup files
+[10.844s] -- Configuring done
+[10.896s] -- Generating done
+[10.899s] -- Build files have been written to: /home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs
+[10.908s] Invoked command in '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/mondegrin/programs/slon/microros_ws/src/uros/micro_ros_msgs -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs
+[10.914s] Invoking command in '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs -- -j16 -l16
+[10.976s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[10.987s] [  1%] Built target ament_cmake_python_copy_micro_ros_msgs
+[11.369s] running egg_info
+[11.371s] creating micro_ros_msgs.egg-info
+[11.372s] writing micro_ros_msgs.egg-info/PKG-INFO
+[11.373s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[11.373s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[11.373s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[11.377s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[11.377s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[11.425s] [  1%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[11.440s] [  1%] Built target micro_ros_msgs__rosidl_generator_type_description
+[11.455s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.469s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.044s] [  5%] Built target micro_ros_msgs__cpp
+[12.170s] [  7%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__functions.c.o[0m
+[12.170s] [  9%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__description.c.o[0m
+[12.171s] [ 11%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__description.c.o[0m
+[12.175s] [ 14%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__type_support.c.o[0m
+[12.176s] [ 14%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__type_support.c.o[0m
+[12.177s] [ 16%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__functions.c.o[0m
+[12.177s] [ 18%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__functions.c.o[0m
+[12.180s] [ 20%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__description.c.o[0m
+[12.180s] [ 22%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__type_support.c.o[0m
+[12.309s] [ 24%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_c.so[0m
+[13.131s] [ 24%] Built target micro_ros_msgs__rosidl_generator_c
+[13.139s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.139s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.139s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.139s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.140s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.143s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.848s] [ 37%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/graph__type_support.cpp.o[0m
+[13.850s] [ 38%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/node__type_support.cpp.o[0m
+[13.853s] [ 40%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/entity__type_support.cpp.o[0m
+[13.947s] [ 42%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/node__type_support.cpp.o[0m
+[13.948s] [ 44%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o[0m
+[13.948s] [ 46%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/graph__type_support.cpp.o[0m
+[14.098s] [ 48%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_c.so[0m
+[14.210s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/node__type_support.cpp.o[0m
+[14.214s] [ 51%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/entity__type_support.cpp.o[0m
+[14.231s] [ 53%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/graph__type_support.cpp.o[0m
+[14.272s] [ 55%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/node__type_support.c.o[0m
+[14.275s] [ 57%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/graph__type_support.c.o[0m
+[14.276s] [ 59%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/entity__type_support.c.o[0m
+[14.298s] [ 61%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/graph__type_support_c.cpp.o[0m
+[14.313s] [ 62%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/entity__type_support_c.cpp.o[0m
+[14.326s] [ 64%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/node__type_support_c.cpp.o[0m
+[14.499s] [ 66%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_typesupport_introspection_c.so[0m
+[14.581s] [ 70%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o[0m
+[14.591s] [ 70%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/entity__type_support.cpp.o[0m
+[14.595s] [ 72%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o[0m
+[16.032s] [ 74%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[16.138s] [ 74%] Built target micro_ros_msgs__rosidl_typesupport_c
+[16.308s] [ 74%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[16.785s] [ 75%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_cpp.so[0m
+[17.321s] [ 77%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[17.401s] [ 77%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[17.481s] [ 79%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[17.738s] [ 79%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[18.141s] [ 79%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[18.235s] [ 79%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[18.247s] [ 79%] Built target micro_ros_msgs
+[18.261s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[18.672s] [ 81%] Built target micro_ros_msgs__py
+[18.687s] [ 83%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_graph_s.c.o[0m
+[18.687s] [ 85%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_node_s.c.o[0m
+[18.687s] [ 87%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_entity_s.c.o[0m
+[18.836s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so[0m
+[19.299s] [ 88%] Built target micro_ros_msgs__rosidl_generator_py
+[19.311s] [ 90%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.311s] [ 92%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.311s] [ 94%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[19.392s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.393s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.393s] [100%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.728s] [100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[19.765s] [100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[19.865s] [100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[19.873s] Invoked command in '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs -- -j16 -l16
+[19.971s] Invoking command in '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs
+[19.978s] -- Install configuration: ""
+[19.979s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[19.979s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.json
+[19.980s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.json
+[19.980s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.json
+[19.980s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[19.980s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[19.980s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[19.981s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[19.981s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[19.982s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[19.982s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[19.982s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__description.c
+[19.983s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[19.984s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__description.c
+[19.984s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[19.985s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[19.985s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__description.c
+[19.985s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[19.985s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[19.986s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[19.986s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c
+[19.986s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c
+[19.986s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[19.986s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c
+[19.986s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[19.987s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[19.987s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[19.987s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[19.987s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[19.988s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[19.988s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[19.988s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[19.988s] -- Set runtime path of "/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so" to ""
+[19.989s] -- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[19.989s] -- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[19.990s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.990s] -- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[19.991s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[19.991s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[19.991s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[19.992s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[19.992s] -- Set runtime path of "/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[19.992s] -- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[19.992s] -- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[19.992s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.992s] -- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[19.992s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[19.992s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[19.992s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[19.992s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[19.993s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[19.993s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[19.993s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[19.993s] -- Set runtime path of "/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so" to ""
+[19.993s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[19.993s] -- Set runtime path of "/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so" to ""
+[19.994s] -- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[19.995s] -- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[19.995s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[19.995s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[19.995s] -- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[19.995s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[19.995s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[19.995s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[19.995s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[19.995s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[19.996s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[19.996s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[19.996s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[19.996s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[19.996s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[19.996s] -- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[19.997s] -- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[19.997s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.997s] -- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[19.997s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps
+[19.997s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[19.997s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[19.997s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[19.997s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[19.997s] -- Set runtime path of "/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.997s] -- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[19.997s] -- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[19.997s] -- Up-to-date: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[19.997s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp
+[19.997s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[19.998s] -- Set runtime path of "/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[19.998s] -- Set runtime path of "/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so" to ""
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.0-py3.10.egg-info
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.0-py3.10.egg-info/SOURCES.txt
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.0-py3.10.egg-info/top_level.txt
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.0-py3.10.egg-info/PKG-INFO
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.0-py3.10.egg-info/dependency_links.txt
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_graph.py
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/__init__.py
+[19.998s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_entity.py
+[19.999s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_graph_s.c
+[19.999s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_node.py
+[19.999s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_node_s.c
+[19.999s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_entity_s.c
+[19.999s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.999s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so
+[19.999s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.999s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.999s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/__init__.py
+[19.999s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[19.999s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[20.035s] Listing '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs'...
+[20.035s] Compiling '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/__init__.py'...
+[20.035s] Listing '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg'...
+[20.035s] Compiling '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/__init__.py'...
+[20.035s] Compiling '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_entity.py'...
+[20.036s] Compiling '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_graph.py'...
+[20.036s] Compiling '/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_node.py'...
+[20.041s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.042s] -- Set runtime path of "/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.042s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.042s] -- Set runtime path of "/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.042s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.043s] -- Set runtime path of "/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.043s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[20.043s] -- Set runtime path of "/home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so" to ""
+[20.043s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[20.043s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[20.043s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[20.043s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[20.044s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[20.044s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[20.044s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[20.045s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[20.045s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[20.045s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[20.045s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[20.045s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[20.046s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[20.046s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[20.046s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[20.047s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[20.047s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[20.047s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[20.047s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[20.047s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[20.048s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[20.048s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[20.048s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[20.048s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.048s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[20.048s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[20.049s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[20.049s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.049s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[20.049s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[20.049s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.049s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[20.050s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[20.050s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[20.050s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[20.050s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[20.050s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.051s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[20.051s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[20.051s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.051s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.051s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.051s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[20.051s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[20.052s] -- Installing: /home/mondegrin/programs/slon/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[20.056s] Invoked command in '/home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mondegrin/programs/slon/microros_ws/build/micro_ros_msgs
