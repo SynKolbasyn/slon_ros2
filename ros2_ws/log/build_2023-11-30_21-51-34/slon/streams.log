@@ -1,0 +1,43 @@
+[0.040s] Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/slon': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target main[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[2.274s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[2.274s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[2.274s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[2.274s]                  from [01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:1[m[K:
+[2.274s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MainSubscriber; _Args = {}; _Tp = MainSubscriber][m[K’:
+[2.274s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MainSubscriber; _Args = {}; _Tp = MainSubscriber; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MainSubscriber>][m[K’
+[2.274s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = MainSubscriber; _Alloc = std::allocator<MainSubscriber>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[2.274s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MainSubscriber; _Alloc = std::allocator<MainSubscriber>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[2.274s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MainSubscriber>; _Args = {}; _Tp = MainSubscriber; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[2.274s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MainSubscriber>; _Args = {}; _Tp = MainSubscriber][m[K’
+[2.274s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MainSubscriber; _Alloc = std::allocator<MainSubscriber>; _Args = {}][m[K’
+[2.274s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MainSubscriber; _Args = {}][m[K’
+[2.274s] [01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:27:48:[m[K   required from here
+[2.274s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KMainSubscriber::MainSubscriber()[m[K’
+[2.274s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[2.274s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.274s] [01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:10:7:[m[K [01;36m[Knote: [m[K‘[01m[KMainSubscriber::MainSubscriber()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[2.274s]    10 | class [01;36m[KMainSubscriber[m[K : public rclcpp::Node {
+[2.274s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.274s] [01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:10:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[2.274s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.274s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.274s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.274s]                  from [01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:3[m[K:
+[2.274s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1579:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+[2.274s]  1579 |   [01;36m[KNode[m[K(
+[2.275s]       |   [01;36m[K^~~~[m[K
+[2.275s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1579:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[2.275s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:102:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+[2.275s]   102 |   explicit [01;36m[KNode[m[K(
+[2.275s]       |            [01;36m[K^~~~[m[K
+[2.275s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:102:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[2.275s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:90:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+[2.275s]    90 |   explicit [01;36m[KNode[m[K(
+[2.275s]       |            [01;36m[K^~~~[m[K
+[2.275s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:90:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[2.325s] gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[2.325s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main.dir/all] Error 2
+[2.325s] gmake: *** [Makefile:146: all] Error 2
+[2.327s] Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/slon' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16

@@ -1,0 +1,62 @@
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:17:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kslon[m[K’ does not name a type
+   17 |     void topic_callback(const [01;31m[Kslon[m[K::msg::GPS& msg) const {
+      |                               [01;31m[K^~~~[m[K
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:17:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   17 |     void topic_callback(const slon::msg[01;31m[K::[m[KGPS& msg) const {
+      |                                        [01;31m[K^~[m[K
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:17:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   17 |     void topic_callback[34m[K([m[Kconst slon::msg[01;31m[K:[m[K[32m[K:[m[KGPS& msg) const {
+      |                        [34m[K~[m[K               [01;31m[K^[m[K[32m[K~[m[K
+      |                                        [32m[K)[m[K
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:17:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   17 |     void topic_callback(const slon::[01;31m[Kmsg[m[K::GPS& msg) const {
+      |                                     [01;31m[K^~~[m[K
+      |                                        [32m[K;[m[K
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:17:42:[m[K [01;31m[Kerror: [m[K‘[01m[KGPS[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   17 |     void topic_callback(const slon::msg::[01;31m[KGPS[m[K& msg) const {
+      |                                          [01;31m[K^~~[m[K
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:21:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kslon[m[K’ was not declared in this scope
+   21 |     rclcpp::Subscription<[01;31m[Kslon[m[K::msg::GPS>::SharedPtr subscription_;
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:21:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |     rclcpp::Subscription<slon::msg::GPS[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                        [01;31m[K^[m[K
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:21:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:21:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:21:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:21:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   21 |     rclcpp::Subscription<slon::msg::GPS>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                    [32m[K;[m[K
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:21:53:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   21 |     rclcpp::Subscription<slon::msg::GPS>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                     [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                     [32m[Krmw_subscription_t[m[K
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:[m[K In constructor ‘[01m[KMainSubscriber::MainSubscriber()[m[K’:
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:13:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   13 |       [01;31m[Ksubscription_[m[K = this->create_subscription<slon::msg::GPS>("main", 1, std::bind(&MainSubscriber::topic_callback, this, _1));
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Krmw_subscription_t[m[K
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:13:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kslon[m[K’ was not declared in this scope
+   13 |       subscription_ = this->create_subscription<[01;31m[Kslon[m[K::msg::GPS>("main", 1, std::bind(&MainSubscriber::topic_callback, this, _1));
+      |                                                 [01;31m[K^~~~[m[K
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:13:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   13 |       subscription_ = this->[01;31m[Kcreate_subscription<slon::msg::GPS>[m[K("main", 1, std::bind(&MainSubscriber::topic_callback, this, _1));
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:13:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMainSubscriber::create_subscription<<expression error> >(const char [5], int, std::_Bind_helper<false, void (MainSubscriber::*)(...), MainSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+   13 |       subscription_ = [01;31m[Kthis->create_subscription<slon::msg::GPS>("main", 1, std::bind(&MainSubscriber::topic_callback, this, _1))[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:3[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:220:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  220 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:220:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:13:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 |       subscription_ = [01;31m[Kthis->create_subscription<slon::msg::GPS>("main", 1, std::bind(&MainSubscriber::topic_callback, this, _1))[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

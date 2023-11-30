@@ -1,0 +1,241 @@
+[0.817s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.817s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7244de1ba0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7244dee7a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7244dee7a0>>)
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.840s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mondegrin/programs/slon/ros2_ws'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extensions ['ignore', 'ignore_ament_install']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extension 'ignore'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extension 'ignore_ament_install'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extensions ['colcon_pkg']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extension 'colcon_pkg'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extensions ['colcon_meta']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extension 'colcon_meta'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extensions ['ros']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps) by extension 'ros'
+[0.850s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps' with type 'ros.ament_cmake' and name 'gps'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/slon) by extensions ['ignore', 'ignore_ament_install']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/slon) by extension 'ignore'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/slon) by extension 'ignore_ament_install'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/slon) by extensions ['colcon_pkg']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/slon) by extension 'colcon_pkg'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/slon) by extensions ['colcon_meta']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/slon) by extension 'colcon_meta'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/slon) by extensions ['ros']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/slon) by extension 'ros'
+[0.850s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slon' with type 'ros.ament_cmake' and name 'slon'
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.900s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/mondegrin/programs/slon/ros2_ws/install/gps' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.901s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/mondegrin/programs/slon/ros2_ws/install/gps' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.907s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mondegrin/programs/slon/ros2_ws/install
+[0.914s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 295 installed packages in /opt/ros/iron
+[0.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'cmake_args' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'cmake_target' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'cmake_clean_cache' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'cmake_clean_first' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'cmake_force_configure' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'ament_cmake_args' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'catkin_cmake_args' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'gps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.967s] DEBUG:colcon.colcon_core.verb:Building package 'gps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mondegrin/programs/slon/ros2_ws/build/gps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mondegrin/programs/slon/ros2_ws/install/gps', 'merge_install': False, 'path': '/home/mondegrin/programs/slon/ros2_ws/src/gps', 'symlink_install': False, 'test_result_base': None}
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'slon' build argument 'cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'slon' build argument 'cmake_target' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'slon' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'slon' build argument 'cmake_clean_cache' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'slon' build argument 'cmake_clean_first' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'slon' build argument 'cmake_force_configure' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'slon' build argument 'ament_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'slon' build argument 'catkin_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'slon' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.974s] DEBUG:colcon.colcon_core.verb:Building package 'slon' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mondegrin/programs/slon/ros2_ws/build/slon', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mondegrin/programs/slon/ros2_ws/install/slon', 'merge_install': False, 'path': '/home/mondegrin/programs/slon/ros2_ws/src/slon', 'symlink_install': False, 'test_result_base': None}
+[0.980s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.986s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.987s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mondegrin/programs/slon/ros2_ws/src/gps' with build type 'ament_cmake'
+[0.987s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mondegrin/programs/slon/ros2_ws/src/gps'
+[0.995s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.995s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.995s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.016s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mondegrin/programs/slon/ros2_ws/src/slon' with build type 'ament_cmake'
+[1.016s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mondegrin/programs/slon/ros2_ws/src/slon'
+[1.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/gps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/gps -- -j16 -l16
+[1.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/slon': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16
+[1.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/gps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/gps -- -j16 -l16
+[1.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/gps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mondegrin/programs/slon/ros2_ws/build/gps
+[1.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps)
+[1.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/gps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mondegrin/programs/slon/ros2_ws/build/gps
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/gps' for CMake module files
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/gps' for CMake config files
+[1.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps', 'cmake_prefix_path')
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/cmake_prefix_path.ps1'
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/cmake_prefix_path.dsv'
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/cmake_prefix_path.sh'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib'
+[1.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps', 'ld_library_path_lib')
+[1.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/ld_library_path_lib.ps1'
+[1.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/ld_library_path_lib.dsv'
+[1.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/ld_library_path_lib.sh'
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/gps/bin'
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/pkgconfig/gps.pc'
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages'
+[1.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps', 'pythonpath')
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/pythonpath.ps1'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/pythonpath.dsv'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/pythonpath.sh'
+[1.369s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/gps/bin'
+[1.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/package.ps1'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/package.dsv'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/package.sh'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/package.bash'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/package.zsh'
+[1.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mondegrin/programs/slon/ros2_ws/install/gps/share/colcon-core/packages/gps)
+[1.425s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps)
+[1.432s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/gps' for CMake module files
+[1.432s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/gps' for CMake config files
+[1.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps', 'cmake_prefix_path')
+[1.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/cmake_prefix_path.ps1'
+[1.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/cmake_prefix_path.dsv'
+[1.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/cmake_prefix_path.sh'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib'
+[1.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps', 'ld_library_path_lib')
+[1.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/ld_library_path_lib.ps1'
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/ld_library_path_lib.dsv'
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/ld_library_path_lib.sh'
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/gps/bin'
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/pkgconfig/gps.pc'
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages'
+[1.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps', 'pythonpath')
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/pythonpath.ps1'
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/pythonpath.dsv'
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/hook/pythonpath.sh'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/gps/bin'
+[1.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/package.ps1'
+[1.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/package.dsv'
+[1.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/package.sh'
+[1.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/package.bash'
+[1.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/package.zsh'
+[1.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mondegrin/programs/slon/ros2_ws/install/gps/share/colcon-core/packages/gps)
+[23.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/slon' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16
+[23.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/slon': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mondegrin/programs/slon/ros2_ws/build/slon
+[23.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slon)
+[23.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/slon' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mondegrin/programs/slon/ros2_ws/build/slon
+[23.384s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/slon' for CMake module files
+[23.384s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/slon' for CMake config files
+[23.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('slon', 'cmake_prefix_path')
+[23.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/cmake_prefix_path.ps1'
+[23.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/cmake_prefix_path.dsv'
+[23.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/cmake_prefix_path.sh'
+[23.392s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/slon/lib'
+[23.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('slon', 'ld_library_path_lib')
+[23.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/ld_library_path_lib.ps1'
+[23.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/ld_library_path_lib.dsv'
+[23.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/ld_library_path_lib.sh'
+[23.399s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/slon/bin'
+[23.399s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/pkgconfig/slon.pc'
+[23.399s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages'
+[23.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('slon', 'pythonpath')
+[23.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/pythonpath.ps1'
+[23.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/pythonpath.dsv'
+[23.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/pythonpath.sh'
+[23.407s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/slon/bin'
+[23.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.ps1'
+[23.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.dsv'
+[23.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.sh'
+[23.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.bash'
+[23.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.zsh'
+[23.414s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mondegrin/programs/slon/ros2_ws/install/slon/share/colcon-core/packages/slon)
+[23.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slon)
+[23.443s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/slon' for CMake module files
+[23.443s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/slon' for CMake config files
+[23.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('slon', 'cmake_prefix_path')
+[23.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/cmake_prefix_path.ps1'
+[23.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/cmake_prefix_path.dsv'
+[23.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/cmake_prefix_path.sh'
+[23.451s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/slon/lib'
+[23.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('slon', 'ld_library_path_lib')
+[23.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/ld_library_path_lib.ps1'
+[23.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/ld_library_path_lib.dsv'
+[23.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/ld_library_path_lib.sh'
+[23.458s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/slon/bin'
+[23.458s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/pkgconfig/slon.pc'
+[23.459s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages'
+[23.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('slon', 'pythonpath')
+[23.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/pythonpath.ps1'
+[23.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/pythonpath.dsv'
+[23.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/hook/pythonpath.sh'
+[23.466s] Level 1:colcon.colcon_core.environment:checking '/home/mondegrin/programs/slon/ros2_ws/install/slon/bin'
+[23.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.ps1'
+[23.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.dsv'
+[23.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.sh'
+[23.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.bash'
+[23.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.zsh'
+[23.473s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mondegrin/programs/slon/ros2_ws/install/slon/share/colcon-core/packages/slon)
+[23.473s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.473s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.473s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[23.474s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.731s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[23.732s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.732s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.732s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.732s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[23.733s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.740s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mondegrin/programs/slon/ros2_ws/install/local_setup.ps1'
+[23.740s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mondegrin/programs/slon/ros2_ws/install/_local_setup_util_ps1.py'
+[23.741s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mondegrin/programs/slon/ros2_ws/install/setup.ps1'
+[23.749s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mondegrin/programs/slon/ros2_ws/install/local_setup.sh'
+[23.750s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mondegrin/programs/slon/ros2_ws/install/_local_setup_util_sh.py'
+[23.750s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mondegrin/programs/slon/ros2_ws/install/setup.sh'
+[23.757s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mondegrin/programs/slon/ros2_ws/install/local_setup.bash'
+[23.757s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mondegrin/programs/slon/ros2_ws/install/setup.bash'
+[23.764s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mondegrin/programs/slon/ros2_ws/install/local_setup.zsh'
+[23.764s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mondegrin/programs/slon/ros2_ws/install/setup.zsh'

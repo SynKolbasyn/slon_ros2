@@ -4,7 +4,6 @@
 
 #include <rcl/rcl.h>
 #include <rcl/error_handling.h>
-#include <std_msgs/msg/string.h>
 
 #include <rclc/rclc.h>
 #include <rclc/executor.h>
@@ -12,23 +11,23 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
+#include <gps/msg/gps.h>
+
 
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){printf("Failed status on line %d: %d. Aborting.\n",__LINE__,(int)temp_rc);vTaskDelete(NULL);}}
 #define RCSOFTCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){printf("Failed status on line %d: %d. Continuing.\n",__LINE__,(int)temp_rc);}}
 
 
 rcl_publisher_t publisher;
-std_msgs__msg__String msg;
-unsigned long long counter = 0;
+gps__msg__GPS msg;
 
 
 void timer_callback(rcl_timer_t * timer, int64_t last_call_time) {
 	RCLC_UNUSED(last_call_time);
 	if (timer != NULL) {
+		msg.lat = 0.0;
+		msg.lon = 0.0;
 		RCSOFTCHECK(rcl_publish(&publisher, &msg, NULL));
-		asprintf(&msg.data.data, "Hello world! [%lld]", ++counter);
-		msg.data.size = strlen(msg.data.data);
-		msg.data.capacity = strlen(msg.data.data);
 	}
 }
 
@@ -44,24 +43,18 @@ void appMain(void* arg) {
 	rcl_node_t node;
 	RCCHECK(rclc_node_init_default(&node, "esp32", "", &support));
 
-	// create publisher
-	RCCHECK(rclc_publisher_init_default(&publisher, &node, ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, String), "main"));
+	RCCHECK(rclc_publisher_init_default(&publisher, &node, ROSIDL_GET_MSG_TYPE_SUPPORT(gps, msg, GPS), "main"));
 
 	// create timer,
 	rcl_timer_t timer;
-	const unsigned int timer_timeout = 1000;
-	RCCHECK(rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(timer_timeout), timer_callback));
+	RCCHECK(rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(1000), timer_callback));
 
 	// create executor
 	rclc_executor_t executor;
 	RCCHECK(rclc_executor_init(&executor, &support.context, 1, &allocator));
 	RCCHECK(rclc_executor_add_timer(&executor, &timer));
 
-	msg.data.data = "Hello world! [0]";
-    msg.data.size = strlen(msg.data.data);
-    msg.data.capacity = strlen(msg.data.data);
-
-	while(1) {
+	while (1) {
 		rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100));
 		usleep(100000);
 	}
@@ -70,5 +63,5 @@ void appMain(void* arg) {
 	RCCHECK(rcl_publisher_fini(&publisher, &node))
 	RCCHECK(rcl_node_fini(&node))
 
-  	vTaskDelete(NULL);
+	vTaskDelete(NULL);
 }

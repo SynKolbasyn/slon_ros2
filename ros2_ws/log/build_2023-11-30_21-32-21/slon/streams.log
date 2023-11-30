@@ -1,0 +1,33 @@
+[0.035s] Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/slon': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target main[0m
+[0.067s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[1.700s] [01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.700s] [01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:25:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.700s]    25 | int main([01;35m[Kint argc[m[K, char** argv) {
+[1.700s]       |          [01;35m[K~~~~^~~~[m[K
+[1.700s] [01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:25:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.700s]    25 | int main(int argc, [01;35m[Kchar** argv[m[K) {
+[1.700s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[2.943s] [100%] [32m[1mLinking CXX executable main[0m
+[3.501s] [100%] Built target main
+[3.509s] Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/slon' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16
+[3.523s] Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/slon': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mondegrin/programs/slon/ros2_ws/build/slon
+[3.527s] -- Install configuration: ""
+[3.527s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/slon/main
+[3.527s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/slon/main" to ""
+[3.528s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/ament_index/resource_index/package_run_dependencies/slon
+[3.528s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/ament_index/resource_index/parent_prefix_path/slon
+[3.528s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/ament_prefix_path.sh
+[3.528s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/ament_prefix_path.dsv
+[3.528s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/path.sh
+[3.528s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/path.dsv
+[3.528s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.bash
+[3.528s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.sh
+[3.528s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.zsh
+[3.528s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.dsv
+[3.528s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.dsv
+[3.528s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/ament_index/resource_index/packages/slon
+[3.528s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slonConfig.cmake
+[3.528s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slonConfig-version.cmake
+[3.528s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.xml
+[3.529s] Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/slon' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mondegrin/programs/slon/ros2_ws/build/slon

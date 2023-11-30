@@ -1,0 +1,36 @@
+{
+  "package_name": "gps",
+  "output_dir": "/home/mondegrin/programs/slon/ros2_ws/build/gps/rosidl_generator_c/gps",
+  "template_dir": "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/mondegrin/programs/slon/ros2_ws/build/gps/rosidl_adapter/gps:msg/GPS.idl"
+  ],
+  "ros_interface_files": [
+    "/home/mondegrin/programs/slon/ros2_ws/src/gps/msg/GPS.msg"
+  ],
+  "target_dependencies": [
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../../../lib/python3.10/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/mondegrin/programs/slon/ros2_ws/build/gps/rosidl_adapter/gps/msg/GPS.idl"
+  ],
+  "type_description_tuples": [
+    "msg/GPS.idl:/home/mondegrin/programs/slon/ros2_ws/build/gps/rosidl_generator_type_description/gps/msg/GPS.json"
+  ]
+}

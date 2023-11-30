@@ -1,0 +1,416 @@
+[0.000000] (-) TimerEvent: {}
+[0.000301] (slon) JobQueued: {'identifier': 'slon', 'dependencies': OrderedDict()}
+[0.000719] (slon) JobStarted: {'identifier': 'slon'}
+[0.023522] (slon) JobProgress: {'identifier': 'slon', 'progress': 'cmake'}
+[0.024248] (slon) JobProgress: {'identifier': 'slon', 'progress': 'build'}
+[0.024372] (slon) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mondegrin/programs/slon/ros2_ws/build/slon', '--', '-j16', '-l16'], 'cwd': '/home/mondegrin/programs/slon/ros2_ws/build/slon', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mondegrin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/mondegrin'), ('OLDPWD', '/home/mondegrin/programs/slon'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mondegrin'), ('NAME', 'DESKTOP-2F6E5CH'), ('WSL_INTEROP', '/run/WSL/273828_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('DONT_PROMPT_WSL_INSTALL', 'true'), ('PATH', '/home/mondegrin/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/WinAVR-20100110/bin:/mnt/c/WinAVR-20100110/utils/bin:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Recovery/OEM/Backup/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Mondegrin/Downloads/curl-8.2.1_7-win64-mingw/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Mondegrin/.cargo/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Mondegrin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Mondegrin/go/bin:/mnt/c/Program Files/JetBrains/RustRover 233.8264.22/bin:/mnt/c/Users/Mondegrin/.dotnet/tools:/snap/bin'), ('WT_SESSION', 'd2534500-8c83-41c4-b2cc-acb4082492c5'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/mondegrin/programs/slon/ros2_ws/build/slon'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.038861] (slon) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.100232] (-) TimerEvent: {}
+[0.121763] (slon) StdoutLine: {'line': b'-- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.200622] (-) TimerEvent: {}
+[0.301046] (-) TimerEvent: {}
+[0.401584] (-) TimerEvent: {}
+[0.502059] (-) TimerEvent: {}
+[0.602452] (-) TimerEvent: {}
+[0.702969] (-) TimerEvent: {}
+[0.803420] (-) TimerEvent: {}
+[0.903781] (-) TimerEvent: {}
+[0.950167] (slon) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.954764] (slon) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.962186] (slon) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.972063] (slon) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.003932] (-) TimerEvent: {}
+[1.064332] (slon) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[1.065014] (slon) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.104113] (-) TimerEvent: {}
+[1.204496] (-) TimerEvent: {}
+[1.304844] (-) TimerEvent: {}
+[1.405294] (-) TimerEvent: {}
+[1.505655] (-) TimerEvent: {}
+[1.605997] (-) TimerEvent: {}
+[1.706414] (-) TimerEvent: {}
+[1.806809] (-) TimerEvent: {}
+[1.907157] (-) TimerEvent: {}
+[2.007578] (-) TimerEvent: {}
+[2.108057] (-) TimerEvent: {}
+[2.208403] (-) TimerEvent: {}
+[2.308812] (-) TimerEvent: {}
+[2.409182] (-) TimerEvent: {}
+[2.509643] (-) TimerEvent: {}
+[2.610016] (-) TimerEvent: {}
+[2.710428] (-) TimerEvent: {}
+[2.810770] (-) TimerEvent: {}
+[2.911094] (-) TimerEvent: {}
+[3.011464] (-) TimerEvent: {}
+[3.111848] (-) TimerEvent: {}
+[3.212212] (-) TimerEvent: {}
+[3.312738] (-) TimerEvent: {}
+[3.413259] (-) TimerEvent: {}
+[3.513708] (-) TimerEvent: {}
+[3.614304] (-) TimerEvent: {}
+[3.714672] (-) TimerEvent: {}
+[3.815048] (-) TimerEvent: {}
+[3.915520] (-) TimerEvent: {}
+[4.015963] (-) TimerEvent: {}
+[4.116339] (-) TimerEvent: {}
+[4.216674] (-) TimerEvent: {}
+[4.317035] (-) TimerEvent: {}
+[4.417497] (-) TimerEvent: {}
+[4.517893] (-) TimerEvent: {}
+[4.618254] (-) TimerEvent: {}
+[4.718592] (-) TimerEvent: {}
+[4.819019] (-) TimerEvent: {}
+[4.919389] (-) TimerEvent: {}
+[5.019820] (-) TimerEvent: {}
+[5.120374] (-) TimerEvent: {}
+[5.220770] (-) TimerEvent: {}
+[5.321326] (-) TimerEvent: {}
+[5.421713] (-) TimerEvent: {}
+[5.522193] (-) TimerEvent: {}
+[5.622753] (-) TimerEvent: {}
+[5.723140] (-) TimerEvent: {}
+[5.823499] (-) TimerEvent: {}
+[5.923823] (-) TimerEvent: {}
+[6.024136] (-) TimerEvent: {}
+[6.124647] (-) TimerEvent: {}
+[6.225207] (-) TimerEvent: {}
+[6.325629] (-) TimerEvent: {}
+[6.425973] (-) TimerEvent: {}
+[6.526288] (-) TimerEvent: {}
+[6.626606] (-) TimerEvent: {}
+[6.726923] (-) TimerEvent: {}
+[6.827306] (-) TimerEvent: {}
+[6.927632] (-) TimerEvent: {}
+[7.028009] (-) TimerEvent: {}
+[7.128390] (-) TimerEvent: {}
+[7.228748] (-) TimerEvent: {}
+[7.329087] (-) TimerEvent: {}
+[7.429435] (-) TimerEvent: {}
+[7.529792] (-) TimerEvent: {}
+[7.630213] (-) TimerEvent: {}
+[7.730518] (-) TimerEvent: {}
+[7.830860] (-) TimerEvent: {}
+[7.931342] (-) TimerEvent: {}
+[8.031678] (-) TimerEvent: {}
+[8.132057] (-) TimerEvent: {}
+[8.232474] (-) TimerEvent: {}
+[8.332802] (-) TimerEvent: {}
+[8.433126] (-) TimerEvent: {}
+[8.533488] (-) TimerEvent: {}
+[8.633859] (-) TimerEvent: {}
+[8.734167] (-) TimerEvent: {}
+[8.834519] (-) TimerEvent: {}
+[8.934946] (-) TimerEvent: {}
+[9.035301] (-) TimerEvent: {}
+[9.135727] (-) TimerEvent: {}
+[9.236088] (-) TimerEvent: {}
+[9.336402] (-) TimerEvent: {}
+[9.436758] (-) TimerEvent: {}
+[9.537160] (-) TimerEvent: {}
+[9.637553] (-) TimerEvent: {}
+[9.737951] (-) TimerEvent: {}
+[9.838273] (-) TimerEvent: {}
+[9.938862] (-) TimerEvent: {}
+[10.039656] (-) TimerEvent: {}
+[10.140091] (-) TimerEvent: {}
+[10.240423] (-) TimerEvent: {}
+[10.340757] (-) TimerEvent: {}
+[10.441081] (-) TimerEvent: {}
+[10.541394] (-) TimerEvent: {}
+[10.641773] (-) TimerEvent: {}
+[10.742068] (-) TimerEvent: {}
+[10.842570] (-) TimerEvent: {}
+[10.943039] (-) TimerEvent: {}
+[11.043424] (-) TimerEvent: {}
+[11.143916] (-) TimerEvent: {}
+[11.244357] (-) TimerEvent: {}
+[11.344705] (-) TimerEvent: {}
+[11.445083] (-) TimerEvent: {}
+[11.545466] (-) TimerEvent: {}
+[11.645788] (-) TimerEvent: {}
+[11.746131] (-) TimerEvent: {}
+[11.846478] (-) TimerEvent: {}
+[11.946816] (-) TimerEvent: {}
+[12.047164] (-) TimerEvent: {}
+[12.147521] (-) TimerEvent: {}
+[12.247836] (-) TimerEvent: {}
+[12.348306] (-) TimerEvent: {}
+[12.448743] (-) TimerEvent: {}
+[12.549058] (-) TimerEvent: {}
+[12.649371] (-) TimerEvent: {}
+[12.749686] (-) TimerEvent: {}
+[12.849995] (-) TimerEvent: {}
+[12.950311] (-) TimerEvent: {}
+[13.050641] (-) TimerEvent: {}
+[13.151049] (-) TimerEvent: {}
+[13.251390] (-) TimerEvent: {}
+[13.351838] (-) TimerEvent: {}
+[13.452152] (-) TimerEvent: {}
+[13.552491] (-) TimerEvent: {}
+[13.652927] (-) TimerEvent: {}
+[13.753341] (-) TimerEvent: {}
+[13.853738] (-) TimerEvent: {}
+[13.954274] (-) TimerEvent: {}
+[14.054602] (-) TimerEvent: {}
+[14.155063] (-) TimerEvent: {}
+[14.255433] (-) TimerEvent: {}
+[14.355841] (-) TimerEvent: {}
+[14.456353] (-) TimerEvent: {}
+[14.556717] (-) TimerEvent: {}
+[14.657137] (-) TimerEvent: {}
+[14.757530] (-) TimerEvent: {}
+[14.857832] (-) TimerEvent: {}
+[14.958255] (-) TimerEvent: {}
+[15.058685] (-) TimerEvent: {}
+[15.159194] (-) TimerEvent: {}
+[15.259663] (-) TimerEvent: {}
+[15.360064] (-) TimerEvent: {}
+[15.460468] (-) TimerEvent: {}
+[15.560957] (-) TimerEvent: {}
+[15.661276] (-) TimerEvent: {}
+[15.761594] (-) TimerEvent: {}
+[15.861916] (-) TimerEvent: {}
+[15.962259] (-) TimerEvent: {}
+[16.062639] (-) TimerEvent: {}
+[16.163140] (-) TimerEvent: {}
+[16.263558] (-) TimerEvent: {}
+[16.363960] (-) TimerEvent: {}
+[16.464286] (-) TimerEvent: {}
+[16.564593] (-) TimerEvent: {}
+[16.664954] (-) TimerEvent: {}
+[16.765445] (-) TimerEvent: {}
+[16.865952] (-) TimerEvent: {}
+[16.966557] (-) TimerEvent: {}
+[17.066897] (-) TimerEvent: {}
+[17.167310] (-) TimerEvent: {}
+[17.267770] (-) TimerEvent: {}
+[17.368425] (-) TimerEvent: {}
+[17.468845] (-) TimerEvent: {}
+[17.569184] (-) TimerEvent: {}
+[17.669552] (-) TimerEvent: {}
+[17.769939] (-) TimerEvent: {}
+[17.870370] (-) TimerEvent: {}
+[17.970753] (-) TimerEvent: {}
+[18.071079] (-) TimerEvent: {}
+[18.171405] (-) TimerEvent: {}
+[18.271878] (-) TimerEvent: {}
+[18.372274] (-) TimerEvent: {}
+[18.472595] (-) TimerEvent: {}
+[18.572953] (-) TimerEvent: {}
+[18.673268] (-) TimerEvent: {}
+[18.773701] (-) TimerEvent: {}
+[18.874046] (-) TimerEvent: {}
+[18.974362] (-) TimerEvent: {}
+[19.074758] (-) TimerEvent: {}
+[19.175098] (-) TimerEvent: {}
+[19.275413] (-) TimerEvent: {}
+[19.376062] (-) TimerEvent: {}
+[19.476535] (-) TimerEvent: {}
+[19.576890] (-) TimerEvent: {}
+[19.677479] (-) TimerEvent: {}
+[19.777878] (-) TimerEvent: {}
+[19.878230] (-) TimerEvent: {}
+[19.978754] (-) TimerEvent: {}
+[20.079228] (-) TimerEvent: {}
+[20.179629] (-) TimerEvent: {}
+[20.280073] (-) TimerEvent: {}
+[20.380620] (-) TimerEvent: {}
+[20.480981] (-) TimerEvent: {}
+[20.581488] (-) TimerEvent: {}
+[20.681901] (-) TimerEvent: {}
+[20.782403] (-) TimerEvent: {}
+[20.882904] (-) TimerEvent: {}
+[20.983389] (-) TimerEvent: {}
+[21.083738] (-) TimerEvent: {}
+[21.184114] (-) TimerEvent: {}
+[21.284571] (-) TimerEvent: {}
+[21.385064] (-) TimerEvent: {}
+[21.485424] (-) TimerEvent: {}
+[21.585835] (-) TimerEvent: {}
+[21.686163] (-) TimerEvent: {}
+[21.786544] (-) TimerEvent: {}
+[21.886898] (-) TimerEvent: {}
+[21.987245] (-) TimerEvent: {}
+[22.087604] (-) TimerEvent: {}
+[22.187947] (-) TimerEvent: {}
+[22.288388] (-) TimerEvent: {}
+[22.388998] (-) TimerEvent: {}
+[22.489340] (-) TimerEvent: {}
+[22.589728] (-) TimerEvent: {}
+[22.690204] (-) TimerEvent: {}
+[22.790622] (-) TimerEvent: {}
+[22.891043] (-) TimerEvent: {}
+[22.991412] (-) TimerEvent: {}
+[23.091824] (-) TimerEvent: {}
+[23.192234] (-) TimerEvent: {}
+[23.292811] (-) TimerEvent: {}
+[23.393517] (-) TimerEvent: {}
+[23.494009] (-) TimerEvent: {}
+[23.594526] (-) TimerEvent: {}
+[23.694978] (-) TimerEvent: {}
+[23.795398] (-) TimerEvent: {}
+[23.895730] (-) TimerEvent: {}
+[23.996154] (-) TimerEvent: {}
+[24.096579] (-) TimerEvent: {}
+[24.196916] (-) TimerEvent: {}
+[24.297317] (-) TimerEvent: {}
+[24.397733] (-) TimerEvent: {}
+[24.498096] (-) TimerEvent: {}
+[24.598490] (-) TimerEvent: {}
+[24.698957] (-) TimerEvent: {}
+[24.799300] (-) TimerEvent: {}
+[24.899646] (-) TimerEvent: {}
+[25.000015] (-) TimerEvent: {}
+[25.100358] (-) TimerEvent: {}
+[25.200728] (-) TimerEvent: {}
+[25.301194] (-) TimerEvent: {}
+[25.401581] (-) TimerEvent: {}
+[25.501917] (-) TimerEvent: {}
+[25.602350] (-) TimerEvent: {}
+[25.702732] (-) TimerEvent: {}
+[25.803159] (-) TimerEvent: {}
+[25.903500] (-) TimerEvent: {}
+[25.997353] (slon) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[26.003660] (-) TimerEvent: {}
+[26.104110] (-) TimerEvent: {}
+[26.108670] (slon) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[26.127755] (slon) StdoutLine: {'line': b'-- Found std_srvs: 5.0.0 (/opt/ros/iron/share/std_srvs/cmake)\n'}
+[26.156436] (slon) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[26.160600] (slon) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[26.204281] (-) TimerEvent: {}
+[26.304655] (-) TimerEvent: {}
+[26.405125] (-) TimerEvent: {}
+[26.505587] (-) TimerEvent: {}
+[26.606172] (-) TimerEvent: {}
+[26.706795] (-) TimerEvent: {}
+[26.807303] (-) TimerEvent: {}
+[26.907686] (-) TimerEvent: {}
+[27.007995] (-) TimerEvent: {}
+[27.108313] (-) TimerEvent: {}
+[27.208685] (-) TimerEvent: {}
+[27.309087] (-) TimerEvent: {}
+[27.409695] (-) TimerEvent: {}
+[27.510123] (-) TimerEvent: {}
+[27.610524] (-) TimerEvent: {}
+[27.710894] (-) TimerEvent: {}
+[27.811346] (-) TimerEvent: {}
+[27.911659] (-) TimerEvent: {}
+[28.012031] (-) TimerEvent: {}
+[28.112343] (-) TimerEvent: {}
+[28.212723] (-) TimerEvent: {}
+[28.313027] (-) TimerEvent: {}
+[28.413380] (-) TimerEvent: {}
+[28.513830] (-) TimerEvent: {}
+[28.614142] (-) TimerEvent: {}
+[28.714445] (-) TimerEvent: {}
+[28.814839] (-) TimerEvent: {}
+[28.915201] (-) TimerEvent: {}
+[29.015592] (-) TimerEvent: {}
+[29.115892] (-) TimerEvent: {}
+[29.216296] (-) TimerEvent: {}
+[29.316660] (-) TimerEvent: {}
+[29.417128] (-) TimerEvent: {}
+[29.517474] (-) TimerEvent: {}
+[29.617876] (-) TimerEvent: {}
+[29.718462] (-) TimerEvent: {}
+[29.819147] (-) TimerEvent: {}
+[29.919656] (-) TimerEvent: {}
+[30.020396] (-) TimerEvent: {}
+[30.121195] (-) TimerEvent: {}
+[30.221582] (-) TimerEvent: {}
+[30.322112] (-) TimerEvent: {}
+[30.422473] (-) TimerEvent: {}
+[30.523012] (-) TimerEvent: {}
+[30.623375] (-) TimerEvent: {}
+[30.723722] (-) TimerEvent: {}
+[30.824163] (-) TimerEvent: {}
+[30.924847] (-) TimerEvent: {}
+[31.025147] (-) TimerEvent: {}
+[31.125463] (-) TimerEvent: {}
+[31.225811] (-) TimerEvent: {}
+[31.326323] (-) TimerEvent: {}
+[31.426777] (-) TimerEvent: {}
+[31.527208] (-) TimerEvent: {}
+[31.627590] (-) TimerEvent: {}
+[31.728078] (-) TimerEvent: {}
+[31.828534] (-) TimerEvent: {}
+[31.928970] (-) TimerEvent: {}
+[32.029298] (-) TimerEvent: {}
+[32.129643] (-) TimerEvent: {}
+[32.229980] (-) TimerEvent: {}
+[32.330383] (-) TimerEvent: {}
+[32.430707] (-) TimerEvent: {}
+[32.481050] (slon) StdoutLine: {'line': b'-- Found slon: 0.0.0 (/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake)\n'}
+[32.530914] (-) TimerEvent: {}
+[32.631248] (-) TimerEvent: {}
+[32.675494] (slon) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[32.731566] (-) TimerEvent: {}
+[32.831970] (-) TimerEvent: {}
+[32.851860] (slon) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[32.924833] (slon) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[32.932291] (-) TimerEvent: {}
+[32.939459] (slon) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[32.953209] (slon) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[32.953382] (slon) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[32.953420] (slon) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[32.961822] (slon) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[32.967230] (slon) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[32.968022] (slon) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mondegrin/programs/slon/ros2_ws/src/slon/include>\n'}
+[32.968145] (slon) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[32.968590] (slon) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[32.969169] (slon) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[32.969263] (slon) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[32.969665] (slon) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[32.971077] (slon) StdoutLine: {'line': b'-- Configuring done\n'}
+[32.996721] (slon) StdoutLine: {'line': b'-- Generating done\n'}
+[32.999502] (slon) StdoutLine: {'line': b'-- Build files have been written to: /home/mondegrin/programs/slon/ros2_ws/build/slon\n'}
+[33.020000] (slon) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target main\x1b[0m\n'}
+[33.026626] (slon) StdoutLine: {'line': b'[  2%] Built target slon__rosidl_generator_type_description\n'}
+[33.030574] (slon) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o\x1b[0m\n'}
+[33.031381] (slon) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_slon\n'}
+[33.032579] (-) TimerEvent: {}
+[33.033836] (slon) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slon__rosidl_generator_c\x1b[0m\n'}
+[33.040969] (slon) StdoutLine: {'line': b'[  8%] Built target slon__cpp\n'}
+[33.042696] (slon) StdoutLine: {'line': b'[ 22%] Built target slon__rosidl_generator_c\n'}
+[33.050262] (slon) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_cpp\x1b[0m\n'}
+[33.050442] (slon) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[33.051133] (slon) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[33.052258] (slon) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[33.052634] (slon) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_c\x1b[0m\n'}
+[33.052764] (slon) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[33.058941] (slon) StdoutLine: {'line': b'[ 30%] Built target slon__rosidl_typesupport_introspection_c\n'}
+[33.059749] (slon) StdoutLine: {'line': b'[ 38%] Built target slon__rosidl_typesupport_fastrtps_cpp\n'}
+[33.060327] (slon) StdoutLine: {'line': b'[ 47%] Built target slon__rosidl_typesupport_cpp\n'}
+[33.061359] (slon) StdoutLine: {'line': b'[ 55%] Built target slon__rosidl_typesupport_introspection_cpp\n'}
+[33.062023] (slon) StdoutLine: {'line': b'[ 63%] Built target slon__rosidl_typesupport_c\n'}
+[33.064262] (slon) StdoutLine: {'line': b'[ 72%] Built target slon__rosidl_typesupport_fastrtps_c\n'}
+[33.079162] (slon) StdoutLine: {'line': b'[ 72%] Built target slon\n'}
+[33.095452] (slon) StdoutLine: {'line': b'[ 75%] Built target slon__py\n'}
+[33.103869] (slon) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slon__rosidl_generator_py\x1b[0m\n'}
+[33.113981] (slon) StdoutLine: {'line': b'[ 80%] Built target slon__rosidl_generator_py\n'}
+[33.122773] (slon) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[33.122968] (slon) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[33.123547] (slon) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[33.132830] (-) TimerEvent: {}
+[33.133514] (slon) StdoutLine: {'line': b'[ 86%] Built target slon__rosidl_typesupport_introspection_c__pyext\n'}
+[33.133859] (slon) StdoutLine: {'line': b'[ 91%] Built target slon__rosidl_typesupport_c__pyext\n'}
+[33.134224] (slon) StdoutLine: {'line': b'[ 97%] Built target slon__rosidl_typesupport_fastrtps_c__pyext\n'}
+[33.173750] (slon) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kslon/msg/gps.hpp: No such file or directory\n'}
+[33.173950] (slon) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K"slon/msg/gps.hpp"\x1b[m\x1b[K\n'}
+[33.174031] (slon) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.174104] (slon) StderrLine: {'line': b'compilation terminated.\n'}
+[33.176054] (slon) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1\n'}
+[33.176392] (slon) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:623: CMakeFiles/main.dir/all] Error 2\n'}
+[33.176744] (slon) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[33.202057] (slon) StdoutLine: {'line': b'running egg_info\n'}
+[33.202434] (slon) StdoutLine: {'line': b'writing slon.egg-info/PKG-INFO\n'}
+[33.202732] (slon) StdoutLine: {'line': b'writing dependency_links to slon.egg-info/dependency_links.txt\n'}
+[33.202820] (slon) StdoutLine: {'line': b'writing top-level names to slon.egg-info/top_level.txt\n'}
+[33.204070] (slon) StdoutLine: {'line': b"reading manifest file 'slon.egg-info/SOURCES.txt'\n"}
+[33.204303] (slon) StdoutLine: {'line': b"writing manifest file 'slon.egg-info/SOURCES.txt'\n"}
+[33.223744] (slon) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_slon_egg\n'}
+[33.224467] (slon) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[33.227101] (slon) CommandEnded: {'returncode': 2}
+[33.233020] (-) TimerEvent: {}
+[33.316512] (slon) JobEnded: {'identifier': 'slon', 'rc': 2}
+[33.326906] (-) EventReactorShutdown: {}

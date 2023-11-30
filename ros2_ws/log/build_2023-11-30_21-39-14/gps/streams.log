@@ -1,0 +1,236 @@
+[0.066s] Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/gps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/mondegrin/programs/slon/ros2_ws/src/gps -DCMAKE_INSTALL_PREFIX=/home/mondegrin/programs/slon/ros2_ws/install/gps
+[0.549s] -- The C compiler identification is GNU 11.4.0
+[3.248s] -- The CXX compiler identification is GNU 11.4.0
+[5.482s] -- Detecting C compiler ABI info
+[6.156s] -- Detecting C compiler ABI info - done
+[6.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.161s] -- Detecting C compile features
+[6.161s] -- Detecting C compile features - done
+[6.163s] -- Detecting CXX compiler ABI info
+[6.711s] -- Detecting CXX compiler ABI info - done
+[6.715s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.717s] -- Detecting CXX compile features
+[6.717s] -- Detecting CXX compile features - done
+[6.721s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[6.824s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[6.888s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[7.218s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[7.225s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[7.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.282s] -- Found std_srvs: 5.0.0 (/opt/ros/iron/share/std_srvs/cmake)
+[7.348s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[7.355s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[7.552s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[7.768s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.861s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.723s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.724s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[10.798s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.798s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.798s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.798s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.811s] -- Found PythonExtra: .so  
+[11.105s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[11.115s] -- Added test 'lint_cmake' to check CMake code style
+[11.115s] -- Added test 'xmllint' to check XML markup files
+[11.117s] -- Configuring done
+[11.158s] -- Generating done
+[11.160s] -- Build files have been written to: /home/mondegrin/programs/slon/ros2_ws/build/gps
+[11.172s] Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/gps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/mondegrin/programs/slon/ros2_ws/src/gps -DCMAKE_INSTALL_PREFIX=/home/mondegrin/programs/slon/ros2_ws/install/gps
+[11.173s] Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/gps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/gps -- -j16 -l16
+[11.201s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[11.206s] [  2%] Built target ament_cmake_python_copy_gps
+[11.324s] [  2%] Built target gps__rosidl_generator_type_description
+[11.330s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.336s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.353s] running egg_info
+[11.353s] creating gps.egg-info
+[11.353s] writing gps.egg-info/PKG-INFO
+[11.353s] writing dependency_links to gps.egg-info/dependency_links.txt
+[11.354s] writing top-level names to gps.egg-info/top_level.txt
+[11.354s] writing manifest file 'gps.egg-info/SOURCES.txt'
+[11.355s] reading manifest file 'gps.egg-info/SOURCES.txt'
+[11.355s] writing manifest file 'gps.egg-info/SOURCES.txt'
+[11.381s] [  8%] Built target ament_cmake_python_build_gps_egg
+[11.497s] [ 11%] [32mBuilding C object CMakeFiles/gps__rosidl_generator_c.dir/rosidl_generator_c/gps/msg/detail/gps__description.c.o[0m
+[11.499s] [ 14%] [32mBuilding C object CMakeFiles/gps__rosidl_generator_c.dir/rosidl_generator_c/gps/msg/detail/gps__functions.c.o[0m
+[11.500s] [ 17%] [32mBuilding C object CMakeFiles/gps__rosidl_generator_c.dir/rosidl_generator_c/gps/msg/detail/gps__type_support.c.o[0m
+[11.523s] [ 17%] Built target gps__cpp
+[11.532s] [ 20%] [32m[1mLinking C shared library libgps__rosidl_generator_c.so[0m
+[12.188s] [ 20%] Built target gps__rosidl_generator_c
+[12.194s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.197s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.197s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.198s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.198s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.199s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.367s] [ 41%] [32mBuilding CXX object CMakeFiles/gps__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gps/msg/gps__type_support.cpp.o[0m
+[12.370s] [ 44%] [32mBuilding CXX object CMakeFiles/gps__rosidl_typesupport_c.dir/rosidl_typesupport_c/gps/msg/gps__type_support.cpp.o[0m
+[12.379s] [ 47%] [32mBuilding CXX object CMakeFiles/gps__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gps/msg/detail/gps__type_support.cpp.o[0m
+[12.396s] [ 50%] [32mBuilding CXX object CMakeFiles/gps__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gps/msg/detail/dds_fastrtps/gps__type_support.cpp.o[0m
+[12.400s] [ 52%] [32m[1mLinking CXX shared library libgps__rosidl_typesupport_c.so[0m
+[12.431s] [ 55%] [32mBuilding C object CMakeFiles/gps__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gps/msg/detail/gps__type_support.c.o[0m
+[12.455s] [ 61%] [32m[1mLinking C shared library libgps__rosidl_typesupport_introspection_c.so[0m
+[12.456s] [ 61%] [32mBuilding CXX object CMakeFiles/gps__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gps/msg/detail/gps__type_support_c.cpp.o[0m
+[12.657s] [ 64%] [32m[1mLinking CXX shared library libgps__rosidl_typesupport_cpp.so[0m
+[12.677s] [ 67%] [32m[1mLinking CXX shared library libgps__rosidl_typesupport_introspection_cpp.so[0m
+[12.690s] [ 70%] [32m[1mLinking CXX shared library libgps__rosidl_typesupport_fastrtps_c.so[0m
+[12.831s] [ 73%] [32m[1mLinking CXX shared library libgps__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.883s] [ 73%] Built target gps__rosidl_typesupport_introspection_c
+[12.889s] [ 73%] Built target gps__rosidl_typesupport_c
+[13.178s] [ 73%] Built target gps__rosidl_typesupport_cpp
+[13.260s] [ 73%] Built target gps__rosidl_typesupport_introspection_cpp
+[13.313s] [ 73%] Built target gps__rosidl_typesupport_fastrtps_c
+[13.477s] [ 73%] Built target gps__rosidl_typesupport_fastrtps_cpp
+[13.488s] [ 73%] Built target gps
+[13.500s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.669s] [ 76%] Built target gps__py
+[13.680s] [ 79%] [32mBuilding C object CMakeFiles/gps__rosidl_generator_py.dir/rosidl_generator_py/gps/msg/_gps_s.c.o[0m
+[13.739s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/gps/libgps__rosidl_generator_py.so[0m
+[14.371s] [ 82%] Built target gps__rosidl_generator_py
+[14.384s] [ 85%] [32mBuilding C object CMakeFiles/gps__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gps/_gps_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.384s] [ 88%] [32mBuilding C object CMakeFiles/gps__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gps/_gps_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.389s] [ 91%] [32mBuilding C object CMakeFiles/gps__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gps/_gps_s.ep.rosidl_typesupport_c.c.o[0m
+[14.446s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/gps/gps_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.449s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/gps/gps_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.456s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gps/gps_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.794s] [100%] Built target gps__rosidl_typesupport_fastrtps_c__pyext
+[14.795s] [100%] Built target gps__rosidl_typesupport_c__pyext
+[15.066s] [100%] Built target gps__rosidl_typesupport_introspection_c__pyext
+[15.074s] Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/gps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/gps -- -j16 -l16
+[15.121s] Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/gps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mondegrin/programs/slon/ros2_ws/build/gps
+[15.126s] -- Install configuration: ""
+[15.126s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/ament_index/resource_index/rosidl_interfaces/gps
+[15.127s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/msg/GPS.json
+[15.127s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps
+[15.127s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg
+[15.127s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/gps.h
+[15.127s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/rosidl_generator_c__visibility_control.h
+[15.127s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail
+[15.128s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__type_support.h
+[15.128s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__functions.h
+[15.128s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__type_support.c
+[15.128s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__struct.h
+[15.128s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__description.c
+[15.128s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__functions.c
+[15.128s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/library_path.sh
+[15.128s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/library_path.dsv
+[15.128s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_generator_c.so
+[15.129s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_generator_c.so" to ""
+[15.129s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps
+[15.129s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg
+[15.129s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.129s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail
+[15.129s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__rosidl_typesupport_fastrtps_c.h
+[15.129s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_fastrtps_c.so
+[15.129s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_fastrtps_c.so" to ""
+[15.130s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps
+[15.130s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg
+[15.130s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/gps.hpp
+[15.130s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail
+[15.130s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__traits.hpp
+[15.130s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__struct.hpp
+[15.130s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__builder.hpp
+[15.130s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps
+[15.131s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg
+[15.131s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.131s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail
+[15.131s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/dds_fastrtps
+[15.131s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__rosidl_typesupport_fastrtps_cpp.hpp
+[15.131s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_fastrtps_cpp.so
+[15.131s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.131s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps
+[15.131s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg
+[15.131s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.131s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail
+[15.132s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__type_support.c
+[15.132s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__rosidl_typesupport_introspection_c.h
+[15.132s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_introspection_c.so
+[15.132s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_introspection_c.so" to ""
+[15.132s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_c.so
+[15.132s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_c.so" to ""
+[15.132s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps
+[15.132s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg
+[15.132s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail
+[15.132s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__type_support.cpp
+[15.133s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__rosidl_typesupport_introspection_cpp.hpp
+[15.133s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_introspection_cpp.so
+[15.133s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_introspection_cpp.so" to ""
+[15.133s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_cpp.so
+[15.133s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_cpp.so" to ""
+[15.133s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/pythonpath.sh
+[15.133s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/pythonpath.dsv
+[15.133s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps-0.0.0-py3.10.egg-info
+[15.133s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.133s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps-0.0.0-py3.10.egg-info/top_level.txt
+[15.133s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps-0.0.0-py3.10.egg-info/PKG-INFO
+[15.133s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.133s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps
+[15.134s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.134s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/msg
+[15.134s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/msg/_gps_s.c
+[15.134s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/msg/__init__.py
+[15.134s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/msg/_gps.py
+[15.134s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/libgps__rosidl_generator_py.so
+[15.134s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/_gps_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.134s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/_gps_s.ep.rosidl_typesupport_c.c
+[15.134s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/__init__.py
+[15.134s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.134s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/_gps_s.ep.rosidl_typesupport_introspection_c.c
+[15.134s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.154s] Listing '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps'...
+[15.154s] Compiling '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/__init__.py'...
+[15.154s] Listing '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/msg'...
+[15.154s] Compiling '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/msg/__init__.py'...
+[15.154s] Compiling '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/msg/_gps.py'...
+[15.157s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.158s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.158s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.158s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.158s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.158s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.158s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_generator_py.so
+[15.158s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_generator_py.so" to ""
+[15.158s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/msg/GPS.idl
+[15.158s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/msg/GPS.msg
+[15.159s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/ament_index/resource_index/package_run_dependencies/gps
+[15.159s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/ament_index/resource_index/parent_prefix_path/gps
+[15.159s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/ament_prefix_path.sh
+[15.159s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/ament_prefix_path.dsv
+[15.159s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/path.sh
+[15.160s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/path.dsv
+[15.160s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/local_setup.bash
+[15.160s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/local_setup.sh
+[15.160s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/local_setup.zsh
+[15.160s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/local_setup.dsv
+[15.160s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/package.dsv
+[15.160s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/ament_index/resource_index/packages/gps
+[15.161s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_generator_cExport.cmake
+[15.161s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_generator_cExport-noconfig.cmake
+[15.161s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_typesupport_fastrtps_cExport.cmake
+[15.161s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.161s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_generator_cppExport.cmake
+[15.161s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.162s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.162s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_introspection_cExport.cmake
+[15.162s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.162s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_cExport.cmake
+[15.162s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_cExport-noconfig.cmake
+[15.162s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_introspection_cppExport.cmake
+[15.162s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.162s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_cppExport.cmake
+[15.163s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_cppExport-noconfig.cmake
+[15.163s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_generator_pyExport.cmake
+[15.163s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_generator_pyExport-noconfig.cmake
+[15.163s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/rosidl_cmake-extras.cmake
+[15.163s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.163s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/ament_cmake_export_libraries-extras.cmake
+[15.163s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/ament_cmake_export_targets-extras.cmake
+[15.163s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.163s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.163s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.163s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gpsConfig.cmake
+[15.163s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gpsConfig-version.cmake
+[15.163s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/package.xml
+[15.166s] Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/gps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mondegrin/programs/slon/ros2_ws/build/gps

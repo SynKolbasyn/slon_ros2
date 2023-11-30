@@ -1,0 +1,89 @@
+[0.035s] Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/slon': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16
+[0.047s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.129s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[0.871s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.875s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.883s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.892s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.985s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.985s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[19.915s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[20.012s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[20.029s] -- Found std_srvs: 5.0.0 (/opt/ros/iron/share/std_srvs/cmake)
+[20.057s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[20.061s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[20.063s] -- Found slon: 0.0.0 (/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake)
+[20.244s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[20.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[20.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.494s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[20.506s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[20.506s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[20.506s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[20.514s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[20.518s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[20.518s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mondegrin/programs/slon/ros2_ws/src/slon/include>
+[20.518s] -- Configured cppcheck exclude dirs and/or files: 
+[20.519s] -- Added test 'lint_cmake' to check CMake code style
+[20.519s] -- Added test 'uncrustify' to check C / C++ code style
+[20.519s] -- Configured uncrustify additional arguments: 
+[20.520s] -- Added test 'xmllint' to check XML markup files
+[20.520s] -- Configuring done
+[20.541s] -- Generating done
+[20.543s] -- Build files have been written to: /home/mondegrin/programs/slon/ros2_ws/build/slon
+[20.560s] [35m[1mConsolidate compiler generated dependencies of target main[0m
+[20.565s] [  2%] Built target slon__rosidl_generator_type_description
+[20.571s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_generator_c[0m
+[20.571s] [  2%] Built target ament_cmake_python_copy_slon
+[20.571s] [  5%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[20.577s] [ 19%] Built target slon__rosidl_generator_c
+[20.578s] [ 22%] Built target slon__cpp
+[20.583s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_introspection_c[0m
+[20.583s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_fastrtps_c[0m
+[20.584s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_introspection_cpp[0m
+[20.586s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_c[0m
+[20.591s] [ 30%] Built target slon__rosidl_typesupport_introspection_c
+[20.594s] [ 38%] Built target slon__rosidl_typesupport_introspection_cpp
+[20.594s] [ 47%] Built target slon__rosidl_typesupport_c
+[20.596s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_cpp[0m
+[20.596s] [ 55%] Built target slon__rosidl_typesupport_fastrtps_c
+[20.597s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_fastrtps_cpp[0m
+[20.603s] [ 63%] Built target slon__rosidl_typesupport_cpp
+[20.607s] [ 72%] Built target slon__rosidl_typesupport_fastrtps_cpp
+[20.619s] [ 72%] Built target slon
+[20.633s] [ 75%] Built target slon__py
+[20.642s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_generator_py[0m
+[20.649s] [ 80%] Built target slon__rosidl_generator_py
+[20.656s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_fastrtps_c__pyext[0m
+[20.657s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_introspection_c__pyext[0m
+[20.657s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_c__pyext[0m
+[20.664s] [ 86%] Built target slon__rosidl_typesupport_fastrtps_c__pyext
+[20.664s] [ 91%] Built target slon__rosidl_typesupport_introspection_c__pyext
+[20.666s] [ 97%] Built target slon__rosidl_typesupport_c__pyext
+[20.716s] running egg_info
+[20.716s] writing slon.egg-info/PKG-INFO
+[20.716s] writing dependency_links to slon.egg-info/dependency_links.txt
+[20.716s] writing top-level names to slon.egg-info/top_level.txt
+[20.718s] reading manifest file 'slon.egg-info/SOURCES.txt'
+[20.718s] writing manifest file 'slon.egg-info/SOURCES.txt'
+[20.738s] [ 97%] Built target ament_cmake_python_build_slon_egg
+[22.103s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[22.103s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[22.103s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[22.103s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[22.103s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[22.103s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[22.103s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[22.103s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[22.103s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[22.103s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[22.103s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[22.103s]                  from [01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:3[m[K:
+[22.103s] [01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:[m[K In member function ‘[01m[Kvoid MainSubscriber::topic_callback(const GPS&) const[m[K’:
+[22.103s] [01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:18:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst GPS[m[K’ {aka ‘[01m[Kconst struct slon::msg::GPS_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[22.103s]    18 |       RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.[01;31m[Kdata[m[K.c_str());
+[22.103s]       |                                                            [01;31m[K^~~~[m[K
+[23.335s] gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[23.335s] gmake[1]: *** [CMakeFiles/Makefile2:623: CMakeFiles/main.dir/all] Error 2
+[23.335s] gmake: *** [Makefile:146: all] Error 2
+[23.337s] Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/slon' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16

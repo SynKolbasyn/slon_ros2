@@ -1,0 +1,26 @@
+[33mCMake Warning at /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+
+[0m
+Traceback (most recent call last):
+  File "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+    sys.exit(main())
+  File "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+    generate_type_hash(args.generator_arguments_file)
+  File "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_generator_type_description/__init__.py", line 162, in generate_type_hash
+    with include_path.open('r') as include_file:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps/rosidl_generator_type_description/gps/msg/Float32.json'
+gmake[6]: *** [CMakeFiles/gps__rosidl_generator_type_description.dir/build.make:78: rosidl_generator_type_description/gps/msg/GPS.json] Error 1
+gmake[5]: *** [CMakeFiles/Makefile2:179: CMakeFiles/gps__rosidl_generator_type_description.dir/all] Error 2
+gmake[4]: *** [Makefile:149: all] Error 2

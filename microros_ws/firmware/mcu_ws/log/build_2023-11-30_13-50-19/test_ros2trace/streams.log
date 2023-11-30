@@ -1,0 +1,21 @@
+[2.075s] Invoking command in '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/ros2_tracing/test_ros2trace': AMENT_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/test_ros2trace/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/test_ros2trace build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/test_ros2trace/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/test_ros2trace/install.log --single-version-externally-managed
+[2.842s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.843s]   warnings.warn(
+[2.843s] running egg_info
+[2.847s] writing ../../../build/test_ros2trace/test_ros2trace.egg-info/PKG-INFO
+[2.848s] writing dependency_links to ../../../build/test_ros2trace/test_ros2trace.egg-info/dependency_links.txt
+[2.862s] writing requirements to ../../../build/test_ros2trace/test_ros2trace.egg-info/requires.txt
+[2.863s] writing top-level names to ../../../build/test_ros2trace/test_ros2trace.egg-info/top_level.txt
+[2.863s] reading manifest file '../../../build/test_ros2trace/test_ros2trace.egg-info/SOURCES.txt'
+[2.863s] writing manifest file '../../../build/test_ros2trace/test_ros2trace.egg-info/SOURCES.txt'
+[2.864s] running build
+[2.864s] running build_py
+[2.864s] running install
+[2.864s] running install_lib
+[2.865s] running install_data
+[2.866s] running install_egg_info
+[2.871s] removing '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/test_ros2trace-6.3.1-py3.10.egg-info' (and everything under it)
+[2.871s] Copying ../../../build/test_ros2trace/test_ros2trace.egg-info to /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/test_ros2trace-6.3.1-py3.10.egg-info
+[2.872s] running install_scripts
+[2.873s] writing list of installed files to '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/test_ros2trace/install.log'
+[2.879s] Invoked command in '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/ros2_tracing/test_ros2trace' returned '0': AMENT_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/test_ros2trace/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/test_ros2trace build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/test_ros2trace/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/test_ros2trace/install.log --single-version-externally-managed

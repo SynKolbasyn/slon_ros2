@@ -1,0 +1,2 @@
+/home/mondegrin/programs/slon/microros_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libgps__rosidl_typesupport_microxrcedds_c.a CMakeFiles/gps__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/gps/msg/detail/microxrcedds/gps__type_support_c.c.obj
+/home/mondegrin/programs/slon/microros_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libgps__rosidl_typesupport_microxrcedds_c.a

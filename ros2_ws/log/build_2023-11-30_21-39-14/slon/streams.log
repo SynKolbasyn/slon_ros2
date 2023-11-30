@@ -1,0 +1,65 @@
+[0.036s] Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/slon': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/mondegrin/programs/slon/ros2_ws/src/slon -DCMAKE_INSTALL_PREFIX=/home/mondegrin/programs/slon/ros2_ws/install/slon
+[0.523s] -- The C compiler identification is GNU 11.4.0
+[3.286s] -- The CXX compiler identification is GNU 11.4.0
+[5.490s] -- Detecting C compiler ABI info
+[6.142s] -- Detecting C compiler ABI info - done
+[6.147s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.147s] -- Detecting C compile features
+[6.147s] -- Detecting C compile features - done
+[6.149s] -- Detecting CXX compiler ABI info
+[6.673s] -- Detecting CXX compiler ABI info - done
+[6.677s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.677s] -- Detecting CXX compile features
+[6.678s] -- Detecting CXX compile features - done
+[6.679s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[6.788s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[6.852s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[7.185s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[7.192s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[7.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.214s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.317s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[7.318s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[14.866s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[22.233s] -- Found FastRTPS: /opt/ros/iron/include  
+[34.213s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[34.322s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[34.342s] -- Found std_srvs: 5.0.0 (/opt/ros/iron/share/std_srvs/cmake)
+[34.369s] -- Found gps: 0.0.0 (/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake)
+[34.379s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[34.422s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[34.422s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mondegrin/programs/slon/ros2_ws/src/slon/include>
+[34.422s] -- Configured cppcheck exclude dirs and/or files: 
+[34.423s] -- Added test 'lint_cmake' to check CMake code style
+[34.424s] -- Added test 'uncrustify' to check C / C++ code style
+[34.424s] -- Configured uncrustify additional arguments: 
+[34.424s] -- Added test 'xmllint' to check XML markup files
+[34.425s] -- Configuring done
+[34.432s] -- Generating done
+[34.433s] -- Build files have been written to: /home/mondegrin/programs/slon/ros2_ws/build/slon
+[34.440s] Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/slon' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/mondegrin/programs/slon/ros2_ws/src/slon -DCMAKE_INSTALL_PREFIX=/home/mondegrin/programs/slon/ros2_ws/install/slon
+[34.442s] Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/slon': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16
+[34.469s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[38.916s] [100%] [32m[1mLinking CXX executable main[0m
+[39.585s] [100%] Built target main
+[39.591s] Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/slon' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16
+[39.605s] Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/slon': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mondegrin/programs/slon/ros2_ws/build/slon
+[39.609s] -- Install configuration: ""
+[39.610s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/slon/main
+[39.612s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/slon/main" to ""
+[39.612s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/ament_index/resource_index/package_run_dependencies/slon
+[39.612s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/ament_index/resource_index/parent_prefix_path/slon
+[39.613s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/ament_prefix_path.sh
+[39.613s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/ament_prefix_path.dsv
+[39.613s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/path.sh
+[39.613s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/path.dsv
+[39.613s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.bash
+[39.614s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.sh
+[39.614s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.zsh
+[39.614s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.dsv
+[39.614s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.dsv
+[39.614s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/ament_index/resource_index/packages/slon
+[39.614s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slonConfig.cmake
+[39.614s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slonConfig-version.cmake
+[39.614s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.xml
+[39.615s] Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/slon' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mondegrin/programs/slon/ros2_ws/build/slon

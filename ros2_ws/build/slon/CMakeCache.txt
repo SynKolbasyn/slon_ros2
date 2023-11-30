@@ -269,7 +269,7 @@ SITE:STRING=DESKTOP-2F6E5CH
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/iron/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/iron/share/ament_cmake/cmake
@@ -373,6 +373,9 @@ fastrtps_cmake_module_DIR:PATH=/opt/ros/iron/share/fastrtps_cmake_module/cmake
 //The directory containing a CMake configuration file for foonathan_memory.
 foonathan_memory_DIR:PATH=/opt/ros/iron/lib/foonathan_memory/cmake
 
+//The directory containing a CMake configuration file for gps.
+gps_DIR:PATH=/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake
+
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/iron/share/libstatistics_collector/cmake
 
@@ -424,8 +427,20 @@ rmw_implementation_cmake_DIR:PATH=/opt/ros/iron/share/rmw_implementation_cmake/c
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/iron/share/rosgraph_msgs/cmake
 
+//The directory containing a CMake configuration file for rosidl_adapter.
+rosidl_adapter_DIR:PATH=/opt/ros/iron/share/rosidl_adapter/cmake
+
+//The directory containing a CMake configuration file for rosidl_cmake.
+rosidl_cmake_DIR:PATH=/opt/ros/iron/share/rosidl_cmake/cmake
+
+//The directory containing a CMake configuration file for rosidl_core_generators.
+rosidl_core_generators_DIR:PATH=/opt/ros/iron/share/rosidl_core_generators/cmake
+
 //The directory containing a CMake configuration file for rosidl_core_runtime.
 rosidl_core_runtime_DIR:PATH=/opt/ros/iron/share/rosidl_core_runtime/cmake
+
+//The directory containing a CMake configuration file for rosidl_default_generators.
+rosidl_default_generators_DIR:PATH=/opt/ros/iron/share/rosidl_default_generators/cmake
 
 //The directory containing a CMake configuration file for rosidl_default_runtime.
 rosidl_default_runtime_DIR:PATH=/opt/ros/iron/share/rosidl_default_runtime/cmake
@@ -441,6 +456,9 @@ rosidl_generator_c_DIR:PATH=/opt/ros/iron/share/rosidl_generator_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_generator_cpp.
 rosidl_generator_cpp_DIR:PATH=/opt/ros/iron/share/rosidl_generator_cpp/cmake
+
+//The directory containing a CMake configuration file for rosidl_generator_py.
+rosidl_generator_py_DIR:PATH=/opt/ros/iron/share/rosidl_generator_py/cmake
 
 //The directory containing a CMake configuration file for rosidl_generator_type_description.
 rosidl_generator_type_description_DIR:PATH=/opt/ros/iron/share/rosidl_generator_type_description/cmake

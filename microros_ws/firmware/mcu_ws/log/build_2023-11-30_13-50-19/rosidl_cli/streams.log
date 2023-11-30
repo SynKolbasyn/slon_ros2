@@ -1,0 +1,23 @@
+[4.657s] Invoking command in '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cli': PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cli/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cli/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cli/install.log --single-version-externally-managed
+[5.166s] running egg_info
+[5.169s] writing ../../../build/rosidl_cli/rosidl_cli.egg-info/PKG-INFO
+[5.170s] writing dependency_links to ../../../build/rosidl_cli/rosidl_cli.egg-info/dependency_links.txt
+[5.172s] writing entry points to ../../../build/rosidl_cli/rosidl_cli.egg-info/entry_points.txt
+[5.173s] writing requirements to ../../../build/rosidl_cli/rosidl_cli.egg-info/requires.txt
+[5.174s] writing top-level names to ../../../build/rosidl_cli/rosidl_cli.egg-info/top_level.txt
+[5.183s] reading manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[5.188s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[5.189s] running build
+[5.190s] running build_py
+[5.194s] running install
+[5.195s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.196s]   warnings.warn(
+[5.197s] running install_lib
+[5.206s] running install_data
+[5.210s] running install_egg_info
+[5.219s] removing '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli-4.0.1-py3.10.egg-info' (and everything under it)
+[5.223s] Copying ../../../build/rosidl_cli/rosidl_cli.egg-info to /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli-4.0.1-py3.10.egg-info
+[5.228s] running install_scripts
+[5.470s] Installing rosidl script to /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/bin
+[5.472s] writing list of installed files to '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cli/install.log'
+[5.655s] Invoked command in '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cli' returned '0': PYTHONPATH=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cli/prefix_override:/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cli/build install --record /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/rosidl_cli/install.log --single-version-externally-managed

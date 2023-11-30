@@ -1,0 +1,54 @@
+gmake[4]: Entering directory '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps'
+/usr/bin/cmake -S/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/gps -B/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps --check-build-system CMakeFiles/Makefile.cmake 0
+Re-run cmake file: Makefile older than: /home/mondegrin/programs/slon/microros_ws/firmware/freertos_apps/microros_esp32_extensions/esp32_toolchain.cmake
+-- Found ament_cmake: 2.0.3 (/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found std_msgs: 5.0.0 (/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/std_msgs/cmake)
+[33mCMake Warning at /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+
+[0m
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_microxrcedds_c
+-- Found rosidl_adapter: 4.0.1 (/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_adapter/cmake)
+-- Found std_srvs: 5.0.0 (/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/std_srvs/cmake)
+-- Found rosidl_default_generators: 1.5.0 (/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.11.2 (/home/mondegrin/programs/slon/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_microxrcedds_c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps
+/usr/bin/cmake -E cmake_progress_start /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps/CMakeFiles /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[5]: Entering directory '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps'
+/usr/bin/gmake  -f CMakeFiles/gps__rosidl_generator_type_description.dir/build.make CMakeFiles/gps__rosidl_generator_type_description.dir/depend
+gmake[6]: Entering directory '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps'
+cd /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/gps /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/gps /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps/CMakeFiles/gps__rosidl_generator_type_description.dir/DependInfo.cmake --color=
+gmake[6]: Leaving directory '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps'
+/usr/bin/gmake  -f CMakeFiles/gps__rosidl_generator_type_description.dir/build.make CMakeFiles/gps__rosidl_generator_type_description.dir/build
+gmake[6]: Entering directory '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps'
+[  6%] [34m[1mGenerating type hashes for ROS interfaces[0m
+/home/mondegrin/programs/slon/microros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python3.10 /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps/rosidl_generator_type_description__arguments.json
+Traceback (most recent call last):
+  File "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+    sys.exit(main())
+  File "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+    generate_type_hash(args.generator_arguments_file)
+  File "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_generator_type_description/__init__.py", line 162, in generate_type_hash
+    with include_path.open('r') as include_file:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps/rosidl_generator_type_description/gps/msg/Float32.json'
+gmake[6]: Leaving directory '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps'
+gmake[5]: Leaving directory '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps'
+gmake[4]: Leaving directory '/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/gps'
+gmake[6]: *** [CMakeFiles/gps__rosidl_generator_type_description.dir/build.make:78: rosidl_generator_type_description/gps/msg/GPS.json] Error 1
+gmake[5]: *** [CMakeFiles/Makefile2:179: CMakeFiles/gps__rosidl_generator_type_description.dir/all] Error 2
+gmake[4]: *** [Makefile:149: all] Error 2

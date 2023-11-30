@@ -1,20 +1,25 @@
+#include <functional>
 #include <memory>
 
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
+#include "gps/msg/gps.hpp"
+
+
 using std::placeholders::_1;
+
 
 class MainSubscriber : public rclcpp::Node {
   public:
     MainSubscriber() : Node("main_subscriber") {
-      subscription_ = this->create_subscription<std_msgs::msg::String>("main", 1, std::bind(&MainSubscriber::topic_callback, this, _1));
+      subscription_ = this->create_subscription<gps::msg::GPS>("main", 1, std::bind(&MainSubscriber::topic_callback, this, _1));
     }
 
   private:
-    void topic_callback(const std_msgs::msg::String& msg) const {
-      RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.data.c_str());
+    void topic_callback(const gps::msg::GPS& msg) const {
+      RCLCPP_INFO(this->get_logger(), "I heard: (%f | %f)", msg.lat, msg.lon);
     }
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+
+    rclcpp::Subscription<gps::msg::GPS>::SharedPtr subscription_;
 };
 
 

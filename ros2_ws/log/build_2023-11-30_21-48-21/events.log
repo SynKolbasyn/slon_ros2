@@ -1,0 +1,764 @@
+[0.000000] (-) TimerEvent: {}
+[0.000170] (gps) JobQueued: {'identifier': 'gps', 'dependencies': OrderedDict()}
+[0.000205] (slon) JobQueued: {'identifier': 'slon', 'dependencies': OrderedDict()}
+[0.000488] (gps) JobStarted: {'identifier': 'gps'}
+[0.034255] (slon) JobStarted: {'identifier': 'slon'}
+[0.098505] (gps) JobProgress: {'identifier': 'gps', 'progress': 'cmake'}
+[0.099925] (-) TimerEvent: {}
+[0.100267] (gps) Command: {'cmd': ['/usr/bin/cmake', '/home/mondegrin/programs/slon/ros2_ws/src/gps', '-DCMAKE_INSTALL_PREFIX=/home/mondegrin/programs/slon/ros2_ws/install/gps'], 'cwd': '/home/mondegrin/programs/slon/ros2_ws/build/gps', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mondegrin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib:/home/mondegrin/programs/slon/ros2_ws/install/slon/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/mondegrin'), ('OLDPWD', '/home/mondegrin/programs/slon'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mondegrin'), ('NAME', 'DESKTOP-2F6E5CH'), ('WSL_INTEROP', '/run/WSL/273828_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('DONT_PROMPT_WSL_INSTALL', 'true'), ('PATH', '/home/mondegrin/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/WinAVR-20100110/bin:/mnt/c/WinAVR-20100110/utils/bin:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Recovery/OEM/Backup/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Mondegrin/Downloads/curl-8.2.1_7-win64-mingw/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Mondegrin/.cargo/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Mondegrin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Mondegrin/go/bin:/mnt/c/Program Files/JetBrains/RustRover 233.8264.22/bin:/mnt/c/Users/Mondegrin/.dotnet/tools:/snap/bin'), ('WT_SESSION', 'd2534500-8c83-41c4-b2cc-acb4082492c5'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps:/home/mondegrin/programs/slon/ros2_ws/install/slon:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/mondegrin/programs/slon/ros2_ws/build/gps'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages:/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps:/home/mondegrin/programs/slon/ros2_ws/install/slon:/opt/ros/iron'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.106386] (slon) JobProgress: {'identifier': 'slon', 'progress': 'cmake'}
+[0.107215] (slon) Command: {'cmd': ['/usr/bin/cmake', '/home/mondegrin/programs/slon/ros2_ws/src/slon', '-DCMAKE_INSTALL_PREFIX=/home/mondegrin/programs/slon/ros2_ws/install/slon'], 'cwd': '/home/mondegrin/programs/slon/ros2_ws/build/slon', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mondegrin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib:/home/mondegrin/programs/slon/ros2_ws/install/slon/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/mondegrin'), ('OLDPWD', '/home/mondegrin/programs/slon'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mondegrin'), ('NAME', 'DESKTOP-2F6E5CH'), ('WSL_INTEROP', '/run/WSL/273828_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('DONT_PROMPT_WSL_INSTALL', 'true'), ('PATH', '/home/mondegrin/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/WinAVR-20100110/bin:/mnt/c/WinAVR-20100110/utils/bin:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Recovery/OEM/Backup/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Mondegrin/Downloads/curl-8.2.1_7-win64-mingw/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Mondegrin/.cargo/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Mondegrin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Mondegrin/go/bin:/mnt/c/Program Files/JetBrains/RustRover 233.8264.22/bin:/mnt/c/Users/Mondegrin/.dotnet/tools:/snap/bin'), ('WT_SESSION', 'd2534500-8c83-41c4-b2cc-acb4082492c5'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps:/home/mondegrin/programs/slon/ros2_ws/install/slon:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/mondegrin/programs/slon/ros2_ws/build/slon'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages:/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps:/home/mondegrin/programs/slon/ros2_ws/install/slon:/opt/ros/iron'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.200189] (-) TimerEvent: {}
+[0.300534] (-) TimerEvent: {}
+[0.400929] (-) TimerEvent: {}
+[0.501407] (-) TimerEvent: {}
+[0.545818] (slon) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.553687] (gps) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.601561] (-) TimerEvent: {}
+[0.701988] (-) TimerEvent: {}
+[0.802440] (-) TimerEvent: {}
+[0.902789] (-) TimerEvent: {}
+[1.003195] (-) TimerEvent: {}
+[1.103701] (-) TimerEvent: {}
+[1.204172] (-) TimerEvent: {}
+[1.304616] (-) TimerEvent: {}
+[1.405031] (-) TimerEvent: {}
+[1.505418] (-) TimerEvent: {}
+[1.605762] (-) TimerEvent: {}
+[1.706118] (-) TimerEvent: {}
+[1.806534] (-) TimerEvent: {}
+[1.906873] (-) TimerEvent: {}
+[2.007269] (-) TimerEvent: {}
+[2.107639] (-) TimerEvent: {}
+[2.208057] (-) TimerEvent: {}
+[2.308427] (-) TimerEvent: {}
+[2.408908] (-) TimerEvent: {}
+[2.509263] (-) TimerEvent: {}
+[2.609623] (-) TimerEvent: {}
+[2.709989] (-) TimerEvent: {}
+[2.729106] (gps) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.794396] (slon) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.810109] (-) TimerEvent: {}
+[2.910524] (-) TimerEvent: {}
+[3.010919] (-) TimerEvent: {}
+[3.111291] (-) TimerEvent: {}
+[3.211641] (-) TimerEvent: {}
+[3.312020] (-) TimerEvent: {}
+[3.412424] (-) TimerEvent: {}
+[3.512889] (-) TimerEvent: {}
+[3.613411] (-) TimerEvent: {}
+[3.713827] (-) TimerEvent: {}
+[3.814221] (-) TimerEvent: {}
+[3.914619] (-) TimerEvent: {}
+[4.014963] (-) TimerEvent: {}
+[4.115318] (-) TimerEvent: {}
+[4.215783] (-) TimerEvent: {}
+[4.316362] (-) TimerEvent: {}
+[4.416750] (-) TimerEvent: {}
+[4.517123] (-) TimerEvent: {}
+[4.603428] (gps) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.617266] (-) TimerEvent: {}
+[4.658066] (slon) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.717540] (-) TimerEvent: {}
+[4.818201] (-) TimerEvent: {}
+[4.918843] (-) TimerEvent: {}
+[5.019261] (-) TimerEvent: {}
+[5.119710] (-) TimerEvent: {}
+[5.207303] (gps) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.212074] (gps) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.212452] (gps) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.212522] (gps) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.214482] (gps) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.219802] (-) TimerEvent: {}
+[5.268251] (slon) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.272593] (slon) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.272845] (slon) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.273072] (slon) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.274877] (slon) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.319965] (-) TimerEvent: {}
+[5.420346] (-) TimerEvent: {}
+[5.521032] (-) TimerEvent: {}
+[5.621715] (-) TimerEvent: {}
+[5.722258] (-) TimerEvent: {}
+[5.822709] (-) TimerEvent: {}
+[5.833807] (gps) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.838366] (gps) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.838903] (gps) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.838997] (gps) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.840453] (gps) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[5.893637] (slon) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.898455] (slon) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.898751] (slon) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.898984] (slon) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.899842] (slon) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[5.922862] (-) TimerEvent: {}
+[5.951183] (gps) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[6.004359] (gps) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[6.006001] (slon) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[6.022976] (-) TimerEvent: {}
+[6.057495] (slon) StdoutLine: {'line': b'-- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[6.123131] (-) TimerEvent: {}
+[6.223473] (-) TimerEvent: {}
+[6.323803] (-) TimerEvent: {}
+[6.424208] (-) TimerEvent: {}
+[6.524591] (-) TimerEvent: {}
+[6.625044] (-) TimerEvent: {}
+[6.659692] (gps) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[6.667196] (gps) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[6.676939] (gps) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.688902] (gps) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.725225] (-) TimerEvent: {}
+[6.728539] (gps) StdoutLine: {'line': b'-- Found std_srvs: 5.0.0 (/opt/ros/iron/share/std_srvs/cmake)\n'}
+[6.736140] (slon) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[6.742856] (slon) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[6.752118] (slon) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.763260] (slon) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.795137] (gps) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[6.801423] (gps) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[6.825326] (-) TimerEvent: {}
+[6.866713] (slon) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[6.868023] (slon) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.925439] (-) TimerEvent: {}
+[6.988531] (gps) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[7.025589] (-) TimerEvent: {}
+[7.125910] (-) TimerEvent: {}
+[7.180063] (gps) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.226167] (-) TimerEvent: {}
+[7.257271] (gps) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.326409] (-) TimerEvent: {}
+[7.426810] (-) TimerEvent: {}
+[7.527190] (-) TimerEvent: {}
+[7.627529] (-) TimerEvent: {}
+[7.727910] (-) TimerEvent: {}
+[7.828562] (-) TimerEvent: {}
+[7.929149] (-) TimerEvent: {}
+[8.029613] (-) TimerEvent: {}
+[8.093315] (gps) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[8.093998] (gps) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[8.129801] (-) TimerEvent: {}
+[8.230324] (-) TimerEvent: {}
+[8.331067] (-) TimerEvent: {}
+[8.431539] (-) TimerEvent: {}
+[8.532123] (-) TimerEvent: {}
+[8.632780] (-) TimerEvent: {}
+[8.733192] (-) TimerEvent: {}
+[8.833587] (-) TimerEvent: {}
+[8.934193] (-) TimerEvent: {}
+[9.034577] (-) TimerEvent: {}
+[9.135036] (-) TimerEvent: {}
+[9.235392] (-) TimerEvent: {}
+[9.335782] (-) TimerEvent: {}
+[9.436189] (-) TimerEvent: {}
+[9.536613] (-) TimerEvent: {}
+[9.636988] (-) TimerEvent: {}
+[9.737375] (-) TimerEvent: {}
+[9.837730] (-) TimerEvent: {}
+[9.938098] (-) TimerEvent: {}
+[10.038472] (-) TimerEvent: {}
+[10.138891] (-) TimerEvent: {}
+[10.239223] (-) TimerEvent: {}
+[10.339699] (-) TimerEvent: {}
+[10.440156] (-) TimerEvent: {}
+[10.540522] (-) TimerEvent: {}
+[10.640879] (-) TimerEvent: {}
+[10.741246] (-) TimerEvent: {}
+[10.806922] (gps) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[10.807129] (gps) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.807170] (gps) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[10.807201] (gps) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[10.820813] (gps) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[10.841420] (-) TimerEvent: {}
+[10.941750] (-) TimerEvent: {}
+[11.042094] (-) TimerEvent: {}
+[11.142499] (-) TimerEvent: {}
+[11.218818] (gps) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[11.228646] (gps) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.229517] (gps) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.231434] (gps) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.242614] (-) TimerEvent: {}
+[11.253573] (gps) StdoutLine: {'line': b'-- Generating done\n'}
+[11.255332] (gps) StdoutLine: {'line': b'-- Build files have been written to: /home/mondegrin/programs/slon/ros2_ws/build/gps\n'}
+[11.266988] (gps) CommandEnded: {'returncode': 0}
+[11.269344] (gps) JobProgress: {'identifier': 'gps', 'progress': 'build'}
+[11.269625] (gps) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mondegrin/programs/slon/ros2_ws/build/gps', '--', '-j16', '-l16'], 'cwd': '/home/mondegrin/programs/slon/ros2_ws/build/gps', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mondegrin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib:/home/mondegrin/programs/slon/ros2_ws/install/slon/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/mondegrin'), ('OLDPWD', '/home/mondegrin/programs/slon'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mondegrin'), ('NAME', 'DESKTOP-2F6E5CH'), ('WSL_INTEROP', '/run/WSL/273828_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('DONT_PROMPT_WSL_INSTALL', 'true'), ('PATH', '/home/mondegrin/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/WinAVR-20100110/bin:/mnt/c/WinAVR-20100110/utils/bin:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Recovery/OEM/Backup/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Mondegrin/Downloads/curl-8.2.1_7-win64-mingw/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Mondegrin/.cargo/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Mondegrin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Mondegrin/go/bin:/mnt/c/Program Files/JetBrains/RustRover 233.8264.22/bin:/mnt/c/Users/Mondegrin/.dotnet/tools:/snap/bin'), ('WT_SESSION', 'd2534500-8c83-41c4-b2cc-acb4082492c5'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps:/home/mondegrin/programs/slon/ros2_ws/install/slon:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/mondegrin/programs/slon/ros2_ws/build/gps'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages:/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps:/home/mondegrin/programs/slon/ros2_ws/install/slon:/opt/ros/iron'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[11.308903] (gps) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[11.312770] (gps) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_gps\n'}
+[11.342873] (-) TimerEvent: {}
+[11.442072] (gps) StdoutLine: {'line': b'[  2%] Built target gps__rosidl_generator_type_description\n'}
+[11.442963] (-) TimerEvent: {}
+[11.448979] (gps) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[11.456882] (gps) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[11.465192] (gps) StdoutLine: {'line': b'running egg_info\n'}
+[11.465892] (gps) StdoutLine: {'line': b'creating gps.egg-info\n'}
+[11.466138] (gps) StdoutLine: {'line': b'writing gps.egg-info/PKG-INFO\n'}
+[11.466721] (gps) StdoutLine: {'line': b'writing dependency_links to gps.egg-info/dependency_links.txt\n'}
+[11.466987] (gps) StdoutLine: {'line': b'writing top-level names to gps.egg-info/top_level.txt\n'}
+[11.467039] (gps) StdoutLine: {'line': b"writing manifest file 'gps.egg-info/SOURCES.txt'\n"}
+[11.469564] (gps) StdoutLine: {'line': b"reading manifest file 'gps.egg-info/SOURCES.txt'\n"}
+[11.469909] (gps) StdoutLine: {'line': b"writing manifest file 'gps.egg-info/SOURCES.txt'\n"}
+[11.495267] (gps) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_gps_egg\n'}
+[11.543087] (-) TimerEvent: {}
+[11.607750] (gps) StdoutLine: {'line': b'[  8%] Built target gps__cpp\n'}
+[11.625636] (gps) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/gps__rosidl_generator_c.dir/rosidl_generator_c/gps/msg/detail/gps__type_support.c.o\x1b[0m\n'}
+[11.625826] (gps) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/gps__rosidl_generator_c.dir/rosidl_generator_c/gps/msg/detail/gps__functions.c.o\x1b[0m\n'}
+[11.625865] (gps) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/gps__rosidl_generator_c.dir/rosidl_generator_c/gps/msg/detail/gps__description.c.o\x1b[0m\n'}
+[11.643281] (-) TimerEvent: {}
+[11.651669] (gps) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libgps__rosidl_generator_c.so\x1b[0m\n'}
+[11.743419] (-) TimerEvent: {}
+[11.843801] (-) TimerEvent: {}
+[11.944366] (-) TimerEvent: {}
+[12.044848] (-) TimerEvent: {}
+[12.145285] (-) TimerEvent: {}
+[12.245617] (-) TimerEvent: {}
+[12.346045] (-) TimerEvent: {}
+[12.379466] (gps) StdoutLine: {'line': b'[ 20%] Built target gps__rosidl_generator_c\n'}
+[12.385820] (gps) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[12.386286] (gps) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.386570] (gps) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.387012] (gps) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.387684] (gps) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.388134] (gps) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.446230] (-) TimerEvent: {}
+[12.546817] (-) TimerEvent: {}
+[12.588747] (gps) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/gps__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gps/msg/detail/gps__type_support_c.cpp.o\x1b[0m\n'}
+[12.594866] (gps) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/gps__rosidl_typesupport_c.dir/rosidl_typesupport_c/gps/msg/gps__type_support.cpp.o\x1b[0m\n'}
+[12.595307] (gps) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/gps__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gps/msg/gps__type_support.cpp.o\x1b[0m\n'}
+[12.596291] (gps) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gps__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gps/msg/detail/gps__type_support.cpp.o\x1b[0m\n'}
+[12.614483] (gps) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/gps__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gps/msg/detail/dds_fastrtps/gps__type_support.cpp.o\x1b[0m\n'}
+[12.621021] (gps) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/gps__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gps/msg/detail/gps__type_support.c.o\x1b[0m\n'}
+[12.624597] (gps) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libgps__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.646637] (gps) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libgps__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.646975] (-) TimerEvent: {}
+[12.747344] (-) TimerEvent: {}
+[12.847967] (-) TimerEvent: {}
+[12.908728] (gps) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libgps__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.948163] (-) TimerEvent: {}
+[12.964934] (gps) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libgps__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[13.013501] (gps) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libgps__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.048332] (-) TimerEvent: {}
+[13.148880] (-) TimerEvent: {}
+[13.154210] (gps) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libgps__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.173673] (gps) StdoutLine: {'line': b'[ 73%] Built target gps__rosidl_typesupport_introspection_c\n'}
+[13.184404] (gps) StdoutLine: {'line': b'[ 73%] Built target gps__rosidl_typesupport_c\n'}
+[13.249137] (-) TimerEvent: {}
+[13.349610] (-) TimerEvent: {}
+[13.450041] (-) TimerEvent: {}
+[13.459589] (gps) StdoutLine: {'line': b'[ 73%] Built target gps__rosidl_typesupport_fastrtps_c\n'}
+[13.471741] (gps) StdoutLine: {'line': b'[ 73%] Built target gps__rosidl_typesupport_introspection_cpp\n'}
+[13.550291] (-) TimerEvent: {}
+[13.615192] (gps) StdoutLine: {'line': b'[ 73%] Built target gps__rosidl_typesupport_cpp\n'}
+[13.650452] (-) TimerEvent: {}
+[13.689362] (gps) StdoutLine: {'line': b'[ 73%] Built target gps__rosidl_typesupport_fastrtps_cpp\n'}
+[13.705248] (gps) StdoutLine: {'line': b'[ 73%] Built target gps\n'}
+[13.717460] (gps) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.750658] (-) TimerEvent: {}
+[13.851294] (-) TimerEvent: {}
+[13.897381] (gps) StdoutLine: {'line': b'[ 76%] Built target gps__py\n'}
+[13.911356] (gps) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/gps__rosidl_generator_py.dir/rosidl_generator_py/gps/msg/_gps_s.c.o\x1b[0m\n'}
+[13.951457] (-) TimerEvent: {}
+[13.990890] (gps) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gps/libgps__rosidl_generator_py.so\x1b[0m\n'}
+[14.051580] (-) TimerEvent: {}
+[14.151934] (-) TimerEvent: {}
+[14.252372] (-) TimerEvent: {}
+[14.352759] (-) TimerEvent: {}
+[14.453123] (-) TimerEvent: {}
+[14.553572] (-) TimerEvent: {}
+[14.653919] (-) TimerEvent: {}
+[14.686776] (gps) StdoutLine: {'line': b'[ 82%] Built target gps__rosidl_generator_py\n'}
+[14.698828] (gps) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/gps__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gps/_gps_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.699102] (gps) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/gps__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gps/_gps_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.699209] (gps) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/gps__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gps/_gps_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.752926] (gps) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gps/gps_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.753201] (gps) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gps/gps_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.754010] (-) TimerEvent: {}
+[14.764790] (gps) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gps/gps_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.854178] (-) TimerEvent: {}
+[14.954620] (-) TimerEvent: {}
+[15.055104] (-) TimerEvent: {}
+[15.149241] (gps) StdoutLine: {'line': b'[100%] Built target gps__rosidl_typesupport_introspection_c__pyext\n'}
+[15.155237] (-) TimerEvent: {}
+[15.171044] (gps) StdoutLine: {'line': b'[100%] Built target gps__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.254735] (slon) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[15.255315] (-) TimerEvent: {}
+[15.355723] (-) TimerEvent: {}
+[15.378994] (gps) StdoutLine: {'line': b'[100%] Built target gps__rosidl_typesupport_c__pyext\n'}
+[15.386150] (gps) CommandEnded: {'returncode': 0}
+[15.418762] (gps) JobProgress: {'identifier': 'gps', 'progress': 'install'}
+[15.427026] (gps) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mondegrin/programs/slon/ros2_ws/build/gps'], 'cwd': '/home/mondegrin/programs/slon/ros2_ws/build/gps', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mondegrin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib:/home/mondegrin/programs/slon/ros2_ws/install/slon/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/mondegrin'), ('OLDPWD', '/home/mondegrin/programs/slon'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mondegrin'), ('NAME', 'DESKTOP-2F6E5CH'), ('WSL_INTEROP', '/run/WSL/273828_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('DONT_PROMPT_WSL_INSTALL', 'true'), ('PATH', '/home/mondegrin/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/WinAVR-20100110/bin:/mnt/c/WinAVR-20100110/utils/bin:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Recovery/OEM/Backup/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Mondegrin/Downloads/curl-8.2.1_7-win64-mingw/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Mondegrin/.cargo/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Mondegrin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Mondegrin/go/bin:/mnt/c/Program Files/JetBrains/RustRover 233.8264.22/bin:/mnt/c/Users/Mondegrin/.dotnet/tools:/snap/bin'), ('WT_SESSION', 'd2534500-8c83-41c4-b2cc-acb4082492c5'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps:/home/mondegrin/programs/slon/ros2_ws/install/slon:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/mondegrin/programs/slon/ros2_ws/build/gps'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages:/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps:/home/mondegrin/programs/slon/ros2_ws/install/slon:/opt/ros/iron'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[15.433291] (gps) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.433748] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/ament_index/resource_index/rosidl_interfaces/gps\n'}
+[15.434093] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/msg/GPS.json\n'}
+[15.434303] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps\n'}
+[15.434579] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg\n'}
+[15.434700] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/gps.h\n'}
+[15.434919] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.435085] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail\n'}
+[15.435264] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__type_support.h\n'}
+[15.435329] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__functions.h\n'}
+[15.435432] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__type_support.c\n'}
+[15.435466] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__struct.h\n'}
+[15.435495] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__description.c\n'}
+[15.435623] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__functions.c\n'}
+[15.435680] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/library_path.sh\n'}
+[15.435711] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/library_path.dsv\n'}
+[15.435871] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_generator_c.so\n'}
+[15.436127] (gps) StdoutLine: {'line': b'-- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_generator_c.so" to ""\n'}
+[15.436347] (gps) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps\n'}
+[15.436447] (gps) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg\n'}
+[15.436539] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.436726] (gps) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail\n'}
+[15.436776] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__rosidl_typesupport_fastrtps_c.h\n'}
+[15.436909] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_fastrtps_c.so\n'}
+[15.437046] (gps) StdoutLine: {'line': b'-- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[15.437203] (gps) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps\n'}
+[15.437357] (gps) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg\n'}
+[15.437396] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/gps.hpp\n'}
+[15.437464] (gps) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail\n'}
+[15.437553] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__traits.hpp\n'}
+[15.437642] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__struct.hpp\n'}
+[15.437813] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__builder.hpp\n'}
+[15.437986] (gps) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps\n'}
+[15.438056] (gps) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg\n'}
+[15.438105] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.438247] (gps) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail\n'}
+[15.438437] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/dds_fastrtps\n'}
+[15.438529] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.438714] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.438937] (gps) StdoutLine: {'line': b'-- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[15.439099] (gps) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps\n'}
+[15.439133] (gps) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg\n'}
+[15.439162] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.439190] (gps) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail\n'}
+[15.439217] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__type_support.c\n'}
+[15.439309] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__rosidl_typesupport_introspection_c.h\n'}
+[15.439437] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_introspection_c.so\n'}
+[15.439505] (gps) StdoutLine: {'line': b'-- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.439722] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_c.so\n'}
+[15.439789] (gps) StdoutLine: {'line': b'-- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_c.so" to ""\n'}
+[15.439845] (gps) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps\n'}
+[15.439988] (gps) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg\n'}
+[15.440044] (gps) StdoutLine: {'line': b'-- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail\n'}
+[15.440080] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__type_support.cpp\n'}
+[15.440238] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/include/gps/gps/msg/detail/gps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.440344] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_introspection_cpp.so\n'}
+[15.440505] (gps) StdoutLine: {'line': b'-- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[15.440568] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_cpp.so\n'}
+[15.440598] (gps) StdoutLine: {'line': b'-- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_typesupport_cpp.so" to ""\n'}
+[15.440626] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/pythonpath.sh\n'}
+[15.440813] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/pythonpath.dsv\n'}
+[15.440985] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps-0.0.0-py3.10.egg-info\n'}
+[15.441244] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[15.441368] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[15.441536] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[15.441606] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[15.441734] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps\n'}
+[15.441784] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.441969] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/msg\n'}
+[15.442248] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/msg/_gps_s.c\n'}
+[15.442347] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/msg/__init__.py\n'}
+[15.442400] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/msg/_gps.py\n'}
+[15.442518] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/libgps__rosidl_generator_py.so\n'}
+[15.442584] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/_gps_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[15.442642] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/_gps_s.ep.rosidl_typesupport_c.c\n'}
+[15.442676] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/__init__.py\n'}
+[15.442802] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.442863] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/_gps_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[15.443008] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.455874] (-) TimerEvent: {}
+[15.468235] (gps) StdoutLine: {'line': b"Listing '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps'...\n"}
+[15.468406] (gps) StdoutLine: {'line': b"Compiling '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/__init__.py'...\n"}
+[15.468445] (gps) StdoutLine: {'line': b"Listing '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/msg'...\n"}
+[15.468476] (gps) StdoutLine: {'line': b"Compiling '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/msg/__init__.py'...\n"}
+[15.468512] (gps) StdoutLine: {'line': b"Compiling '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/msg/_gps.py'...\n"}
+[15.472545] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.472736] (gps) StdoutLine: {'line': b'-- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.473090] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.473168] (gps) StdoutLine: {'line': b'-- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.473210] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.473241] (gps) StdoutLine: {'line': b'-- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages/gps/gps_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.473271] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_generator_py.so\n'}
+[15.473483] (gps) StdoutLine: {'line': b'-- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/libgps__rosidl_generator_py.so" to ""\n'}
+[15.473559] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/msg/GPS.idl\n'}
+[15.473593] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/msg/GPS.msg\n'}
+[15.473789] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/ament_index/resource_index/package_run_dependencies/gps\n'}
+[15.474353] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/ament_index/resource_index/parent_prefix_path/gps\n'}
+[15.474440] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/ament_prefix_path.sh\n'}
+[15.474475] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/ament_prefix_path.dsv\n'}
+[15.474667] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/path.sh\n'}
+[15.474713] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/environment/path.dsv\n'}
+[15.474743] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/local_setup.bash\n'}
+[15.474773] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/local_setup.sh\n'}
+[15.475023] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/local_setup.zsh\n'}
+[15.475123] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/local_setup.dsv\n'}
+[15.475163] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/package.dsv\n'}
+[15.475276] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/ament_index/resource_index/packages/gps\n'}
+[15.475329] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_generator_cExport.cmake\n'}
+[15.475474] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.475524] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[15.475555] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[15.475678] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_generator_cppExport.cmake\n'}
+[15.475737] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[15.475772] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[15.475983] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.476043] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.476099] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_cExport.cmake\n'}
+[15.476250] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.476574] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.476690] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.476832] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_cppExport.cmake\n'}
+[15.476871] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gps__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.476909] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_generator_pyExport.cmake\n'}
+[15.476940] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/export_gps__rosidl_generator_pyExport-noconfig.cmake\n'}
+[15.476968] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/rosidl_cmake-extras.cmake\n'}
+[15.476997] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.477025] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.477053] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.477081] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.477109] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.477136] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.477165] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gpsConfig.cmake\n'}
+[15.477193] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake/gpsConfig-version.cmake\n'}
+[15.477221] (gps) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/package.xml\n'}
+[15.478193] (gps) CommandEnded: {'returncode': 0}
+[15.555978] (-) TimerEvent: {}
+[15.607069] (gps) JobEnded: {'identifier': 'gps', 'rc': 0}
+[15.656218] (-) TimerEvent: {}
+[15.756562] (-) TimerEvent: {}
+[15.856925] (-) TimerEvent: {}
+[15.957356] (-) TimerEvent: {}
+[16.057731] (-) TimerEvent: {}
+[16.158173] (-) TimerEvent: {}
+[16.258604] (-) TimerEvent: {}
+[16.359064] (-) TimerEvent: {}
+[16.459463] (-) TimerEvent: {}
+[16.559794] (-) TimerEvent: {}
+[16.660251] (-) TimerEvent: {}
+[16.760724] (-) TimerEvent: {}
+[16.861103] (-) TimerEvent: {}
+[16.961483] (-) TimerEvent: {}
+[17.062016] (-) TimerEvent: {}
+[17.162421] (-) TimerEvent: {}
+[17.262795] (-) TimerEvent: {}
+[17.363331] (-) TimerEvent: {}
+[17.463664] (-) TimerEvent: {}
+[17.564024] (-) TimerEvent: {}
+[17.664373] (-) TimerEvent: {}
+[17.764812] (-) TimerEvent: {}
+[17.865146] (-) TimerEvent: {}
+[17.965715] (-) TimerEvent: {}
+[18.066163] (-) TimerEvent: {}
+[18.166513] (-) TimerEvent: {}
+[18.266988] (-) TimerEvent: {}
+[18.367453] (-) TimerEvent: {}
+[18.467893] (-) TimerEvent: {}
+[18.568369] (-) TimerEvent: {}
+[18.668989] (-) TimerEvent: {}
+[18.769611] (-) TimerEvent: {}
+[18.870307] (-) TimerEvent: {}
+[18.971016] (-) TimerEvent: {}
+[19.071677] (-) TimerEvent: {}
+[19.172163] (-) TimerEvent: {}
+[19.272608] (-) TimerEvent: {}
+[19.373222] (-) TimerEvent: {}
+[19.473673] (-) TimerEvent: {}
+[19.574221] (-) TimerEvent: {}
+[19.674619] (-) TimerEvent: {}
+[19.775367] (-) TimerEvent: {}
+[19.876049] (-) TimerEvent: {}
+[19.976613] (-) TimerEvent: {}
+[20.077164] (-) TimerEvent: {}
+[20.177614] (-) TimerEvent: {}
+[20.278214] (-) TimerEvent: {}
+[20.378718] (-) TimerEvent: {}
+[20.479149] (-) TimerEvent: {}
+[20.579677] (-) TimerEvent: {}
+[20.680169] (-) TimerEvent: {}
+[20.780781] (-) TimerEvent: {}
+[20.881395] (-) TimerEvent: {}
+[20.981920] (-) TimerEvent: {}
+[21.082523] (-) TimerEvent: {}
+[21.183016] (-) TimerEvent: {}
+[21.283555] (-) TimerEvent: {}
+[21.384114] (-) TimerEvent: {}
+[21.484579] (-) TimerEvent: {}
+[21.584971] (-) TimerEvent: {}
+[21.685748] (-) TimerEvent: {}
+[21.786431] (-) TimerEvent: {}
+[21.887004] (-) TimerEvent: {}
+[21.987595] (-) TimerEvent: {}
+[22.088347] (-) TimerEvent: {}
+[22.188781] (-) TimerEvent: {}
+[22.289348] (-) TimerEvent: {}
+[22.389963] (-) TimerEvent: {}
+[22.490318] (-) TimerEvent: {}
+[22.590672] (-) TimerEvent: {}
+[22.691077] (-) TimerEvent: {}
+[22.791619] (-) TimerEvent: {}
+[22.892365] (-) TimerEvent: {}
+[22.993015] (-) TimerEvent: {}
+[23.093759] (-) TimerEvent: {}
+[23.194384] (-) TimerEvent: {}
+[23.295052] (-) TimerEvent: {}
+[23.395576] (-) TimerEvent: {}
+[23.495960] (-) TimerEvent: {}
+[23.596460] (-) TimerEvent: {}
+[23.697123] (-) TimerEvent: {}
+[23.797718] (-) TimerEvent: {}
+[23.898316] (-) TimerEvent: {}
+[23.998935] (-) TimerEvent: {}
+[24.099565] (-) TimerEvent: {}
+[24.200282] (-) TimerEvent: {}
+[24.300915] (-) TimerEvent: {}
+[24.401454] (-) TimerEvent: {}
+[24.502168] (-) TimerEvent: {}
+[24.602705] (-) TimerEvent: {}
+[24.703378] (-) TimerEvent: {}
+[24.804049] (-) TimerEvent: {}
+[24.904503] (-) TimerEvent: {}
+[25.005119] (-) TimerEvent: {}
+[25.105601] (-) TimerEvent: {}
+[25.205948] (-) TimerEvent: {}
+[25.306407] (-) TimerEvent: {}
+[25.406723] (-) TimerEvent: {}
+[25.507142] (-) TimerEvent: {}
+[25.607533] (-) TimerEvent: {}
+[25.707950] (-) TimerEvent: {}
+[25.808337] (-) TimerEvent: {}
+[25.908682] (-) TimerEvent: {}
+[26.009124] (-) TimerEvent: {}
+[26.109566] (-) TimerEvent: {}
+[26.210070] (-) TimerEvent: {}
+[26.310415] (-) TimerEvent: {}
+[26.410752] (-) TimerEvent: {}
+[26.511076] (-) TimerEvent: {}
+[26.611628] (-) TimerEvent: {}
+[26.712036] (-) TimerEvent: {}
+[26.812491] (-) TimerEvent: {}
+[26.912986] (-) TimerEvent: {}
+[27.013559] (-) TimerEvent: {}
+[27.113892] (-) TimerEvent: {}
+[27.214234] (-) TimerEvent: {}
+[27.314591] (-) TimerEvent: {}
+[27.415127] (-) TimerEvent: {}
+[27.515626] (-) TimerEvent: {}
+[27.616122] (-) TimerEvent: {}
+[27.716618] (-) TimerEvent: {}
+[27.817267] (-) TimerEvent: {}
+[27.851182] (slon) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[27.917430] (-) TimerEvent: {}
+[28.017765] (-) TimerEvent: {}
+[28.118109] (-) TimerEvent: {}
+[28.218572] (-) TimerEvent: {}
+[28.318985] (-) TimerEvent: {}
+[28.419357] (-) TimerEvent: {}
+[28.519844] (-) TimerEvent: {}
+[28.620441] (-) TimerEvent: {}
+[28.720816] (-) TimerEvent: {}
+[28.821168] (-) TimerEvent: {}
+[28.921543] (-) TimerEvent: {}
+[29.021983] (-) TimerEvent: {}
+[29.122412] (-) TimerEvent: {}
+[29.222837] (-) TimerEvent: {}
+[29.323265] (-) TimerEvent: {}
+[29.423602] (-) TimerEvent: {}
+[29.523931] (-) TimerEvent: {}
+[29.624275] (-) TimerEvent: {}
+[29.724736] (-) TimerEvent: {}
+[29.825124] (-) TimerEvent: {}
+[29.925598] (-) TimerEvent: {}
+[30.026069] (-) TimerEvent: {}
+[30.126459] (-) TimerEvent: {}
+[30.226804] (-) TimerEvent: {}
+[30.327158] (-) TimerEvent: {}
+[30.427531] (-) TimerEvent: {}
+[30.527997] (-) TimerEvent: {}
+[30.628483] (-) TimerEvent: {}
+[30.729057] (-) TimerEvent: {}
+[30.829569] (-) TimerEvent: {}
+[30.929997] (-) TimerEvent: {}
+[31.030375] (-) TimerEvent: {}
+[31.130809] (-) TimerEvent: {}
+[31.231132] (-) TimerEvent: {}
+[31.331491] (-) TimerEvent: {}
+[31.431870] (-) TimerEvent: {}
+[31.532201] (-) TimerEvent: {}
+[31.632540] (-) TimerEvent: {}
+[31.732967] (-) TimerEvent: {}
+[31.833417] (-) TimerEvent: {}
+[31.933796] (-) TimerEvent: {}
+[32.034269] (-) TimerEvent: {}
+[32.134671] (-) TimerEvent: {}
+[32.235095] (-) TimerEvent: {}
+[32.335545] (-) TimerEvent: {}
+[32.435973] (-) TimerEvent: {}
+[32.536400] (-) TimerEvent: {}
+[32.636760] (-) TimerEvent: {}
+[32.737320] (-) TimerEvent: {}
+[32.837709] (-) TimerEvent: {}
+[32.938064] (-) TimerEvent: {}
+[33.038468] (-) TimerEvent: {}
+[33.138900] (-) TimerEvent: {}
+[33.239243] (-) TimerEvent: {}
+[33.339600] (-) TimerEvent: {}
+[33.440078] (-) TimerEvent: {}
+[33.540545] (-) TimerEvent: {}
+[33.640873] (-) TimerEvent: {}
+[33.741213] (-) TimerEvent: {}
+[33.841563] (-) TimerEvent: {}
+[33.942172] (-) TimerEvent: {}
+[34.042637] (-) TimerEvent: {}
+[34.143065] (-) TimerEvent: {}
+[34.243410] (-) TimerEvent: {}
+[34.343786] (-) TimerEvent: {}
+[34.444189] (-) TimerEvent: {}
+[34.544543] (-) TimerEvent: {}
+[34.644909] (-) TimerEvent: {}
+[34.745262] (-) TimerEvent: {}
+[34.845767] (-) TimerEvent: {}
+[34.946168] (-) TimerEvent: {}
+[35.046522] (-) TimerEvent: {}
+[35.146869] (-) TimerEvent: {}
+[35.247292] (-) TimerEvent: {}
+[35.347620] (-) TimerEvent: {}
+[35.447989] (-) TimerEvent: {}
+[35.548328] (-) TimerEvent: {}
+[35.648663] (-) TimerEvent: {}
+[35.749061] (-) TimerEvent: {}
+[35.849427] (-) TimerEvent: {}
+[35.949797] (-) TimerEvent: {}
+[36.050202] (-) TimerEvent: {}
+[36.150764] (-) TimerEvent: {}
+[36.251484] (-) TimerEvent: {}
+[36.351961] (-) TimerEvent: {}
+[36.452398] (-) TimerEvent: {}
+[36.552882] (-) TimerEvent: {}
+[36.653291] (-) TimerEvent: {}
+[36.753767] (-) TimerEvent: {}
+[36.854128] (-) TimerEvent: {}
+[36.954537] (-) TimerEvent: {}
+[37.054877] (-) TimerEvent: {}
+[37.155211] (-) TimerEvent: {}
+[37.255570] (-) TimerEvent: {}
+[37.355956] (-) TimerEvent: {}
+[37.456333] (-) TimerEvent: {}
+[37.556662] (-) TimerEvent: {}
+[37.656981] (-) TimerEvent: {}
+[37.757328] (-) TimerEvent: {}
+[37.857693] (-) TimerEvent: {}
+[37.958104] (-) TimerEvent: {}
+[38.058502] (-) TimerEvent: {}
+[38.158905] (-) TimerEvent: {}
+[38.259292] (-) TimerEvent: {}
+[38.359676] (-) TimerEvent: {}
+[38.460001] (-) TimerEvent: {}
+[38.560323] (-) TimerEvent: {}
+[38.660787] (-) TimerEvent: {}
+[38.761313] (-) TimerEvent: {}
+[38.861846] (-) TimerEvent: {}
+[38.962238] (-) TimerEvent: {}
+[39.062574] (-) TimerEvent: {}
+[39.162900] (-) TimerEvent: {}
+[39.263274] (-) TimerEvent: {}
+[39.303248] (slon) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[39.363486] (-) TimerEvent: {}
+[39.405037] (slon) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[39.423911] (slon) StdoutLine: {'line': b'-- Found std_srvs: 5.0.0 (/opt/ros/iron/share/std_srvs/cmake)\n'}
+[39.453099] (slon) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[39.459231] (slon) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[39.462125] (slon) StdoutLine: {'line': b'-- Found gps: 0.0.0 (/home/mondegrin/programs/slon/ros2_ws/install/gps/share/gps/cmake)\n'}
+[39.463708] (-) TimerEvent: {}
+[39.472018] (slon) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[39.516746] (slon) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[39.517204] (slon) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mondegrin/programs/slon/ros2_ws/src/slon/include>\n'}
+[39.517286] (slon) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[39.517434] (slon) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[39.518126] (slon) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[39.518339] (slon) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[39.518520] (slon) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[39.519325] (slon) StdoutLine: {'line': b'-- Configuring done\n'}
+[39.529478] (slon) StdoutLine: {'line': b'-- Generating done\n'}
+[39.530506] (slon) StdoutLine: {'line': b'-- Build files have been written to: /home/mondegrin/programs/slon/ros2_ws/build/slon\n'}
+[39.537483] (slon) CommandEnded: {'returncode': 0}
+[39.538848] (slon) JobProgress: {'identifier': 'slon', 'progress': 'build'}
+[39.538875] (slon) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mondegrin/programs/slon/ros2_ws/build/slon', '--', '-j16', '-l16'], 'cwd': '/home/mondegrin/programs/slon/ros2_ws/build/slon', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mondegrin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib:/home/mondegrin/programs/slon/ros2_ws/install/slon/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/mondegrin'), ('OLDPWD', '/home/mondegrin/programs/slon'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mondegrin'), ('NAME', 'DESKTOP-2F6E5CH'), ('WSL_INTEROP', '/run/WSL/273828_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('DONT_PROMPT_WSL_INSTALL', 'true'), ('PATH', '/home/mondegrin/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/WinAVR-20100110/bin:/mnt/c/WinAVR-20100110/utils/bin:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Recovery/OEM/Backup/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Mondegrin/Downloads/curl-8.2.1_7-win64-mingw/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Mondegrin/.cargo/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Mondegrin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Mondegrin/go/bin:/mnt/c/Program Files/JetBrains/RustRover 233.8264.22/bin:/mnt/c/Users/Mondegrin/.dotnet/tools:/snap/bin'), ('WT_SESSION', 'd2534500-8c83-41c4-b2cc-acb4082492c5'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps:/home/mondegrin/programs/slon/ros2_ws/install/slon:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/mondegrin/programs/slon/ros2_ws/build/slon'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages:/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps:/home/mondegrin/programs/slon/ros2_ws/install/slon:/opt/ros/iron'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[39.563898] (-) TimerEvent: {}
+[39.565478] (slon) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o\x1b[0m\n'}
+[39.664058] (-) TimerEvent: {}
+[39.764583] (-) TimerEvent: {}
+[39.865194] (-) TimerEvent: {}
+[39.965637] (-) TimerEvent: {}
+[40.066213] (-) TimerEvent: {}
+[40.166673] (-) TimerEvent: {}
+[40.267148] (-) TimerEvent: {}
+[40.367668] (-) TimerEvent: {}
+[40.468214] (-) TimerEvent: {}
+[40.568690] (-) TimerEvent: {}
+[40.669064] (-) TimerEvent: {}
+[40.769466] (-) TimerEvent: {}
+[40.870156] (-) TimerEvent: {}
+[40.970748] (-) TimerEvent: {}
+[41.071131] (-) TimerEvent: {}
+[41.171466] (-) TimerEvent: {}
+[41.271842] (-) TimerEvent: {}
+[41.372464] (-) TimerEvent: {}
+[41.472822] (-) TimerEvent: {}
+[41.573279] (-) TimerEvent: {}
+[41.673681] (-) TimerEvent: {}
+[41.774231] (-) TimerEvent: {}
+[41.874776] (-) TimerEvent: {}
+[41.975167] (-) TimerEvent: {}
+[42.078130] (-) TimerEvent: {}
+[42.178715] (-) TimerEvent: {}
+[42.279377] (-) TimerEvent: {}
+[42.379830] (-) TimerEvent: {}
+[42.480278] (-) TimerEvent: {}
+[42.580627] (-) TimerEvent: {}
+[42.681119] (-) TimerEvent: {}
+[42.781564] (-) TimerEvent: {}
+[42.882127] (-) TimerEvent: {}
+[42.982588] (-) TimerEvent: {}
+[43.083196] (-) TimerEvent: {}
+[43.183701] (-) TimerEvent: {}
+[43.284052] (-) TimerEvent: {}
+[43.384474] (-) TimerEvent: {}
+[43.484950] (-) TimerEvent: {}
+[43.585441] (-) TimerEvent: {}
+[43.685823] (-) TimerEvent: {}
+[43.786275] (-) TimerEvent: {}
+[43.886645] (-) TimerEvent: {}
+[43.987120] (-) TimerEvent: {}
+[44.087523] (-) TimerEvent: {}
+[44.135977] (slon) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable main\x1b[0m\n'}
+[44.187712] (-) TimerEvent: {}
+[44.288133] (-) TimerEvent: {}
+[44.388527] (-) TimerEvent: {}
+[44.488916] (-) TimerEvent: {}
+[44.589477] (-) TimerEvent: {}
+[44.690441] (-) TimerEvent: {}
+[44.790792] (-) TimerEvent: {}
+[44.799105] (slon) StdoutLine: {'line': b'[100%] Built target main\n'}
+[44.805882] (slon) CommandEnded: {'returncode': 0}
+[44.821528] (slon) JobProgress: {'identifier': 'slon', 'progress': 'install'}
+[44.822345] (slon) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mondegrin/programs/slon/ros2_ws/build/slon'], 'cwd': '/home/mondegrin/programs/slon/ros2_ws/build/slon', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mondegrin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib:/home/mondegrin/programs/slon/ros2_ws/install/slon/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/mondegrin'), ('OLDPWD', '/home/mondegrin/programs/slon'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mondegrin'), ('NAME', 'DESKTOP-2F6E5CH'), ('WSL_INTEROP', '/run/WSL/273828_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('DONT_PROMPT_WSL_INSTALL', 'true'), ('PATH', '/home/mondegrin/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/WinAVR-20100110/bin:/mnt/c/WinAVR-20100110/utils/bin:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Recovery/OEM/Backup/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Mondegrin/Downloads/curl-8.2.1_7-win64-mingw/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Microchip/xc8/v2.36/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Mondegrin/.cargo/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Mondegrin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Users/Mondegrin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Mondegrin/go/bin:/mnt/c/Program Files/JetBrains/RustRover 233.8264.22/bin:/mnt/c/Users/Mondegrin/.dotnet/tools:/snap/bin'), ('WT_SESSION', 'd2534500-8c83-41c4-b2cc-acb4082492c5'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps:/home/mondegrin/programs/slon/ros2_ws/install/slon:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/mondegrin/programs/slon/ros2_ws/build/slon'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps/lib/python3.10/site-packages:/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/mondegrin/programs/slon/ros2_ws/install/gps:/home/mondegrin/programs/slon/ros2_ws/install/slon:/opt/ros/iron'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[44.826824] (slon) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.827213] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/slon/main\n'}
+[44.830273] (slon) StdoutLine: {'line': b'-- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/slon/main" to ""\n'}
+[44.830623] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/ament_index/resource_index/package_run_dependencies/slon\n'}
+[44.831028] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/ament_index/resource_index/parent_prefix_path/slon\n'}
+[44.831304] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/ament_prefix_path.sh\n'}
+[44.831573] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/ament_prefix_path.dsv\n'}
+[44.831999] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/path.sh\n'}
+[44.832247] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/path.dsv\n'}
+[44.832294] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.bash\n'}
+[44.832488] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.sh\n'}
+[44.832565] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.zsh\n'}
+[44.832606] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.dsv\n'}
+[44.832635] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.dsv\n'}
+[44.832695] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/ament_index/resource_index/packages/slon\n'}
+[44.832887] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slonConfig.cmake\n'}
+[44.832972] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slonConfig-version.cmake\n'}
+[44.833025] (slon) StdoutLine: {'line': b'-- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.xml\n'}
+[44.834630] (slon) CommandEnded: {'returncode': 0}
+[44.891457] (-) TimerEvent: {}
+[44.908274] (slon) JobEnded: {'identifier': 'slon', 'rc': 0}
+[44.909271] (-) EventReactorShutdown: {}

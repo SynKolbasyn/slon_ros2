@@ -1,0 +1,6 @@
+{
+  "package_name": "gps",
+  "non_idl_tuples": [
+    "/home/mondegrin/programs/slon/ros2_ws/src/gps:msg/GPS.msg"
+  ]
+}

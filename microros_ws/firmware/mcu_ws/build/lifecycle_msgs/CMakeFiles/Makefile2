@@ -145,8 +145,8 @@ CMakeFiles/lifecycle_msgs_uninstall.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/lifecycle_msgs.dir/all: CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/all
-CMakeFiles/lifecycle_msgs.dir/all: CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/lifecycle_msgs.dir/all: CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/all
+CMakeFiles/lifecycle_msgs.dir/all: CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/lifecycle_msgs.dir/all: CMakeFiles/lifecycle_msgs__rosidl_generator_type_description.dir/all
 CMakeFiles/lifecycle_msgs.dir/all: CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lifecycle_msgs.dir/build.make CMakeFiles/lifecycle_msgs.dir/depend

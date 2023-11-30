@@ -1,0 +1,236 @@
+[0.032s] Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/slon': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16
+[0.147s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.296s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[0.962s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.972s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.991s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.006s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.139s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.144s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[24.439s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[24.607s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[24.642s] -- Found std_srvs: 5.0.0 (/opt/ros/iron/share/std_srvs/cmake)
+[24.690s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[24.707s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[24.928s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[25.144s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[25.221s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[26.023s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[26.028s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[28.573s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[28.573s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[28.573s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[28.573s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[28.587s] -- Found PythonExtra: .so  
+[28.795s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[28.825s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[28.826s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mondegrin/programs/slon/ros2_ws/src/slon/include>
+[28.826s] -- Configured cppcheck exclude dirs and/or files: 
+[28.828s] -- Added test 'lint_cmake' to check CMake code style
+[28.828s] -- Added test 'uncrustify' to check C / C++ code style
+[28.828s] -- Configured uncrustify additional arguments: 
+[28.829s] -- Added test 'xmllint' to check XML markup files
+[28.836s] -- Configuring done
+[28.892s] -- Generating done
+[28.896s] -- Build files have been written to: /home/mondegrin/programs/slon/ros2_ws/build/slon
+[28.918s] [35m[1mConsolidate compiler generated dependencies of target main[0m
+[28.921s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[28.926s] [  2%] Built target ament_cmake_python_copy_slon
+[28.930s] [  5%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[29.055s] [  5%] Built target slon__rosidl_generator_type_description
+[29.063s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[29.069s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[29.075s] running egg_info
+[29.076s] creating slon.egg-info
+[29.076s] writing slon.egg-info/PKG-INFO
+[29.076s] writing dependency_links to slon.egg-info/dependency_links.txt
+[29.076s] writing top-level names to slon.egg-info/top_level.txt
+[29.077s] writing manifest file 'slon.egg-info/SOURCES.txt'
+[29.081s] reading manifest file 'slon.egg-info/SOURCES.txt'
+[29.081s] writing manifest file 'slon.egg-info/SOURCES.txt'
+[29.106s] [ 11%] Built target ament_cmake_python_build_slon_egg
+[29.246s] [ 11%] Built target slon__cpp
+[29.257s] [ 13%] [32mBuilding C object CMakeFiles/slon__rosidl_generator_c.dir/rosidl_generator_c/slon/msg/detail/gps__description.c.o[0m
+[29.258s] [ 16%] [32mBuilding C object CMakeFiles/slon__rosidl_generator_c.dir/rosidl_generator_c/slon/msg/detail/gps__type_support.c.o[0m
+[29.259s] [ 19%] [32mBuilding C object CMakeFiles/slon__rosidl_generator_c.dir/rosidl_generator_c/slon/msg/detail/gps__functions.c.o[0m
+[29.332s] [ 22%] [32m[1mLinking C shared library libslon__rosidl_generator_c.so[0m
+[29.927s] [ 22%] Built target slon__rosidl_generator_c
+[29.934s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[29.934s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[29.934s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[29.935s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[29.936s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[29.937s] [ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[30.093s] [ 41%] [32mBuilding CXX object CMakeFiles/slon__rosidl_typesupport_c.dir/rosidl_typesupport_c/slon/msg/gps__type_support.cpp.o[0m
+[30.114s] [ 44%] [32mBuilding CXX object CMakeFiles/slon__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slon/msg/gps__type_support.cpp.o[0m
+[30.122s] [ 47%] [32mBuilding CXX object CMakeFiles/slon__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slon/msg/detail/gps__type_support.cpp.o[0m
+[30.135s] [ 50%] [32mBuilding C object CMakeFiles/slon__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slon/msg/detail/gps__type_support.c.o[0m
+[30.138s] [ 52%] [32m[1mLinking CXX shared library libslon__rosidl_typesupport_c.so[0m
+[30.147s] [ 55%] [32mBuilding CXX object CMakeFiles/slon__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slon/msg/detail/gps__type_support_c.cpp.o[0m
+[30.152s] [ 58%] [32mBuilding CXX object CMakeFiles/slon__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slon/msg/detail/dds_fastrtps/gps__type_support.cpp.o[0m
+[30.168s] [ 61%] [32m[1mLinking C shared library libslon__rosidl_typesupport_introspection_c.so[0m
+[30.471s] [ 63%] [32m[1mLinking CXX shared library libslon__rosidl_typesupport_cpp.so[0m
+[30.471s] [ 66%] [32m[1mLinking CXX shared library libslon__rosidl_typesupport_fastrtps_c.so[0m
+[30.510s] [ 69%] [32m[1mLinking CXX shared library libslon__rosidl_typesupport_introspection_cpp.so[0m
+[30.592s] [ 69%] Built target slon__rosidl_typesupport_c
+[30.619s] [ 72%] [32m[1mLinking CXX shared library libslon__rosidl_typesupport_fastrtps_cpp.so[0m
+[30.662s] [ 72%] Built target slon__rosidl_typesupport_introspection_c
+[31.014s] [ 72%] Built target slon__rosidl_typesupport_fastrtps_c
+[31.028s] [ 72%] Built target slon__rosidl_typesupport_cpp
+[31.050s] [ 72%] Built target slon__rosidl_typesupport_introspection_cpp
+[31.248s] [ 72%] Built target slon__rosidl_typesupport_fastrtps_cpp
+[31.259s] [ 72%] Built target slon
+[31.270s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.440s] [ 75%] Built target slon__py
+[31.452s] [ 77%] [32mBuilding C object CMakeFiles/slon__rosidl_generator_py.dir/rosidl_generator_py/slon/msg/_gps_s.c.o[0m
+[31.560s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/slon/libslon__rosidl_generator_py.so[0m
+[32.142s] [ 80%] Built target slon__rosidl_generator_py
+[32.154s] [ 83%] [32mBuilding C object CMakeFiles/slon__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/slon/_slon_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[32.154s] [ 86%] [32mBuilding C object CMakeFiles/slon__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/slon/_slon_s.ep.rosidl_typesupport_c.c.o[0m
+[32.154s] [ 88%] [32mBuilding C object CMakeFiles/slon__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/slon/_slon_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[32.217s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/slon/slon_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[32.218s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/slon/slon_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[32.226s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/slon/slon_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[32.727s] [ 97%] Built target slon__rosidl_typesupport_introspection_c__pyext
+[32.732s] [ 97%] Built target slon__rosidl_typesupport_c__pyext
+[32.827s] [ 97%] Built target slon__rosidl_typesupport_fastrtps_c__pyext
+[34.287s] [100%] [32m[1mLinking CXX executable main[0m
+[35.014s] [100%] Built target main
+[35.021s] Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/slon' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16
+[35.066s] Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/slon': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/mondegrin/programs/slon/ros2_ws/build/slon
+[35.071s] -- Install configuration: ""
+[35.071s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/ament_index/resource_index/rosidl_interfaces/slon
+[35.071s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/msg/GPS.json
+[35.071s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon
+[35.071s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg
+[35.072s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/gps.h
+[35.072s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/rosidl_generator_c__visibility_control.h
+[35.072s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail
+[35.072s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/gps__type_support.h
+[35.072s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/gps__functions.h
+[35.072s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/gps__type_support.c
+[35.072s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/gps__struct.h
+[35.072s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/gps__description.c
+[35.072s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/gps__functions.c
+[35.072s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/library_path.sh
+[35.072s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/library_path.dsv
+[35.072s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_generator_c.so
+[35.073s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_generator_c.so" to ""
+[35.073s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon
+[35.073s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg
+[35.073s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[35.073s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail
+[35.073s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/gps__rosidl_typesupport_fastrtps_c.h
+[35.073s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_typesupport_fastrtps_c.so
+[35.073s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_typesupport_fastrtps_c.so" to ""
+[35.074s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon
+[35.074s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg
+[35.074s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/gps.hpp
+[35.074s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail
+[35.074s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/gps__traits.hpp
+[35.074s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/gps__struct.hpp
+[35.074s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/gps__builder.hpp
+[35.074s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon
+[35.074s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg
+[35.074s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[35.074s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail
+[35.074s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/dds_fastrtps
+[35.075s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/gps__rosidl_typesupport_fastrtps_cpp.hpp
+[35.075s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_typesupport_fastrtps_cpp.so
+[35.075s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_typesupport_fastrtps_cpp.so" to ""
+[35.075s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon
+[35.075s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg
+[35.075s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[35.075s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail
+[35.075s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/gps__type_support.c
+[35.075s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/gps__rosidl_typesupport_introspection_c.h
+[35.075s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_typesupport_introspection_c.so
+[35.075s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_typesupport_introspection_c.so" to ""
+[35.076s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_typesupport_c.so
+[35.076s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_typesupport_c.so" to ""
+[35.076s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon
+[35.076s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg
+[35.076s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail
+[35.076s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/gps__type_support.cpp
+[35.076s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/include/slon/slon/msg/detail/gps__rosidl_typesupport_introspection_cpp.hpp
+[35.076s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_typesupport_introspection_cpp.so
+[35.076s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_typesupport_introspection_cpp.so" to ""
+[35.076s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_typesupport_cpp.so
+[35.076s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_typesupport_cpp.so" to ""
+[35.076s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/pythonpath.sh
+[35.076s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/pythonpath.dsv
+[35.076s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon-0.0.0-py3.10.egg-info
+[35.077s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon-0.0.0-py3.10.egg-info/SOURCES.txt
+[35.077s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon-0.0.0-py3.10.egg-info/top_level.txt
+[35.077s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon-0.0.0-py3.10.egg-info/PKG-INFO
+[35.078s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon-0.0.0-py3.10.egg-info/dependency_links.txt
+[35.078s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon
+[35.078s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/msg
+[35.078s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/msg/_gps_s.c
+[35.078s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/msg/__init__.py
+[35.078s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/msg/_gps.py
+[35.078s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/libslon__rosidl_generator_py.so
+[35.078s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/_slon_s.ep.rosidl_typesupport_c.c
+[35.079s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/_slon_s.ep.rosidl_typesupport_fastrtps_c.c
+[35.079s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/slon_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[35.079s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/__init__.py
+[35.079s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/_slon_s.ep.rosidl_typesupport_introspection_c.c
+[35.079s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/slon_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[35.079s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/slon_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[35.099s] Listing '/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon'...
+[35.099s] Compiling '/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/__init__.py'...
+[35.099s] Listing '/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/msg'...
+[35.099s] Compiling '/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/msg/__init__.py'...
+[35.099s] Compiling '/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/msg/_gps.py'...
+[35.103s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/slon_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[35.103s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/slon_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[35.103s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/slon_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[35.103s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/slon_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[35.103s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/slon_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[35.104s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/python3.10/site-packages/slon/slon_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[35.104s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_generator_py.so
+[35.104s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/libslon__rosidl_generator_py.so" to ""
+[35.104s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/msg/GPS.idl
+[35.104s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/msg/GPS.msg
+[35.105s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/lib/slon/main
+[35.107s] -- Set runtime path of "/home/mondegrin/programs/slon/ros2_ws/install/slon/lib/slon/main" to ""
+[35.107s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/ament_index/resource_index/package_run_dependencies/slon
+[35.107s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/ament_index/resource_index/parent_prefix_path/slon
+[35.108s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/ament_prefix_path.sh
+[35.108s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/ament_prefix_path.dsv
+[35.108s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/path.sh
+[35.108s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/environment/path.dsv
+[35.108s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.bash
+[35.108s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.sh
+[35.108s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.zsh
+[35.109s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/local_setup.dsv
+[35.109s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.dsv
+[35.109s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/ament_index/resource_index/packages/slon
+[35.109s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/export_slon__rosidl_generator_cExport.cmake
+[35.110s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/export_slon__rosidl_generator_cExport-noconfig.cmake
+[35.110s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/export_slon__rosidl_typesupport_fastrtps_cExport.cmake
+[35.110s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/export_slon__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[35.111s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/export_slon__rosidl_generator_cppExport.cmake
+[35.111s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/export_slon__rosidl_typesupport_fastrtps_cppExport.cmake
+[35.111s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/export_slon__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[35.111s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slon__rosidl_typesupport_introspection_cExport.cmake
+[35.111s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slon__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[35.111s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slon__rosidl_typesupport_cExport.cmake
+[35.112s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slon__rosidl_typesupport_cExport-noconfig.cmake
+[35.112s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slon__rosidl_typesupport_introspection_cppExport.cmake
+[35.112s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slon__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[35.112s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slon__rosidl_typesupport_cppExport.cmake
+[35.112s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slon__rosidl_typesupport_cppExport-noconfig.cmake
+[35.112s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/export_slon__rosidl_generator_pyExport.cmake
+[35.112s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/export_slon__rosidl_generator_pyExport-noconfig.cmake
+[35.112s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/rosidl_cmake-extras.cmake
+[35.112s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.112s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/ament_cmake_export_libraries-extras.cmake
+[35.112s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/ament_cmake_export_targets-extras.cmake
+[35.113s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[35.113s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.113s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[35.113s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slonConfig.cmake
+[35.113s] -- Up-to-date: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake/slonConfig-version.cmake
+[35.113s] -- Installing: /home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/package.xml
+[35.115s] Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/slon' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/mondegrin/programs/slon/ros2_ws/build/slon

@@ -1,0 +1,19 @@
+{
+  "package_name": "gps",
+  "output_dir": "/home/mondegrin/programs/slon/ros2_ws/build/gps/rosidl_typesupport_fastrtps_cpp/gps",
+  "template_dir": "/opt/ros/iron/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/mondegrin/programs/slon/ros2_ws/build/gps/rosidl_adapter/gps:msg/GPS.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/iron/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/iron/lib/python3.10/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/iron/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/iron/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/iron/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/iron/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/iron/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/iron/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/mondegrin/programs/slon/ros2_ws/build/gps/rosidl_adapter/gps/msg/GPS.idl"
+  ]
+}

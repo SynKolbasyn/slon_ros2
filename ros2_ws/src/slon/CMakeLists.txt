@@ -10,6 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(std_srvs REQUIRED)
+find_package(gps REQUIRED)
 
 add_executable(main src/main.cpp)
 target_include_directories(main PUBLIC
@@ -21,6 +22,7 @@ ament_target_dependencies(
   "rclcpp"
   "std_msgs"
   "std_srvs"
+  "gps"
 )
 
 install(TARGETS main

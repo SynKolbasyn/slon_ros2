@@ -144,11 +144,11 @@ CMakeFiles/type_description_interfaces_uninstall.dir/clean:
 # Target rules for target CMakeFiles/type_description_interfaces.dir
 
 # All Build rule for target.
-CMakeFiles/type_description_interfaces.dir/all: CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/all
-CMakeFiles/type_description_interfaces.dir/all: CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_c.dir/all
-CMakeFiles/type_description_interfaces.dir/all: CMakeFiles/type_description_interfaces__rosidl_generator_type_description.dir/all
-CMakeFiles/type_description_interfaces.dir/all: CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/all
 CMakeFiles/type_description_interfaces.dir/all: CMakeFiles/type_description_interfaces__rosidl_typesupport_microxrcedds_c.dir/all
+CMakeFiles/type_description_interfaces.dir/all: CMakeFiles/type_description_interfaces__rosidl_generator_type_description.dir/all
+CMakeFiles/type_description_interfaces.dir/all: CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/all
+CMakeFiles/type_description_interfaces.dir/all: CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/all
+CMakeFiles/type_description_interfaces.dir/all: CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/type_description_interfaces.dir/build.make CMakeFiles/type_description_interfaces.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/type_description_interfaces.dir/build.make CMakeFiles/type_description_interfaces.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/build/type_description_interfaces/CMakeFiles --progress-num= "Built target type_description_interfaces"

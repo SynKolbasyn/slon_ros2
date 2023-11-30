@@ -145,9 +145,9 @@ CMakeFiles/rosgraph_msgs_uninstall.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/rosgraph_msgs.dir/all: CMakeFiles/rosgraph_msgs__rosidl_typesupport_introspection_c.dir/all
-CMakeFiles/rosgraph_msgs.dir/all: CMakeFiles/rosgraph_msgs__rosidl_typesupport_microxrcedds_c.dir/all
 CMakeFiles/rosgraph_msgs.dir/all: CMakeFiles/rosgraph_msgs__rosidl_generator_type_description.dir/all
 CMakeFiles/rosgraph_msgs.dir/all: CMakeFiles/rosgraph_msgs__rosidl_typesupport_c.dir/all
+CMakeFiles/rosgraph_msgs.dir/all: CMakeFiles/rosgraph_msgs__rosidl_typesupport_microxrcedds_c.dir/all
 CMakeFiles/rosgraph_msgs.dir/all: CMakeFiles/rosgraph_msgs__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rosgraph_msgs.dir/build.make CMakeFiles/rosgraph_msgs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rosgraph_msgs.dir/build.make CMakeFiles/rosgraph_msgs.dir/build

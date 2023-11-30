@@ -1,0 +1,10 @@
+[0.036s] Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/slon': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[0.227s] [01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kgps/msg/gps.h: No such file or directory
+[0.227s]     4 | #include [01;31m[K"gps/msg/gps.h"[m[K
+[0.227s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.227s] compilation terminated.
+[0.228s] gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[0.229s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main.dir/all] Error 2
+[0.229s] gmake: *** [Makefile:146: all] Error 2
+[0.231s] Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/slon' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16

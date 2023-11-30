@@ -1,0 +1,32 @@
+[  2%] Built target slon__rosidl_generator_type_description
+[  5%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[  5%] Built target ament_cmake_python_copy_slon
+[  8%] Built target slon__cpp
+[ 22%] Built target slon__rosidl_generator_c
+[ 30%] Built target slon__rosidl_typesupport_fastrtps_cpp
+[ 38%] Built target slon__rosidl_typesupport_fastrtps_c
+[ 47%] Built target slon__rosidl_typesupport_c
+[ 55%] Built target slon__rosidl_typesupport_introspection_c
+[ 63%] Built target slon__rosidl_typesupport_cpp
+[ 72%] Built target slon__rosidl_typesupport_introspection_cpp
+[ 72%] Built target slon
+[ 75%] Built target slon__py
+[ 80%] Built target slon__rosidl_generator_py
+[ 86%] Built target slon__rosidl_typesupport_introspection_c__pyext
+[ 91%] Built target slon__rosidl_typesupport_c__pyext
+[ 97%] Built target slon__rosidl_typesupport_fastrtps_c__pyext
+[01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kslon/msg/GPS.hpp: No such file or directory
+    4 | #include [01;31m[K"slon/msg/GPS.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:623: CMakeFiles/main.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing slon.egg-info/PKG-INFO
+writing dependency_links to slon.egg-info/dependency_links.txt
+writing top-level names to slon.egg-info/top_level.txt
+reading manifest file 'slon.egg-info/SOURCES.txt'
+writing manifest file 'slon.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_slon_egg
+gmake: *** [Makefile:146: all] Error 2

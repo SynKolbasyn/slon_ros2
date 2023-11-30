@@ -1,0 +1,78 @@
+[0.025s] Invoking command in '/home/mondegrin/programs/slon/ros2_ws/build/slon': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16
+[0.038s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.121s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[0.950s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.954s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.971s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.064s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.064s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[25.997s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[26.108s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[26.127s] -- Found std_srvs: 5.0.0 (/opt/ros/iron/share/std_srvs/cmake)
+[26.156s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[26.160s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[32.480s] -- Found slon: 0.0.0 (/home/mondegrin/programs/slon/ros2_ws/install/slon/share/slon/cmake)
+[32.675s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[32.851s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[32.924s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[32.939s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[32.953s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[32.953s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[32.953s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[32.961s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[32.967s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[32.967s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mondegrin/programs/slon/ros2_ws/src/slon/include>
+[32.967s] -- Configured cppcheck exclude dirs and/or files: 
+[32.968s] -- Added test 'lint_cmake' to check CMake code style
+[32.968s] -- Added test 'uncrustify' to check C / C++ code style
+[32.969s] -- Configured uncrustify additional arguments: 
+[32.969s] -- Added test 'xmllint' to check XML markup files
+[32.970s] -- Configuring done
+[32.996s] -- Generating done
+[32.999s] -- Build files have been written to: /home/mondegrin/programs/slon/ros2_ws/build/slon
+[33.019s] [35m[1mConsolidate compiler generated dependencies of target main[0m
+[33.026s] [  2%] Built target slon__rosidl_generator_type_description
+[33.030s] [  5%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[33.031s] [  5%] Built target ament_cmake_python_copy_slon
+[33.033s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_generator_c[0m
+[33.040s] [  8%] Built target slon__cpp
+[33.042s] [ 22%] Built target slon__rosidl_generator_c
+[33.050s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_cpp[0m
+[33.050s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_fastrtps_cpp[0m
+[33.050s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_introspection_cpp[0m
+[33.052s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_introspection_c[0m
+[33.052s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_c[0m
+[33.052s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_fastrtps_c[0m
+[33.058s] [ 30%] Built target slon__rosidl_typesupport_introspection_c
+[33.059s] [ 38%] Built target slon__rosidl_typesupport_fastrtps_cpp
+[33.060s] [ 47%] Built target slon__rosidl_typesupport_cpp
+[33.061s] [ 55%] Built target slon__rosidl_typesupport_introspection_cpp
+[33.061s] [ 63%] Built target slon__rosidl_typesupport_c
+[33.064s] [ 72%] Built target slon__rosidl_typesupport_fastrtps_c
+[33.079s] [ 72%] Built target slon
+[33.095s] [ 75%] Built target slon__py
+[33.103s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_generator_py[0m
+[33.113s] [ 80%] Built target slon__rosidl_generator_py
+[33.122s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_c__pyext[0m
+[33.122s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_fastrtps_c__pyext[0m
+[33.123s] [35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_introspection_c__pyext[0m
+[33.133s] [ 86%] Built target slon__rosidl_typesupport_introspection_c__pyext
+[33.133s] [ 91%] Built target slon__rosidl_typesupport_c__pyext
+[33.134s] [ 97%] Built target slon__rosidl_typesupport_fastrtps_c__pyext
+[33.173s] [01m[K/home/mondegrin/programs/slon/ros2_ws/src/slon/src/main.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kslon/msg/gps.hpp: No such file or directory
+[33.173s]     4 | #include [01;31m[K"slon/msg/gps.hpp"[m[K
+[33.173s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[33.173s] compilation terminated.
+[33.175s] gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[33.176s] gmake[1]: *** [CMakeFiles/Makefile2:623: CMakeFiles/main.dir/all] Error 2
+[33.176s] gmake[1]: *** Waiting for unfinished jobs....
+[33.201s] running egg_info
+[33.202s] writing slon.egg-info/PKG-INFO
+[33.202s] writing dependency_links to slon.egg-info/dependency_links.txt
+[33.202s] writing top-level names to slon.egg-info/top_level.txt
+[33.204s] reading manifest file 'slon.egg-info/SOURCES.txt'
+[33.204s] writing manifest file 'slon.egg-info/SOURCES.txt'
+[33.223s] [ 97%] Built target ament_cmake_python_build_slon_egg
+[33.224s] gmake: *** [Makefile:146: all] Error 2
+[33.227s] Invoked command in '/home/mondegrin/programs/slon/ros2_ws/build/slon' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mondegrin/programs/slon/ros2_ws/build/slon -- -j16 -l16

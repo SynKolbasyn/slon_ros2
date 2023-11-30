@@ -1,0 +1,17 @@
+source;share/gps/hook/cmake_prefix_path.ps1
+source;share/gps/hook/cmake_prefix_path.dsv
+source;share/gps/hook/cmake_prefix_path.sh
+source;share/gps/hook/path.ps1
+source;share/gps/hook/path.dsv
+source;share/gps/hook/path.sh
+source;share/gps/hook/pythonpath.ps1
+source;share/gps/hook/pythonpath.dsv
+source;share/gps/hook/pythonpath.sh
+source;share/gps/hook/pythonscriptspath.ps1
+source;share/gps/hook/pythonscriptspath.dsv
+source;share/gps/hook/pythonscriptspath.sh
+source;share/gps/local_setup.bash
+source;share/gps/local_setup.dsv
+source;share/gps/local_setup.ps1
+source;share/gps/local_setup.sh
+source;share/gps/local_setup.zsh

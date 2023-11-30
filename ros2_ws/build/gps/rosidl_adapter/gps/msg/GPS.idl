@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gps/msg/GPS.msg
+// generated code does not contain a copyright notice
+
+
+module gps {
+  module msg {
+    struct GPS {
+      float lat;
+
+      float lon;
+    };
+  };
+};

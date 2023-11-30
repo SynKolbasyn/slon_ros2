@@ -1,0 +1,6 @@
+{
+  "package_name": "gps",
+  "non_idl_tuples": [
+    "/home/mondegrin/programs/slon/microros_ws/firmware/mcu_ws/gps:msg/GPS.msg"
+  ]
+}

@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target main[0m
+[  2%] Built target slon__rosidl_generator_type_description
+[  5%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[  5%] Built target ament_cmake_python_copy_slon
+[35m[1mConsolidate compiler generated dependencies of target slon__rosidl_generator_c[0m
+[  8%] Built target slon__cpp
+[ 22%] Built target slon__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_c[0m
+[ 30%] Built target slon__rosidl_typesupport_introspection_c
+[ 38%] Built target slon__rosidl_typesupport_fastrtps_cpp
+[ 47%] Built target slon__rosidl_typesupport_cpp
+[ 63%] Built target slon__rosidl_typesupport_c
+[ 63%] Built target slon__rosidl_typesupport_introspection_cpp
+[ 72%] Built target slon__rosidl_typesupport_fastrtps_c
+[ 72%] Built target slon
+[ 75%] Built target slon__py
+[35m[1mConsolidate compiler generated dependencies of target slon__rosidl_generator_py[0m
+[ 80%] Built target slon__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target slon__rosidl_typesupport_introspection_c__pyext[0m
+[ 86%] Built target slon__rosidl_typesupport_c__pyext
+[ 91%] Built target slon__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target slon__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing slon.egg-info/PKG-INFO
+writing dependency_links to slon.egg-info/dependency_links.txt
+writing top-level names to slon.egg-info/top_level.txt
+reading manifest file 'slon.egg-info/SOURCES.txt'
+writing manifest file 'slon.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_slon_egg
